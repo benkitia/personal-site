@@ -146,16 +146,18 @@ p {
   padding-top: 15px;
 }
 
-#title {
-  font-family: Georgia, serif;
-  white-space: nowrap;
-
+#wordmark-wrapper{
   a {
     text-decoration: none;
     &:hover {
       background-color: inherit;
     }
   }
+}
+
+#wordmark {
+  font-family: Georgia, serif;
+  white-space: nowrap;
 
   h1 {
     display: inline;
@@ -173,7 +175,7 @@ p {
 }
 
 html {
-  #title {
+  #wordmark {
     user-select: none;
   }
 }
