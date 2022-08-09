@@ -1,0 +1,11 @@
+<div>
+  <h2>Featured Writings</h2>
+  <ul id="writing-list">
+    {{ range first 3 .Site.Taxonomies.tags.featured }}
+    <li>
+      <span class="info"><i><small><time>{{ .Date.Format "Jan 2 ’06" }}</time></small></i></span><br />
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
