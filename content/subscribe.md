@@ -20,4 +20,6 @@ By Tag e.g. "example tag": `https://bensonkitia.com/tags/example-tag/index.xml`
 
 ## Twitter
 
-Follow a feed of new Writings [here](https://twitter.com/bensonkitiacom) (@bensonkitiacom) and [enable notifications](https://help.twitter.com/en/managing-your-account/notifications-on-mobile-devices) so you don't miss a new Writing.
+To follow a feed of new Writings on Twitter ([@bensonkitiacom](https://twitter.com/bensonkitiacom)), [click this link](https://twitter.com/intent/follow?user_id=1478191446410813441).
+
+To ensure you don't miss a new Writings, [enable push notifications](https://help.twitter.com/en/managing-your-account/notifications-on-mobile-devices).
