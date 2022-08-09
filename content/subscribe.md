@@ -6,11 +6,11 @@ title: "Subscribe"
 
 ### All Writings
 
-Subscribe to an RSS feed of all new Writings with this link: <https://bensonkitia.com/index.xml>.
+To subscribe to an RSS feed of all new Writings, use this link: <https://bensonkitia.com/index.xml>.
 
 ### By Category or Tag
 
-Subscribe to an RSS feed of new Writings in/with specific [Categories](/categories) or [Tags](/tags) by filtering [all Writings](/writings) by the Category or Tag you'd like to subscribe to, and then using the link at the top of that Category/Tag's page.
+To subscribe to an RSS feed of new Writings in/with specific [Categories](/categories) or [Tags](/tags) filter [all Writings](/writings) by the Category or Tag you'd like to subscribe to, and then use the link at the top of that Category/Tag's page.
 
 Alternatively, you can manually add the feed to your RSS client with the following syntax:
 
