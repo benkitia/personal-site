@@ -4,7 +4,7 @@ title: "Colophon"
 
 ## About the Writer
 
-I'm a student located in Chicago entering my Junior year of highschool. I call myself a builder because I enjoy building things, mostly software at the moment.
+I'm a student located in Chicago in my Junior year of highschool. I enjoy building things, mostly software and big ideas at the moment.
 
 ### Why & what I write
 
