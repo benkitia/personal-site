@@ -23,11 +23,11 @@ Anyone else reading, enjoying, learning from, or otherwise appreciating the Writ
 - [GitHub](https://github.com/)
 - [Netlify](https://netlify.com/)
 
-## Licensing and attribution
+## Licensing And Attribution
 
 ### Writings
 
-[All Writings](https://bensonkitia.com/writings) published to bensonkitia.com are Copyrighted © 2022-present Benson V.K. All Rights Reserved.
+[All Writings](https://bensonkitia.com/writings) published to bensonkitia.com are Copyrighted © 2022-present Benson V. All Rights Reserved.
 
 ### Source Code
 
