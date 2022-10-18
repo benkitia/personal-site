@@ -12,4 +12,6 @@ Yerdle is a Ye[^1]-themed daily word puzzle.
 
 Yerdle is written in React using Create React App (not from scratch, forked from [react-wordle](https://github.com/cwackerfuss/react-wordle)).
 
+Yerdle has been visited overs 50 thousand times.
+
 [^1]: [Ye](https://en.wikipedia.org/wiki/Kanye_West), commonly known as Kanye West (/ˈkɑːnjeɪ/ KAHN-yay), is an American rapper, record producer, and fashion designer.

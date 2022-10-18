@@ -1,6 +1,6 @@
 ---
 title: "Interview With a Bro"
-description: "a satire video project exploring political identities, economic systems, NFTs, cancel culture, vaccines, Elon Musk, and more"
+description: "a satire video project"
 date: 2022-05-06
 ---
 
