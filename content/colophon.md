@@ -29,7 +29,7 @@ Anyone else reading, enjoying, learning from, or otherwise appreciating the Writ
 
 [All Writings](https://bensonkitia.com/writings) published to bensonkitia.com are Copyrighted © 2022-present Benson V. All Rights Reserved.
 
-### Source Code
+### Source code
 
 [bensonkitia.com's source code](https://github.com/bensonkitia/bensonkitia.com) is [MIT-Licensed](https://github.com/bensonkitia/bensonkitia.com/blob/main/LICENSE) meaning, in summary, you can do whatever you want with it as long as you include the copyright notice and permission notice.
 
