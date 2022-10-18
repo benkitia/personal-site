@@ -35,4 +35,4 @@ Anyone else reading, enjoying, learning from, or otherwise appreciating the Writ
 
 ## Dedication
 
-This publication is dedicated to [Ye West](https://instagram.com/kanyewest). He's alive, but still.
+This publication is dedicated to MF DOOM.
