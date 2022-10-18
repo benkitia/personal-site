@@ -1,6 +1,7 @@
 ---
 title: "Yerdle"
 description: "A Ye-themed daily word puzzle"
+date: 2021-02-14
 ---
 
 [Game Link](https://yerdle.bensonkitia.com)

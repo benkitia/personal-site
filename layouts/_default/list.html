@@ -33,7 +33,10 @@
   {{ end }} {{ else if eq .Title "Projects" }} {{ range .Data.Pages }}
   <ul id="writing-list">
     <li>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a> <br />
+      <span class="info"><i><small><time>{{ .Date.Format "Jan ’06" }}</time></small></i></span>
+      <br />
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <br>
       <span class="info">{{ with .Description }}<i><small>{{ . }}</small></i></span>{{ end }}
     </li>
     {{ end }}

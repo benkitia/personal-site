@@ -1,6 +1,7 @@
 ---
 title: "AMA Bot"
 description: "A Discord chatbot for hosting crowd-sourced interviews right inside a Discord server"
+date: 2021-04-14
 ---
 
 [GitHub Repository](https://github.com/bensonkitia/amabot)
