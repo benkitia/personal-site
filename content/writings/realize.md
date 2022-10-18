@@ -2,6 +2,8 @@
 title: "REALIZE"
 categories:
     - REALIZE
+tags:
+    - featured
 date: 2022-10-13T22:06:17-05:00
 draft: false
 ---
