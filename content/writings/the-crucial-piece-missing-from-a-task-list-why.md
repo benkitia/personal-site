@@ -5,7 +5,6 @@ categories:
     - productivity
 tags:
     - advice
-    - featured
     - task lists
 date: 2022-06-22T22:45:18-05:00
 draft: false
