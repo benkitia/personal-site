@@ -1,5 +1,5 @@
 ---
-title: "Three things that have made me considerably happier"
+title: "Three things that have made me happier"
 categories:
     - life
 tags:
@@ -8,6 +8,7 @@ tags:
     - stoicism
 date: 2022-04-07T23:59:04-05:00
 draft: false
+former: "Three things that have made me considerably happier"
 ---
 
 As I presently write, I feel happier (whatever that means) and more sentient than ever. The three concrete ideas I write about below, from lowest to highest level, contribute to this sense of contentedness.
