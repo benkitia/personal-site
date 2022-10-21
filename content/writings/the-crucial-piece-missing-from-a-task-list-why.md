@@ -1,5 +1,5 @@
 ---
-title: "The crucial piece missing from a task list: why?"
+title: 'The piece missing from your task list: "why?"'
 categories:
     - life
     - productivity
@@ -8,6 +8,7 @@ tags:
     - task lists
 date: 2022-06-22T22:45:18-05:00
 draft: false
+former: "The crucial piece missing from a task list: why?"
 ---
 
 Most task lists encourage specifying just a single detail per task; what? Maybe a "when" or "how" field is also offered, but seldom exists a space for noting *why* a task should be done. Whatever form your task list takes, such a space should be mandatory for any task you're inclined to procrastinate.
