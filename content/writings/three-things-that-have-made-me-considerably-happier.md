@@ -1,5 +1,5 @@
 ---
-title: "Three Things That Have Made Me Considerably Happier"
+title: "Three things that have made me considerably happier"
 categories:
     - life
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "On Spreading Positivity"
+title: "On spreading positivity"
 categories:
     - life
 tags:

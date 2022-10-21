@@ -1,5 +1,5 @@
 ---
-title: "My iPhone Home Screen (Feb ’22)"
+title: "My iPhone home screen (Feb ’22)"
 categories:
     - life
     - tech

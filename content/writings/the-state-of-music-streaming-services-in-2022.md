@@ -1,5 +1,5 @@
 ---
-title: "The State of Music Streaming Services in 2022"
+title: "The state of music streaming services in 2022"
 categories:
     - dev & design
     - tech

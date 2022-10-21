@@ -1,5 +1,5 @@
 ---
-title: "Why I'm Optimistic About Wordle's Acquisition"
+title: "Why I'm optimistic about Wordle's acquisition"
 categories:
   - news
 tags:

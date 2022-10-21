@@ -1,5 +1,5 @@
 ---
-title: "The Crucial Piece Missing From a Task List: Why?"
+title: "The crucial piece missing from a task list: why?"
 categories:
     - life
     - productivity
