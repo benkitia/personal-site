@@ -29,7 +29,7 @@
   {{ with .Title }}
   <meta name="title" content="{{ . }}">{{ end }}
   <!-- Open Graph MD -->
-  {{ if and (eq .Type "writings") (not (eq .Title "Writings")) }}
+  {{ if and (eq .Type "blog") (not (eq .Title "Blog")) }}
   <meta property="og:type" content="article" />
   {{ else }}
   <meta property="og:type" content="website" />

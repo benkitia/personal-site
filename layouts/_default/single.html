@@ -1,14 +1,14 @@
 {{ define "main" }}
 <main>
-  {{ if eq .Section "writings" }}<article>{{ end }}
+  {{ if eq .Section "blog" }}<article>{{ end }}
     <h1>{{ .Title }}</h1>
     <time class="info">
       {{ if .Date }} {{ .Date.Format "January 2, 2006" }} {{ end }}
     </time>
     {{ .Content }}
-    {{ if eq .Section "writings" }}
+    {{ if eq .Section "blog" }}
   </article>{{ end }}
-  {{ if eq .Section "writings" }} {{ partial "thanks" . }} {{ end }}
+  {{ if eq .Section "blog" }} {{ partial "thanks" . }} {{ end }}
   <footer class="info" id="taxonomy">
     {{ with .Params.categories }}
     <p>

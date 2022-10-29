@@ -9,8 +9,8 @@ author:
   twitter: "bensonkitia"
 menu:
   main:
-    - name: All Writings
-      url: /writings
+    - name: Blog
+      url: /blog
       weight: 1
     - name: Colophon
       url: /colophon

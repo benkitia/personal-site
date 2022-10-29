@@ -1,2 +1,3 @@
+/writings/*  /blog/:splat
 /about /colophon/#about-the-writers
-/privacy https://kitia.dev/privacy
+/privacy <https://kitia.dev/privacy>

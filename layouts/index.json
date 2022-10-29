@@ -9,7 +9,7 @@
       "url": "https://twitter.com/{{ .Site.Author.twitter }}",
       "name": "{{ .Site.Author.name }}"
     },
-    "items": [ {{ range $index, $item := where (where .Site.Pages ".Section" "writings") ".Kind" "page" }}{{if $index}}, {{end}}
+    "items": [ {{ range $index, $item := where (where .Site.Pages ".Section" "blog") ".Kind" "page" }}{{if $index}}, {{end}}
       {
         "id": "{{ .Permalink }}",
         "title": "{{ .Title }}",

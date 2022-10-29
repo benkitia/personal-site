@@ -2,7 +2,7 @@
 <main>
   {{ with .Title }}
   <h1>{{ . }}</h1>
-  {{ end }} {{ if eq .Title "Writings" }}
+  {{ end }} {{ if eq .Title "Blog" }}
   <nav>
     <ul class="info">
       <li>
@@ -16,12 +16,12 @@
   {{ end }} {{ if eq .Kind "term" }}
   <p class="info">
     You can subscribe to an
-    <a href="{{ .RelPermalink }}/index.xml">RSS feed of new Writings in {{ .RelPermalink }}</a>
+    <a href="{{ .RelPermalink }}/index.xml">RSS feed of new posts in {{ .RelPermalink }}</a>
   </p>
   {{ end }} {{ if not (eq .Title "Projects") }} {{ range .Data.Pages.GroupByDate
   "January 2006" }}
   <h2>{{ .Key }}</h2>
-  <ul id="writing-list">
+  <ul id="post-list">
     {{ range .Pages }}
     <li>
       <span class="info"><i><small><time>{{ .Date.Format "Jan 2 ’06" }}</time></small></i></span>
@@ -31,7 +31,7 @@
     {{ end }}
   </ul>
   {{ end }} {{ else if eq .Title "Projects" }} {{ range .Data.Pages }}
-  <ul id="writing-list">
+  <ul id="post-list">
     <li>
       <span class="info"><i><small><time>{{ .Date.Format "Jan ’06" }}</time></small></i></span>
       <br />
