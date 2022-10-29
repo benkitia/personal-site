@@ -35,4 +35,4 @@ Anyone else reading, enjoying, learning from, or otherwise appreciating the thou
 
 ## Dedication
 
-This publication is dedicated to MF DOOM.
+This blog is dedicated to MF DOOM.
