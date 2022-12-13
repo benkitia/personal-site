@@ -1,6 +1,10 @@
 {{ define "main" }}
 <main>
-  {{ partial "intro.html" }}
+  {{ with .Content }}
+  <div class="landing-main">
+    {{ . }}
+  </div>
+  {{ end}}
   {{ partial "featured.html" . }}
   {{ partial "recent.html" . }}
 </main>
