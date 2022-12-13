@@ -149,16 +149,14 @@ p {
 }
 
 #wordmark-wrapper{
+  font-family: 'Forum', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  letter-spacing: .2em;
   a {
     text-decoration: none;
     &:hover {
       background-color: inherit;
     }
   }
-}
-
-#wordmark {
-  font-family: 'Forum', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 
 #thanks h2 {
