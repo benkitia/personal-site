@@ -9,7 +9,7 @@ author:
   twitter: "bensonkitia"
 menu:
   main:
-    - name: Blog
+    - name: Archive
       url: /blog
       weight: 1
     - name: Colophon
