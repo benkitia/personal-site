@@ -4,7 +4,7 @@
   <meta content="text/html; charset=UTF-8" name="Content-Type" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ .Title }}</title>
+  <title>{{ if .IsHome }}{{ else }}{{ if .Page.Title }}{{ .Page.Title }} - {{ end }}{{ end }}{{ .Site.Title }}</title>
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   <!-- RSS Feed -->

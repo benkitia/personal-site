@@ -1,3 +1,7 @@
+---
+title: "Home"
+---
+
 Hi, I'm Benson Kitia, a 16 year old builder in Chicago.
 
 Right now, outside of being a full-time student, I'm writing about my thoughts here, doing some commission web dev work, and working on various side projects to learn new things.
