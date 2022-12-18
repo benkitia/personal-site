@@ -1,3 +1,4 @@
 /writings/*  /blog/:splat
-/about /colophon/#about-the-writers
-/privacy <https://kitia.dev/privacy>
+/about /colophon/#about-the-writer
+/privacy https://kitia.dev/privacy
+/mstdn https://mastodon.social/kitia
