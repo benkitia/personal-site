@@ -59,3 +59,7 @@
   {{ with .Site.Params.baseURL }}
   <meta name="twitter:url" content="{{ . }}">{{ end }}
 </head>
+<!-- Mastodon verification -->
+{{ if .IsHome }}
+<a class="hidden" rel="me" href="https://mastodon.social/@kitia"></a>
+{{ end }}
