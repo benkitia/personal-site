@@ -5,8 +5,12 @@
     .Site.Params.mainSections) }}
     <li>
       <span class="info"><i><small><time>{{ .Date.Format "Jan 2 ’06" }}</time></small></i></span><br />
-      {{ if in .Params.tags "featured" }}<span class="info"><i><small><b>★</b></small></i></span>{{ end }}
-      {{ if in .Params.tags "evergreen" }}<span class="info"><i><small><b>E</b></small></i></span>{{ end }}
+      {{ if in .Params.tags "featured" }}<span id="post-class-indicator" class="info"
+        title="Featured post"><i><small><b>★</b></small></i></span>{{ end
+      }}
+      {{ if in .Params.tags "evergreen" }}<span id="post-class-indicator" class="info"
+        title="Evergreen post"><i><small><b>E</b></small></i></span>{{
+      end }}
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
     {{ end }}
