@@ -5,5 +5,5 @@ categories:
 tags:
     - example
 date: {{ .Date }}
-draft: true
+draft: false
 ---
