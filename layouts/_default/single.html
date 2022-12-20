@@ -3,7 +3,7 @@
   {{ if eq .Section "blog" }}<article>{{ end }}
     <h1>{{ .Title }}</h1>
     <time class="info">
-      {{ if .Date }} {{ .Date.Format "January 2, 2006 at 3:04 PM" }} {{ end }}
+      {{ if .Date }} {{ .Date.Format "January 2, 2006" }} <small>{{ .Date.Format "3:04 PM" }}</small> {{ end }}
     </time>
     {{ .Content }}
     {{ if eq .Section "blog" }}
