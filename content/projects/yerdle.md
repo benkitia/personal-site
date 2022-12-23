@@ -6,7 +6,7 @@ date: 2022-02-14
 
 [Game Link](https://yerdle.bensonkitia.com)
 
-[GitHub Repository]("https://github.com/bensonkitia/yerdle")
+[GitHub Repository](https://github.com/bensonkitia/yerdle)
 
 Yerdle is a Ye[^1]-themed daily word puzzle.
 
