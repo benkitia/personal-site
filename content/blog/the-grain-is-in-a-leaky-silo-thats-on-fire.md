@@ -9,7 +9,6 @@ tags:
     - commentary
     - content permanence
     - elon musk
-    - featured
     - fediverse
     - mastodon
     - microblogging
