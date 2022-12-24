@@ -172,7 +172,11 @@ html {
 }
 
 #post-class-indicator {
-  cursor: help;
+  text-decoration: none;
+
+  &:hover {
+    background-color: var(--font);
+  }
 }
 
 #post-list {
