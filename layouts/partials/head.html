@@ -12,6 +12,8 @@
   {{ printf `
   <link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
   {{- end }}
+  <!-- Preload font -->
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Forum&display=swap">
   <!-- Stylesheet -->
   {{ $scss := resources.Get "sass/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
   <link rel="stylesheet" href="{{ $scss.Permalink }}">
