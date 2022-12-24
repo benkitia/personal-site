@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Benson Kitia"
 ---
 
 Hi! I'm Benson Kitia, a 16 year old builder in Chicago.
