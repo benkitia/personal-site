@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="{{ .Site.LanguageCode | default " en-us" }}">
 {{ partial "head" . }}
-
 {{ $wrapperUID := replace .RelPermalink "/" "" }}
 <div class="content" id="{{ $wrapperUID }}-wrapper">
 	{{ partial "header" . }}

@@ -2,7 +2,8 @@
 <main>
   {{ with .Title }}
   <h1>{{ . }}</h1>
-  {{ end }} {{ if eq .Title "Blog Posts" }}
+  {{ end }}
+  {{ if eq .Title "Blog Posts" }}
   <nav>
     <ul class="info">
       <li>
@@ -34,7 +35,8 @@
     {{ end }}
   </ul>
   {{ end }}
-  {{ else if eq .Title "Projects" }} {{ range .Data.Pages }}
+  {{ else if eq .Title "Projects" }}
+  {{ range .Data.Pages }}
   <ul id="post-list">
     <li>
       <span class="info"><i><small><time>{{ .Date.Format "Jan ’06" }}</time></small></i></span>

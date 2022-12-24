@@ -7,8 +7,9 @@
     </time>
     {{ .Content }}
     {{ if eq .Section "blog" }}
-  </article>{{ end }}
-  {{ if eq .Section "blog" }} {{ partial "thanks" . }} {{ end }}
+  </article>
+  {{ partial "thanks" . }}
+  {{ end }}
   <footer class="info" id="taxonomy">
     {{ with .Params.categories }}
     <p>
@@ -16,7 +17,8 @@
       <a href='{{ "/categories/" | relLangURL }}{{ $value | urlize }}'>{{ . }}</a>
       {{- end }}
     </p>
-    {{ end }} {{ with .Params.tags }}
+    {{ end }}
+    {{ with .Params.tags }}
     <p>
       Tags: {{ range $key, $value := . }} {{- if $key }}, {{ end }}
       <a href='{{ "/tags/" | relLangURL }}{{ $value | urlize }}'>{{ . }}</a>
