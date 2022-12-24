@@ -1,11 +1,11 @@
 baseURL: "https://bensonkitia.com"
-copyright: Benson V.
+copyright: Benson Kitia
 languageCode: en-us
 timeZone: America/Chicago
 title: Benson Kitia
 author:
   name: Benson Kitia
-  email: benson@kitia.dev
+  email: hello@bvk.email
   twitter: "bensonkitia"
 menu:
   main:
@@ -27,6 +27,6 @@ outputs:
     - RSS
 params:
   description: Benson Kitia is a builder; designer & developer in Chicago.
-  title: bk; by Benson Kitia
+  title: Benson Kitia
   twitter: "@bensonkitiacom"
   icon: https://bensonkitia.com/images/icon.png
