@@ -15,8 +15,8 @@
   </nav>
   {{ end }} {{ if eq .Kind "term" }}
   <p class="info">
-    You can subscribe to an
-    <a href="{{ .RelPermalink }}/index.xml">RSS feed of new posts in {{ .RelPermalink }}</a>
+    To subscribe to an RSS feed of new posts in {{ .RelPermalink }}, <a href="{{ .RelPermalink }}/index.xml">click
+      here</a>.
   </p>
   {{ end }} {{ if not (eq .Title "Projects") }} {{ range .Data.Pages.GroupByDate
   "January 2006" }}
