@@ -24,7 +24,7 @@
   <ul id="post-list">
     {{ range .Pages }}
     <li>
-      <span class="info"><i><small><time>{{ .Date.Format "Jan 2 ’06" }}</time></small></i></span>
+      <span class="info"><i><small><time>{{ .Date.Format "Jan 2 ’06" }}</time></small></i></span><br />
       {{ if in .Params.tags "featured" }}<span id="post-class-indicator" class="info"
         title="Featured post"><i><small><b>★</b></small></i></span>{{ end
       }}
