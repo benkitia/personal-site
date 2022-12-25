@@ -19,13 +19,7 @@
   <link rel="dns-prefetch" href="https://fonts.googleapis.com/css?family=Forum&display=swap">
   <!-- Stylesheet -->
   {{ $scss := resources.Get "sass/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
-  <style>
-    {
-        {
-        $scss.Content | safeCSS
-      }
-    }
-  </style>
+  <style>{{ $scss.Content | safeCSS }}</style>
   <!--  -->
   <!-- SEO, etc. Metadata -->
   {{ with .Site.Params.icon }}
