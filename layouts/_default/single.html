@@ -2,9 +2,9 @@
 <main>
   {{ if eq .Section "blog" }}<article>{{ end }}
     <h1>{{ .Title }}</h1>
-    <time class="info">
-      {{ if .Date }} {{ .Date.Format "January 2, 2006" }} <small>{{ .Date.Format "3:04 PM" }}</small> {{ end }}
-    </time>
+    {{ if eq .Section "blog" }}
+    <time class="info">{{ .Date.Format "January 2, 2006" }} <small>at {{ .Date.Format "3:04 PM" }}</small></time>
+    {{ end }}
     {{ .Content }}
     {{ if eq .Section "blog" }}
   </article>
