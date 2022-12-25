@@ -17,7 +17,7 @@
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Forum&display=swap">
   <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Forum&display=swap">
   <link rel="dns-prefetch" href="https://fonts.googleapis.com/css?family=Forum&display=swap">
-  <!-- Stylesheet -->
+  <!-- Inline styles -->
   {{ $scss := resources.Get "sass/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
   <style>{{ $scss.Content | safeCSS }}</style>
   <!--  -->
