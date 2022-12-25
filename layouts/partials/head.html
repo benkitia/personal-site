@@ -64,6 +64,10 @@
   <meta name="twitter:title" content="{{ . }}">{{ end }}
   {{ with .Site.Params.baseURL }}
   <meta name="twitter:url" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.goatCounter }}
+  <!-- Analytics -->
+  <script data-goatcounter="https://{{ . }}/count" async src="//gc.zgo.at/count.js"></script>
+  {{ end }}
   <!-- Mastodon verification -->
   {{ if .IsHome }}
   <a class="hidden" rel="me" href="https://mastodon.social/@kitia"></a>
