@@ -69,7 +69,7 @@
   <script data-goatcounter="https://{{ . }}/count" async src="//gc.zgo.at/count.js"></script>
   {{ end }}
   <!-- Mastodon verification -->
-  {{ if .IsHome }}
-  <a class="hidden" rel="me" href="https://mastodon.social/@kitia"></a>
-  {{ end }}
+  {{ with .Site.Params.mastodon }} {{ if .IsHome }}
+  <a class="hidden" rel="me" href="https://{{ . }}"></a>
+  {{ end }} {{ end }}
 </head>
