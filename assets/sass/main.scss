@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Forum&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Forum&display=swap");
 
 :root {
   --background: #444444;
@@ -21,7 +21,9 @@ body {
   background-color: var(--background);
   color: #444444;
   color: var(--font);
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
 }
 
 .content {
@@ -45,13 +47,16 @@ a {
   }
 }
 
-article {  
+article {
   img {
     max-width: 240px;
   }
 
-  p, li {
-    font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  p,
+  li {
+    font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
+      Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol;
   }
 }
 
@@ -148,11 +153,15 @@ p {
   padding-top: 15px;
 }
 
-#wordmark-wrapper{
-  font-family: 'Forum', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  letter-spacing: .2em;
+#wordmark-wrapper {
+  font-family: "Forum", Iowan Old Style, Apple Garamond, Baskerville,
+    Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  letter-spacing: 0.2em;
+
   a {
     text-decoration: none;
+
     &:hover {
       background-color: inherit;
     }
@@ -161,7 +170,9 @@ p {
 
 #thanks h2 {
   color: var(--primary);
-  font-family: 'Forum', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: "Forum", Iowan Old Style, Apple Garamond, Baskerville,
+    Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-style: italic;
 }
 
@@ -192,6 +203,7 @@ html {
   ul {
     list-style-type: none;
   }
+
   li {
     line-height: 1.5;
   }
@@ -200,4 +212,4 @@ html {
 .hidden {
   display: none;
   visibility: hidden;
-} 
+}
