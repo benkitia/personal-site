@@ -64,8 +64,12 @@
   <meta name="twitter:title" content="{{ . }}">{{ end }}
   {{ with .Site.Params.baseURL }}
   <meta name="twitter:url" content="{{ . }}">{{ end }}
-  {{ with .Site.Params.goatCounter }}
+  <!-- Email collection form -->
+  {{ if eq .Title "Subscribe" }}
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+  {{ end }}
   <!-- Analytics -->
+  {{ with .Site.Params.goatCounter }}
   <script data-goatcounter="https://{{ . }}/count" async src="//gc.zgo.at/count.js"></script>
   {{ end }}
   <!-- Mastodon verification -->
