@@ -69,7 +69,7 @@
   <script data-goatcounter="https://{{ . }}/count" async src="//gc.zgo.at/count.js"></script>
   {{ end }}
   <!-- Mastodon verification -->
-  {{ with .Site.Params.mastodon }} {{ if .IsHome }}
+  {{ if .IsHome }}{{ with .Site.Params.mastodon }}
   <a class="hidden" rel="me" href="https://{{ . }}"></a>
   {{ end }} {{ end }}
 </head>
