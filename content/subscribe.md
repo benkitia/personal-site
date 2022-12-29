@@ -4,7 +4,7 @@ title: "Subscribe"
 
 ## Email - project updates
 
-To subscribe to an email feed of project updates (not including these blog posts), [visit my holding company's website](https://helianth.co).
+To subscribe to an email feed of project updates (not including these blog posts), [visit my holding company's website](https://helianth.co/subscribe?ref=bensonkitia.com).
 
 ## RSS
 
