@@ -19,7 +19,7 @@ Anyone else reading, enjoying, learning from, or otherwise appreciating the thou
 - [Drafts](https://apps.apple.com/us/app/drafts/id1236254471/)
 - [Grammarly](https://grammarly.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [GitHub Desktop](https://desktop.github.com/)
+- [Tower](https://www.git-tower.com/mac)
 - [GitHub](https://github.com/)
 - [Netlify](https://netlify.com/)
 
