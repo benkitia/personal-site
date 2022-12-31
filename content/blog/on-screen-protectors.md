@@ -4,7 +4,7 @@ categories:
     - tech
 tags:
     - advice
-    - on ___
+    - on x
     - products
     - screen protectors
     - short
