@@ -6,6 +6,7 @@ tags:
     - advice
     - products
     - screen protectors
+    - short
 date: 2022-12-30T18:38:30-06:00
 draft: false
 ---
