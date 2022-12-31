@@ -6,6 +6,10 @@
     <header>
     <h1>{{ .Title }}</h1>
     {{ if eq .Section "blog" }}
+    {{ with .Site.Author.name }}
+    <address class="info">by <a rel="author" href="/">{{ . }}</a></address>
+    {{ end }}
+    <br>
     <time pubdate datetime={{ .Date.Format "2006-01-02 15:04" }} class="info">{{ .Date.Format "January 2, 2006" }}
       <small>
         at {{ .Date.Format "3:04 PM" }}
