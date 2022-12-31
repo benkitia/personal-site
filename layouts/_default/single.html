@@ -3,15 +3,21 @@
   {{ if eq .Section "blog" }}
   <article>
     {{ end }}
+    <header>
     <h1>{{ .Title }}</h1>
     {{ if eq .Section "blog" }}
-    <time class="info">
-      {{ .Date.Format "January 2, 2006" }}
-      <small> at {{ .Date.Format "3:04 PM" }} </small>
+    <time pubdate datetime={{ .Date.Format "2006-01-02 15:04" }} class="info">{{ .Date.Format "January 2, 2006" }}
+      <small>
+        at {{ .Date.Format "3:04 PM" }}
+      </small>
     </time>
-    {{ end }} {{ .Content }} {{ if eq .Section "blog" }}
+    </header>
+    {{ end }}
+    {{ .Content }}
+  {{ if eq .Section "blog" }}
   </article>
-  {{ partial "thanks" . }} {{ end }}
+  {{ partial "thanks" . }}
+  {{ end }}
   <footer class="info" id="taxonomy">
     {{ with .Params.categories }}
     <p>
@@ -21,7 +27,8 @@
       >
       {{- end }}
     </p>
-    {{ end }} {{ with .Params.tags }}
+    {{ end }}
+    {{ with .Params.tags }}
     <p>
       Tags: {{ range $key, $value := . }} {{- if $key }}, {{ end }}
       <a href='{{ "/tags/" | relLangURL }}{{ $value | urlize }}'>{{ . }}</a>
