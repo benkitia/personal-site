@@ -17,9 +17,7 @@
 }
 
 body {
-  background-color: white;
   background-color: var(--background);
-  color: #444444;
   color: var(--font);
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
     helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
@@ -32,16 +30,20 @@ body {
   padding: 20px;
 }
 
+html {
+  #wordmark {
+    user-select: none;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: underline;
-  text-decoration-color: #949494;
   text-decoration-color: var(--secondary);
   text-underline-offset: 0.15em;
   text-underline-position: below;
 
   &:hover {
-    background-color: #949494;
     background-color: var(--secondary);
     text-decoration: none;
   }
@@ -53,7 +55,8 @@ article {
   }
 
   p,
-  li {
+  ul,
+  ol {
     font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
       Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji,
       Segoe UI Emoji, Segoe UI Symbol;
@@ -72,10 +75,6 @@ blockquote {
   }
 }
 
-#dated-li {
-  padding-bottom: 15px;
-}
-
 footer {
   text-align: justify;
 
@@ -86,37 +85,6 @@ footer {
 
 h1 {
   color: var(--primary);
-}
-
-.info {
-  color: #949494;
-  color: var(--secondary);
-  font-style: italic;
-
-  a {
-    text-decoration-color: #444444;
-    text-decoration-color: var(--font);
-
-    &:hover {
-      background-color: white;
-      background-color: var(--font);
-    }
-  }
-}
-
-.a-highlight {
-  a {
-    text-decoration-color: var(--primary);
-
-    &:hover {
-      background-color: var(--primary);
-    }
-  }
-}
-
-#landing-main {
-  padding-top: 5px;
-  padding-bottom: 15px;
 }
 
 li {
@@ -138,47 +106,45 @@ p {
   line-height: 1.5;
 }
 
-#recent-info {
-  span {
-    display: inline-block;
-  }
-}
-
-#site-footer {
-  padding-left: 40px;
-  padding-top: 20px;
-}
-
-#taxonomy {
-  padding-top: 15px;
-}
-
-#wordmark-wrapper {
-  font-family: "Forum", Iowan Old Style, Apple Garamond, Baskerville,
-    Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  letter-spacing: 0.2em;
-
+.a-highlight {
   a {
-    text-decoration: none;
+    text-decoration-color: var(--primary);
 
     &:hover {
-      background-color: inherit;
+      background-color: var(--primary);
     }
   }
 }
 
-#thanks h2 {
-  color: var(--primary);
-  font-family: "Forum", Iowan Old Style, Apple Garamond, Baskerville,
-    Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+.info {
+  color: var(--secondary);
   font-style: italic;
+
+  a {
+    text-decoration-color: var(--font);
+
+    &:hover {
+      background-color: var(--font);
+    }
+  }
 }
 
-html {
-  #wordmark {
-    user-select: none;
+#dated-li {
+  padding-bottom: 15px;
+}
+
+#landing-main {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+#links-wrapper {
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    line-height: 1.5;
   }
 }
 
@@ -199,17 +165,45 @@ html {
   }
 }
 
-#links-wrapper {
-  ul {
-    list-style-type: none;
+#recent-info {
+  span {
+    display: inline-block;
   }
+}
 
-  li {
-    line-height: 1.5;
+#site-footer {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+#taxonomy {
+  padding-top: 15px;
+}
+
+#thanks h2 {
+  color: var(--primary);
+  font-family: "Forum", Iowan Old Style, Apple Garamond, Baskerville,
+    Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-style: italic;
+}
+
+#wordmark-wrapper {
+  font-family: "Forum", Iowan Old Style, Apple Garamond, Baskerville,
+    Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  letter-spacing: 0.2em;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      background-color: inherit;
+    }
   }
 }
 
 .hidden {
-  display: none;
-  visibility: hidden;
+  display: none !important;
+  visibility: hidden !important;
 }
