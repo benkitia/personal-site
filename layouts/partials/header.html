@@ -6,10 +6,9 @@
       </div>
     </a>
   </div>
-  <nav>
+  <nav class="a-highlight">
     <ul>
-      {{ with .Site.Menus.main }}
-      {{ range . }}
+      {{ with .Site.Menus.main }} {{ range . }}
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
       {{ end }}
     </ul>

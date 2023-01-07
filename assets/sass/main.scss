@@ -77,8 +77,6 @@ blockquote {
 }
 
 footer {
-  color: #949494;
-  color: var(--secondary);
   text-align: justify;
 
   a {
@@ -106,6 +104,16 @@ h1 {
   }
 }
 
+.a-highlight {
+  a {
+    text-decoration-color: var(--primary);
+
+    &:hover {
+      background-color: var(--primary);
+    }
+  }
+}
+
 #landing-main {
   padding-top: 5px;
   padding-bottom: 15px;
@@ -116,14 +124,6 @@ li {
 }
 
 nav {
-  a {
-    text-decoration-color: var(--primary);
-
-    &:hover {
-      background-color: var(--primary);
-    }
-  }
-
   li {
     line-height: 1.75;
   }
