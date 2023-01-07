@@ -14,9 +14,9 @@
   <link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
   {{- end }}
   <!-- Preload font -->
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Forum&display=swap" as="style">
-  <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Forum&display=swap">
-  <link rel="dns-prefetch" href="https://fonts.googleapis.com/css?family=Forum&display=swap">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Forum&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <!-- Inline styles -->
   {{ $scss := resources.Get "sass/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
   <style>{{ $scss.Content | safeCSS }}</style>
