@@ -27,6 +27,13 @@ Anyone else reading, enjoying, learning from, or otherwise appreciating the thou
 - [GitHub](https://github.com/)
 - [Netlify](https://netlify.com/)
 
+### Typography
+
+- [Forum](https://fonts.google.com/specimen/Forum) by Denis Masharov (wordmark, a few other places)
+- [Merriweather](https://fonts.google.com/specimen/Merriweather) by [Sorkin Type](http://sorkintype.com/) (post content)
+- [System font](https://systemfontstack.com/) (info, less prominent text)
+- [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) by Frank Grießhammer (everything else)
+
 ### Licensing And Attribution
 
 #### Blog posts
