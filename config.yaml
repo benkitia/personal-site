@@ -9,11 +9,11 @@ author:
   twitter: "bensonkitia"
 menu:
   main:
+    - name: About
+      url: /about
+      weight: 1
     - name: Archive
       url: /blog
-      weight: 1
-    - name: Colophon
-      url: /colophon
       weight: 1
     - name: Projects
       url: /projects
