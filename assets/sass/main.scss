@@ -26,6 +26,7 @@ body {
   margin: auto;
   max-width: 480px;
   padding: 20px;
+  word-wrap: break-word;
 }
 
 html {
@@ -73,7 +74,6 @@ blockquote {
 
 code {
   font-family: ui-monospace, SFMono-Regular, ui-monospace, 'Menlo', 'Consolas', 'Monaco', 'Liberation Mono', 'Lucida Console', monospace;
-  word-wrap: break-word;
 }
 
 footer {
