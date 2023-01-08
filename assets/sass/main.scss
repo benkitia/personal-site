@@ -102,18 +102,9 @@ p {
   line-height: 1.5;
 }
 
-.a-prominent {
-  a {
-    text-decoration-color: var(--primary);
-
-    &:hover {
-      background-color: var(--primary);
-    }
-  }
-}
-
 .info {
   color: var(--secondary);
+  font-family: "-apple-system", "BlinkMacSystemFont", "avenir next", "avenir", "segoe ui", "helvetica neue", "helvetica", "Cantarell", "Ubuntu", "roboto", "noto", "arial", sans-serif;
   font-style: italic;
 
   a {
@@ -121,6 +112,16 @@ p {
 
     &:hover {
       background-color: var(--font);
+    }
+  }
+}
+
+.prominent {
+  a {
+    text-decoration-color: var(--primary);
+
+    &:hover {
+      background-color: var(--primary);
     }
   }
 }
@@ -185,9 +186,7 @@ p {
 }
 
 #wordmark-wrapper {
-  font-family: "Forum", Iowan Old Style, Apple Garamond, Baskerville,
-    Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: "Forum", "Georgia", serif;
   letter-spacing: 0.2em;
 
   a {
