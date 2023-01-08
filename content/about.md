@@ -19,8 +19,8 @@ I call this website my life's work because it (the design + markup & styling) is
 ### Toolbox
 
 - [Hugo](https://gohugo.io/)
-- [Markdown](https://daringfireball.net/projects/markdown/)
-- [Drafts](https://apps.apple.com/us/app/drafts/id1236254471/)
+- [Markdown](https://daringfireball.net/projects/markdown/)/[MultiMarkdown](https://fletcherpenney.net/multimarkdown/)
+- [Drafts](https://getdrafts.com)
 - [Grammarly](https://grammarly.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Tower](https://www.git-tower.com/mac)
@@ -29,11 +29,12 @@ I call this website my life's work because it (the design + markup & styling) is
 
 ### Typography
 
-- [Forum](https://fonts.google.com/specimen/Forum) by Denis Masharov (wordmark, a few other places)
+- [Forum](https://fonts.google.com/specimen/Forum) by Denis Masharov (wordmark)
 - [Merriweather](https://fonts.google.com/specimen/Merriweather) by [Sorkin Type](http://sorkintype.com/) (post content)
-- [Neo-System Font Stack sans-serif](https://opensource.bensonkitia.com/neo-system-font-stack/#sans-serif) (info, less prominent text)
-- [Neo-System Font Stack serif](https://opensource.bensonkitia.com/neo-system-font-stack/#serif) (a few misc. things)
-- [Neo-System Font Stack monospace](https://opensource.bensonkitia.com/neo-system-font-stack/#monospace) (code blocks)
+- [Neo-System Font Stack](https://opensource.bensonkitia.com/neo-system-font-stack/)
+  - [sans-serif](https://opensource.bensonkitia.com/neo-system-font-stack/#sans-serif) (info, less prominent text)
+  - [serif](https://opensource.bensonkitia.com/neo-system-font-stack/#serif) (a few misc. things)
+  - [monospace](https://opensource.bensonkitia.com/neo-system-font-stack/#monospace) (code blocks)
 - **[Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) by Frank Grießhammer** (everything else)
 
 ### Licensing And Attribution
