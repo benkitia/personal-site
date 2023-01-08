@@ -12,7 +12,7 @@ menu:
     - name: About
       url: /about
       weight: 1
-    - name: Archive
+    - name: All posts
       url: /blog
       weight: 1
     - name: Projects
