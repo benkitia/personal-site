@@ -31,8 +31,10 @@ I call this website my life's work because it (the design + markup & styling) is
 
 - [Forum](https://fonts.google.com/specimen/Forum) by Denis Masharov (wordmark, a few other places)
 - [Merriweather](https://fonts.google.com/specimen/Merriweather) by [Sorkin Type](http://sorkintype.com/) (post content)
-- [System font](https://systemfontstack.com/) (info, less prominent text)
-- [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) by Frank Grießhammer (everything else)
+- [Neo-System Font Stack sans-serif](https://opensource.bensonkitia.com/neo-system-font-stack/#sans-serif) (info, less prominent text)
+- [Neo-System Font Stack serif](https://opensource.bensonkitia.com/neo-system-font-stack/#serif) (a few misc. things)
+- [Neo-System Font Stack monospace](https://opensource.bensonkitia.com/neo-system-font-stack/#monospace) (code blocks)
+- **[Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) by Frank Grießhammer** (everything else)
 
 ### Licensing And Attribution
 

@@ -71,6 +71,10 @@ blockquote {
   }
 }
 
+code {
+  font-family: ui-monospace, SFMono-Regular, ui-monospace, 'Menlo', 'Consolas', 'Monaco', 'Liberation Mono', 'Lucida Console', monospace;
+}
+
 footer {
   text-align: justify;
 
@@ -104,7 +108,7 @@ p {
 
 .info {
   color: var(--secondary);
-  font-family: "-apple-system", "BlinkMacSystemFont", "avenir next", "avenir", "segoe ui", "helvetica neue", "helvetica", "Cantarell", "Ubuntu", "roboto", "noto", "arial", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Avenir Next', 'Avenir', 'Segoe UI', 'Helvetica', 'Cantarell', 'Ubuntu', 'Roboto', 'Noto', 'Arial', sans-serif;
   font-style: italic;
 
   a {
@@ -179,14 +183,12 @@ p {
 
 #thanks h2 {
   color: var(--primary);
-  font-family: "Forum", Iowan Old Style, Apple Garamond, Baskerville,
-    Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system-ui-serif, ui-serif, 'Iowan Old Style', 'Apple Garamond', 'Georgia', 'Baskerville', 'Times New Roman', 'Droid Serif', 'Times', 'Source Serif Pro', serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';;
   font-style: italic;
 }
 
 #wordmark-wrapper {
-  font-family: "Forum", "Georgia", serif;
+  font-family: "Forum", serif;
   letter-spacing: 0.2em;
 
   a {
