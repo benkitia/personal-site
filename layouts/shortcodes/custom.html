@@ -1,4 +1,7 @@
-<p class="{{ .Get "class" }}">
-    {{ .Inner }}
-</p>
-  
+{{ with .Get "href" }}
+<a href="{{ . }}">
+{{ end }}
+<span class="{{ .Get "class" }}">{{ .Inner }}</span>
+{{ with .Get "href" }}
+</a>
+{{ end }}
