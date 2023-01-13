@@ -14,7 +14,7 @@ To subscribe to an RSS feed of all new blog posts, use this link: <https://benso
 
 #### By Category or Tag
 
-To subscribe to an RSS feed of new posts in/with specific [Categories](/categories) or [Tags](/tags), filter [all posts](/blog) by the Category or Tag you'd like to subscribe to, and then use the link at the top of that Category/Tag's page.
+To subscribe to an RSS feed of new posts in/with specific [Categories](/categories) or [Tags](/tags), filter [all posts](/blog) by the Category or Tag you'd like to subscribe to, and then use the link at the bottom of that Category/Tag's page.
 
 Alternatively, you can manually add the feed to your RSS client with the following syntax:
 
