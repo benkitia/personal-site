@@ -30,12 +30,12 @@ I call this website my life's work because it (the design + markup & styling) is
 ### Typography
 
 - [Forum](https://fonts.google.com/specimen/Forum) by Denis Masharov (wordmark)
-- [Merriweather](https://fonts.google.com/specimen/Merriweather) by [Sorkin Type](http://sorkintype.com/) (post content)
+- [Source Serif Pro](https://fonts.google.com/specimen/Source+Serif+Pro) by Frank Grießhammer (post content)
 - [Neo-System Font Stack](https://opensource.bensonkitia.com/neo-system-font-stack/)
   - [sans-serif](https://opensource.bensonkitia.com/neo-system-font-stack/#sans-serif) (info, less prominent text)
   - [serif](https://opensource.bensonkitia.com/neo-system-font-stack/#serif) (a few misc. things)
   - [monospace](https://opensource.bensonkitia.com/neo-system-font-stack/#monospace) (code blocks)
-- **[Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) by Frank Grießhammer** (everything else)
+- [Inter](https://fonts.google.com/specimen/Inter) by Frank Grießhammer** (everything else)
 
 ### Licensing And Attribution
 
