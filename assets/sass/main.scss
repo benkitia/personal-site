@@ -3,14 +3,14 @@
 :root {
   --background: #444444;
   --font: white;
-  --secondary: #aaa;
+  --secondary: #b1b1b1;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --background: white;
     --font: #444444;
-    --secondary: #949494;
+    --secondary: #767676;
   }
 }
 
@@ -35,13 +35,13 @@ html {
 a {
   color: inherit;
   text-decoration: underline;
-  text-decoration-color: #949494;
+  text-decoration-color: #767676;
   text-decoration-color: var(--secondary);
   text-underline-offset: 0.15em;
   text-underline-position: below;
 
   &:hover {
-    background-color: #949494;
+    background-color: #767676;
     background-color: var(--secondary);
     text-decoration: none;
   }
@@ -51,7 +51,6 @@ article {
   img {
     max-width: 240px;
   }
-
   p,
   ul,
   ol {
@@ -107,15 +106,14 @@ p {
 }
 
 .info {
-  color: #949494;
+  color: #767676;
   color: var(--secondary);
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Avenir Next', 'Avenir', 'Segoe UI', 'Helvetica', 'Cantarell', 'Ubuntu', 'Roboto', 'Noto', 'Arial', sans-serif;
   font-style: italic;
 
   a {
     text-decoration-color: white;
-    text-decoration-color: var(--font);
-    
+    text-decoration-color: var(--font);    
     &:hover {
       background-color: white;
       background-color: var(--font);    
