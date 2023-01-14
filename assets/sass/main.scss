@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Forum&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 :root {
   --background: #444444;
@@ -75,7 +75,8 @@ blockquote {
 }
 
 code {
-  font-family: ui-monospace, SFMono-Regular, ui-monospace, 'Menlo', 'Consolas', 'Monaco', 'Liberation Mono', 'Lucida Console', monospace;
+  font-family: ui-monospace, SFMono-Regular, ui-monospace, "Menlo", "Consolas",
+    "Monaco", "Liberation Mono", "Lucida Console", monospace;
 }
 
 footer {
@@ -112,15 +113,17 @@ p {
 .info {
   color: #767676;
   color: var(--secondary);
-  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Avenir Next', 'Avenir', 'Segoe UI', 'Helvetica', 'Cantarell', 'Ubuntu', 'Roboto', 'Noto', 'Arial', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    "Avenir Next", "Avenir", "Segoe UI", "Helvetica", "Cantarell", "Ubuntu",
+    "Roboto", "Noto", "Arial", sans-serif;
   font-style: italic;
 
   a {
     text-decoration-color: white;
-    text-decoration-color: var(--font);    
+    text-decoration-color: var(--font);
     &:hover {
       background-color: white;
-      background-color: var(--font);    
+      background-color: var(--font);
     }
   }
 }

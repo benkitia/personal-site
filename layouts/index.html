@@ -1,10 +1,7 @@
 {{ define "main" }}
 <main>
   {{ with .Content }}
-  <div id="landing-main">
-    {{ . }}
-  </div>
-  {{ end }}
-  {{ partial "recent.html" . }}
+  <div id="landing-main">{{ . }}</div>
+  {{ end }} {{ partial "recent.html" . }}
 </main>
 {{ end }}

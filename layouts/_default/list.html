@@ -2,8 +2,7 @@
 <main>
   {{ with .Title }}
   <h1>{{ . }}</h1>
-  {{ end }}
-  {{ if eq .Title "Blog Posts" }}
+  {{ end }} {{ if eq .Title "Blog Posts" }}
   <nav>
     <ul class="info">
       <li>
@@ -14,44 +13,63 @@
       </li>
     </ul>
   </nav>
-  {{ end }}
-  {{ if not (eq .Title "Projects") }}
-  {{ range .Data.Pages.GroupByDate "January 2006" }}
+  {{ end }} {{ if not (eq .Title "Projects") }} {{ range .Data.Pages.GroupByDate
+  "January 2006" }}
   <h2>{{ .Key }}</h2>
   <ul id="post-list">
     {{ range .Pages }}
     <li>
-      <span class="info"><i><small><time>{{ .Date.Format "Jan 2 ’06" }}</time></small></i></span><br />
+      <span class="info"
+        ><i
+          ><small><time>{{ .Date.Format "Jan 2 ’06" }}</time></small></i
+        ></span
+      ><br />
       {{ if in .Params.tags "featured" }}
-      <a id="post-class-indicator" class="info" title="Featured post"
-        href="/tags/featured"><i><small><b>★</b></small></i></a>
-      {{ end }}
-      {{ if in .Params.tags "evergreen" }}
-      <a id="post-class-indicator" class="info" title="Evergreen post"
-        href="/tags/evergreen"><i><small><b>E</b></small></i></a>
+      <a
+        id="post-class-indicator"
+        class="info"
+        title="Featured post"
+        href="/tags/featured"
+        ><i
+          ><small><b>★</b></small></i
+        ></a
+      >
+      {{ end }} {{ if in .Params.tags "evergreen" }}
+      <a
+        id="post-class-indicator"
+        class="info"
+        title="Evergreen post"
+        href="/tags/evergreen"
+        ><i
+          ><small><b>E</b></small></i
+        ></a
+      >
       {{ end }}
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
     {{ end }}
   </ul>
-  {{ end }}
-  {{ else if eq .Title "Projects" }}
-  {{ range .Data.Pages }}
+  {{ end }} {{ else if eq .Title "Projects" }} {{ range .Data.Pages }}
   <ul id="post-list">
     <li>
-      <span class="info"><i><small><time>{{ .Date.Format "Jan ’06" }}</time></small></i></span>
+      <span class="info"
+        ><i
+          ><small><time>{{ .Date.Format "Jan ’06" }}</time></small></i
+        ></span
+      >
       <br />
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      <br>
-      <span class="info">{{ with .Description }}<i><small>{{ . }}</small></i></span>{{ end }}
+      <br />
+      <span class="info"
+        >{{ with .Description }}<i><small>{{ . }}</small></i></span
+      >{{ end }}
     </li>
     {{ end }}
   </ul>
-  {{ end }}
-  {{ if eq .Kind "term" }}
+  {{ end }} {{ if eq .Kind "term" }}
   <p class="info">
-    To subscribe to an RSS feed of new posts in {{ .RelPermalink }}, use this link: <a
-      href="{{ .Permalink }}index.xml">{{ .Permalink }}index.xml</a>.
+    To subscribe to an RSS feed of new posts in {{ .RelPermalink }}, use this
+    link: <a href="{{ .Permalink }}index.xml">{{ .Permalink }}index.xml</a>.
   </p>
   {{ end }}
 </main>

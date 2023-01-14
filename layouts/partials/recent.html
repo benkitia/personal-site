@@ -1,16 +1,34 @@
 <div>
   <h2>Recent Posts</h2>
   <ul id="post-list">
-    {{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+    {{ range first 5 (where .Site.RegularPages "Type" "in"
+    .Site.Params.mainSections) }}
     <li>
-      <span class="info"><i><small><time>{{ .Date.Format "Jan 2 ’06" }}</time></small></i></span><br />
+      <span class="info"
+        ><i
+          ><small><time>{{ .Date.Format "Jan 2 ’06" }}</time></small></i
+        ></span
+      ><br />
       {{ if in .Params.tags "featured" }}
-      <a id="post-class-indicator" class="info" title="Featured post"
-        href="/tags/featured"><i><small><b>★</b></small></i></a>
-      {{ end }}
-      {{ if in .Params.tags "evergreen" }}
-      <a id="post-class-indicator" class="info" title="Evergreen post"
-        href="/tags/evergreen"><i><small><b>E</b></small></i></a>
+      <a
+        id="post-class-indicator"
+        class="info"
+        title="Featured post"
+        href="/tags/featured"
+        ><i
+          ><small><b>★</b></small></i
+        ></a
+      >
+      {{ end }} {{ if in .Params.tags "evergreen" }}
+      <a
+        id="post-class-indicator"
+        class="info"
+        title="Evergreen post"
+        href="/tags/evergreen"
+        ><i
+          ><small><b>E</b></small></i
+        ></a
+      >
       {{ end }}
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
