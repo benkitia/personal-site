@@ -1,7 +1,6 @@
 :root {
   --background: #444444;
   --font: white;
-  --primary: #b96aff;
   --secondary: #aaa;
 }
 
@@ -9,13 +8,14 @@
   :root {
     --background: white;
     --font: #444444;
-    --primary: #b96aff;
     --secondary: #949494;
   }
 }
 
 body {
+  background-color: #444444;
   background-color: var(--background);
+  color: white;
   color: var(--font);
   font-family: "Source Sans Pro", "helvetica neue", "helvetica", sans-serif;
   margin: auto;
@@ -33,11 +33,13 @@ html {
 a {
   color: inherit;
   text-decoration: underline;
+  text-decoration-color: #949494;
   text-decoration-color: var(--secondary);
   text-underline-offset: 0.15em;
   text-underline-position: below;
 
   &:hover {
+    background-color: #949494;
     background-color: var(--secondary);
     text-decoration: none;
   }
@@ -56,7 +58,7 @@ article {
 }
 
 blockquote {
-  border-left: 0.125em solid var(--primary);
+  border-left: 0.125em solid #b96aff;
   margin-left: 30px;
   padding: 10px;
   padding-left: 15px;
@@ -80,7 +82,7 @@ footer {
 }
 
 h1 {
-  color: var(--primary);
+  color: #b96aff;
 }
 
 li {
@@ -103,25 +105,28 @@ p {
 }
 
 .info {
+  color: #949494;
   color: var(--secondary);
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Avenir Next', 'Avenir', 'Segoe UI', 'Helvetica', 'Cantarell', 'Ubuntu', 'Roboto', 'Noto', 'Arial', sans-serif;
   font-style: italic;
 
   a {
+    text-decoration-color: white;
     text-decoration-color: var(--font);
-
+    
     &:hover {
-      background-color: var(--font);
+      background-color: white;
+      background-color: var(--font);    
     }
   }
 }
 
 .prominent {
   a {
-    text-decoration-color: var(--primary);
+    text-decoration-color: #b96aff;
 
     &:hover {
-      background-color: var(--primary);
+      background-color: #b96aff;
     }
   }
 }
@@ -149,6 +154,7 @@ p {
   text-decoration: none;
 
   &:hover {
+    background-color: white;
     background-color: var(--font);
   }
 }
@@ -178,7 +184,7 @@ p {
 }
 
 #thanks h2 {
-  color: var(--primary);
+  color: #b96aff;
   font-family: -apple-system-ui-serif, ui-serif, 'Iowan Old Style', 'Apple Garamond', 'Georgia', 'Baskerville', 'Times New Roman', 'Droid Serif', 'Times', 'Source Serif Pro', serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';;
   font-style: italic;
 }
