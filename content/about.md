@@ -49,6 +49,10 @@ I'd love to be quoted or referenced, but please don't copy or republish my work 
 
 [bensonkitia.com's source code](https://github.com/bensonkitia/bensonkitia.com) is [MIT-Licensed](https://github.com/bensonkitia/bensonkitia.com/blob/main/LICENSE) meaning, in summary, you can do whatever you want with it as long as you include the copyright notice and permission notice.
 
+### Timezone
+
+All dates and times on this website are in Central Standard Time (CST) or UTC-6.
+
 ### Dedication
 
 This blog is dedicated to MF DOOM.

@@ -1,5 +1,10 @@
 {{ define "main" }}
 <main>
+  <style>
+    span a {
+      text-decoration: none;
+    }
+  </style>
   {{ if eq .Section "blog" }}
   <article>
     {{ end }}
@@ -20,7 +25,7 @@
       <br>
       <time pubdate datetime={{ .Date.Format "2006-01-02 15:04" }} class="info">{{ .Date.Format "January 2, 2006" }}
         <small>
-          at {{ .Date.Format "3:04 PM" }}
+          at <span><a href="/about/#timezone">{{ .Date.Format "3:04 PM" }}</a></span>
         </small>
       </time>
     {{ end }}
