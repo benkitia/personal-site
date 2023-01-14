@@ -52,3 +52,9 @@ I'd love to be quoted or referenced, but please don't copy or republish my work 
 ### Dedication
 
 This blog is dedicated to MF DOOM.
+
+### Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0a5f99c5-bb7a-4f3c-a321-de1bf2ea87b2/deploy-status)](https://app.netlify.com/sites/bensonkitiacom/deploys)
+
+{{< last-built >}}
