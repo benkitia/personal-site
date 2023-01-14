@@ -51,7 +51,7 @@ I'd love to be quoted or referenced, but please don't copy or republish my work 
 
 ### Timezone
 
-All dates and times on this website are in Central Standard Time (CST) (UTC-6).
+All dates and times on this website are in Chicago time, which is Central Standard Time (CST) (UTC-6).
 
 ### Dedication
 
