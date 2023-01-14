@@ -4,6 +4,7 @@
   --background: #444444;
   --font: white;
   --secondary: #b1b1b1;
+  --tertiary: #444444;
 }
 
 @media (prefers-color-scheme: light) {
@@ -11,6 +12,7 @@
     --background: white;
     --font: #444444;
     --secondary: #767676;
+    --tertiary: #030303;
   }
 }
 
@@ -43,6 +45,8 @@ a {
   &:hover {
     background-color: #767676;
     background-color: var(--secondary);
+    color: #030303;
+    color: var(--tertiary);
     text-decoration: none;
   }
 }
