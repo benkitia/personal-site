@@ -9,16 +9,14 @@
   <article>
     {{ end }}
     <header>
-      <h1>{{ .Title }}</h1>
+      <h1>{{ .Title }}{{ if in .Params.tags "featured" }}
+        <a id="post-class-indicator" class="info" title="Featured post"
+          href="/tags/featured"><small><b>★</b></small></a>
+        {{ end }}{{ if in .Params.tags "evergreen" }}
+        <a id="post-class-indicator" class="info" title="Evergreen post"
+          href="/tags/evergreen"><small><b>E</b></small></a>
+        {{ end }}</h1>
       {{ if eq .Section "blog" }}
-      {{ if in .Params.tags "featured" }}
-      <a id="post-class-indicator" class="info" title="Featured post"
-        href="/tags/featured"><i><small><b>★</b></small></i></a>
-      {{ end }}
-      {{ if in .Params.tags "evergreen" }}
-      <a id="post-class-indicator" class="info" title="Evergreen post"
-        href="/tags/evergreen"><i><small><b>E</b></small>vergreen</i></a>
-      {{ end }}
       {{ with .Site.Author.name }}
       <address class="info">by <a rel="author" href="/">{{ . }}</a></address>
       {{ end }}
