@@ -35,7 +35,7 @@ I call this website my life's work because it (the design + markup & styling) is
   - [sans-serif](https://opensource.bensonkitia.com/neo-system-font-stack/#sans-serif) (info, less prominent text)
   - [serif](https://opensource.bensonkitia.com/neo-system-font-stack/#serif) (a few misc. things)
   - [monospace](https://opensource.bensonkitia.com/neo-system-font-stack/#monospace) (code blocks)
-- [Inter](https://fonts.google.com/specimen/Inter) by Frank Grießhammer (everything else)
+- [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) by Frank Grießhammer (everything else)
 
 ### Licensing And Attribution
 
