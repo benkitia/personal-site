@@ -21,11 +21,12 @@
       <address class="info">by <a rel="author" href="/about/#about-the-writer" class="post-header">{{ . }}</a></address>
       {{ end }}
       <br>
-      <time pubdate datetime={{ .Date.Format "2006-01-02 15:04" }} class="info post-header">{{ .Date.Format "January 2, 2006" }}
+      <a href="/about/#timezone" class="post-header"><time pubdate datetime="{{ .Date.Format "2006-01-02 15:04" }}" class="info">{{ .Date.Format "January 2, 2006" }}
         <small>
-          at <a href="/about/#timezone">{{ .Date.Format "3:04 PM" }}</a>
+          at {{ .Date.Format "3:04 PM" }}
         </small>
       </time>
+      </a>
     {{ end }}
   </header>
     {{ .Content }}
