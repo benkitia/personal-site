@@ -1,14 +1,14 @@
 {{ define "main" }}
 <main>
   <style>
-    header a {
+    .post-header a {
       text-decoration: none;
     }
   </style>
   {{ if eq .Section "blog" }}
   <article>
     {{ end }}
-    <header>
+    <header class="post-header">
       <h1>{{ .Title }}{{ if in .Params.tags "featured" }}
         <a id="post-class-indicator" class="info" title="Featured post"
           href="/tags/featured"><small><b>★</b></small></a>
@@ -18,10 +18,10 @@
         {{ end }}</h1>
       {{ if eq .Section "blog" }}
       {{ with .Site.Author.name }}
-      <address class="info">by <a rel="author" href="/">{{ . }}</a></address>
+      <address class="info">by <a rel="author" href="/" class="post-header">{{ . }}</a></address>
       {{ end }}
       <br>
-      <time pubdate datetime={{ .Date.Format "2006-01-02 15:04" }} class="info">{{ .Date.Format "January 2, 2006" }}
+      <time pubdate datetime={{ .Date.Format "2006-01-02 15:04" }} class="info post-header">{{ .Date.Format "January 2, 2006" }}
         <small>
           at <a href="/about/#timezone">{{ .Date.Format "3:04 PM" }}</a>
         </small>
