@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 :root {
   --background: #444444;
   --font: white;
@@ -19,7 +17,7 @@
 body {
   background-color: var(--background);
   color: var(--font);
-  font-family: "Inter", "helvetica neue", "helvetica", sans-serif;
+  font-family: "Source Sans Pro", "helvetica neue", "helvetica", sans-serif;
   margin: auto;
   max-width: 480px;
   padding: 20px;
