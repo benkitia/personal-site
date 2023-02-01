@@ -72,10 +72,7 @@ a {
   text-underline-position: below;
 
   &:hover {
-    background-color: #767676;
-    background-color: var(--secondary);
-    color: #030303;
-    color: var(--tertiary);
+    background-color: rgba(185, 106, 255, 0.5);
     text-decoration: none;
   }
 }
@@ -150,20 +147,12 @@ p {
   a {
     text-decoration-color: white;
     text-decoration-color: var(--font);
-    &:hover {
-      background-color: white;
-      background-color: var(--font);
-    }
   }
 }
 
 .prominent {
   a {
     text-decoration-color: #b96aff;
-
-    &:hover {
-      background-color: #b96aff;
-    }
   }
 }
 
@@ -188,11 +177,6 @@ p {
 
 #post-class-indicator {
   text-decoration: none;
-
-  &:hover {
-    background-color: white;
-    background-color: var(--font);
-  }
 }
 
 #post-list {
