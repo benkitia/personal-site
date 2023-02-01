@@ -68,12 +68,15 @@ a {
   text-decoration: underline;
   text-decoration-color: #767676;
   text-decoration-color: var(--secondary);
-  text-underline-offset: 0.15em;
+  text-decoration-thickness: 0.075em;
+  text-underline-offset: 0.2em;
   text-underline-position: below;
 
   &:hover {
     background-color: rgba(185, 106, 255, 0.5);
-    text-decoration: none;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: inherit;
   }
 }
 
