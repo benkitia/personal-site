@@ -50,7 +50,9 @@ body {
   background-color: var(--background);
   color: white;
   color: var(--font);
-  font-family: "Source Sans Pro", "helvetica neue", "helvetica", sans-serif;
+  font-family: "Libre Franklin", -apple-system, BlinkMacSystemFont,
+    "Helvetica Neue", "Avenir Next", "Avenir", "Segoe UI", "Helvetica",
+    "Cantarell", "Ubuntu", "Roboto", "Noto", "Arial", sans-serif;
   margin: auto;
   max-width: 480px;
   padding: 20px;
@@ -87,7 +89,10 @@ article {
   p,
   ul,
   ol {
-    font-family: "Charter", "Source Serif Pro", "Georgia", serif;
+    font-family: "Charter", "Georgia", -apple-system-ui-serif, ui-serif,
+      "Iowan Old Style", "Apple Garamond", "Georgia", "Baskerville",
+      "Times New Roman", "Droid Serif", "Times", "Source Serif Pro", serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
 }
 
@@ -104,8 +109,9 @@ blockquote {
 }
 
 code {
-  font-family: ui-monospace, SFMono-Regular, ui-monospace, "Menlo", "Consolas",
-    "Monaco", "Liberation Mono", "Lucida Console", monospace;
+  font-family: "Berkeley Mono", "Berkeley Mono Variable", ui-monospace,
+    SFMono-Regular, ui-monospace, "Menlo", "Consolas", "Monaco",
+    "Liberation Mono", "Lucida Console", monospace;
 }
 
 footer {
@@ -118,6 +124,18 @@ footer {
 
 h1 {
   color: #b96aff;
+}
+
+// all headers use the same font
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    "Avenir Next", "Avenir", "Segoe UI", "Helvetica", "Cantarell", "Ubuntu",
+    "Roboto", "Noto", "Arial", sans-serif;
 }
 
 li {
@@ -208,13 +226,12 @@ p {
 
 #thanks h2 {
   color: #b96aff;
-  font-family: "Source Serif Pro", "Georgia", serif;
+  font-family: "Charter", "Georgia", serif;
   font-style: italic;
   font-weight: 300;
 }
 
 #wordmark-wrapper {
-  font-family: "Forum", serif;
   letter-spacing: 0.2em;
 
   a {
@@ -223,6 +240,9 @@ p {
     &:hover {
       background-color: inherit;
     }
+  }
+  h1 {
+    font-family: "Forum", serif;
   }
 }
 

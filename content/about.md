@@ -29,13 +29,13 @@ I call this website my life's work because it (the design + markup & styling) is
 
 ### Typography
 
+- [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) by Impallari Type (most body text)
+- [(Bitstream) Charter](https://fonts.google.com/specimen/Libre+Franklin) by Matthew Carter (blog post content)
 - [Forum](https://fonts.google.com/specimen/Forum) by Denis Masharov (wordmark)
-- (Bitstream) Charter by Matthew Carter (post content)
 - [Neo-System Font Stack](https://opensource.bensonkitia.com/neo-system-font-stack/)
-  - [sans-serif](https://opensource.bensonkitia.com/neo-system-font-stack/#sans-serif) (info — less prominent text)
-  - [serif](https://opensource.bensonkitia.com/neo-system-font-stack/#serif) (a few misc. things)
-  - [monospace](https://opensource.bensonkitia.com/neo-system-font-stack/#monospace) (code blocks)
-- [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) by Frank Grießhammer (everything else)
+  - [sans-serif](https://opensource.bensonkitia.com/neo-system-font-stack/#sans-serif) (headers, info — less prominent text, fallback)
+  - [serif](https://opensource.bensonkitia.com/neo-system-font-stack/#serif) (fallback)
+  - [monospace](https://opensource.bensonkitia.com/neo-system-font-stack/#monospace) (code blocks — unless you happen to have the beautiful [Berkeley Mono](https://berkeleygraphics.com/typefaces/berkeley-mono/) installed)
 
 ### Licensing And Attribution
 
