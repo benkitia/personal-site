@@ -4,12 +4,23 @@
   <h1>{{ . }}</h1>
   {{ end }} {{ if eq .Title "Blog Posts" }}
   <nav>
-    <ul class="info">
-      <li>
-        <a href="/categories">Filter by <b>Category</b></a>
+    <ul aria-label="Post filters" class="info">
+      <h3>Filter by:</h3>
+      <li aria-label="Filter by category or tag">
+        <a aria-label="Filter by category" href="/categories">Category</a> /
+        <a aria-label="Filter by tag" href="/tags">Tag</a>
       </li>
-      <li>
-        <a href="/tags">Filter by <b>Tag</b></a>
+      <li aria-label="Filter for featured or evergreen tag">
+        <a aria-label="Filter by featured tag" href="/tags/featured"
+          >Featured</a
+        >
+        /
+        <a
+          aria-label="Filter by evergreen tag"
+          class="small-caps"
+          href="/tags/evergreen"
+          >Evergreen</a
+        >
       </li>
     </ul>
   </nav>
