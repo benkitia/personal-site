@@ -27,7 +27,7 @@ outputs:
     - RSS
 params:
   description: Benson Kitia is a builder; designer & developer in Chicago.
-  wordmark: B.K.
+  wordmark: BK
   title: Benson Kitia
   twitter: "@bensonkitiacom"
   icon: https://bensonkitia.com/images/icon.png
