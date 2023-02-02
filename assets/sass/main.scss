@@ -243,7 +243,10 @@ p {
 }
 
 #site-footer {
-  font-weight: inherit;
+  p {
+    font-weight: inherit;
+  }
+
   padding-left: 40px;
   padding-top: 20px;
 }
