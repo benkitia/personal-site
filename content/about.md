@@ -29,7 +29,7 @@ I call this website my life's work because it (the design + markup & styling) is
 
 ### Typography
 
-- Most body text (like this) is sent in **[Mona Sans](https://github.com/github/mona-sans) by [GitHub](https://github.com/mona-sans)**
+- Most body text (like this) is set in **[Mona Sans](https://github.com/github/mona-sans) by [GitHub](https://github.com/mona-sans)**
 - Headers and other more prominent text is set in **[Hubot Sans](https://github.com/github/hubot-sans) by [GitHub](https://github.com/mona-sans)**
 - Blog post content is set in **[(Bitstream) Charter](https://fonts.google.com/specimen/Bitstream+Charter) by Matthew Carter**
 - The wordmark is set in **[Forum](https://fonts.google.com/specimen/Forum) by Denis Masharov**
