@@ -15,13 +15,7 @@
   {{ with .OutputFormats.Get "RSS" -}} {{ printf `
   <link rel="%s" type="%s" href="%s" title="%s" />
   ` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }} {{- end }}
-  <!-- Load fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Forum&display=swap"
-    rel="stylesheet"
-  />
+  <!-- Preload/prefetch fonts -->
   <link
     rel="preload"
     href="/font/Hubot-Sans.woff2"
