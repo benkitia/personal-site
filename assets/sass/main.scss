@@ -181,6 +181,10 @@ p {
   font-style: italic;
 }
 
+.inline-padded {
+  padding-left: 5px;
+}
+
 .prominent {
   font-family: "Hubot Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
     "Avenir Next", "Avenir", "Segoe UI", "Helvetica", "Cantarell", "Ubuntu",
@@ -189,6 +193,11 @@ p {
   a {
     text-decoration-color: #b96aff;
   }
+}
+
+.small-caps {
+  font-variant: small-caps;
+  font-variant-caps: small-caps;
 }
 
 #dated-li {

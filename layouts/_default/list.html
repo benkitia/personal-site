@@ -19,32 +19,36 @@
   <ul id="post-list">
     {{ range .Pages }}
     <li>
-      <span class="info"
-        ><i
-          ><small><time>{{ .Date.Format "Jan 2 ’06" }}</time></small></i
-        ></span
-      ><br />
-      {{ if in .Params.tags "featured" }}
-      <a
-        class="info no-decoration"
-        title="Featured post"
-        aria-label="Featured post"
-        href="/tags/featured"
-        ><i
-          ><small><b>★</b></small></i
-        ></a
-      >
-      {{ end }} {{ if in .Params.tags "evergreen" }}
-      <a
-        class="info no-decoration"
-        title="Evergreen post"
-        aria-label="Evergreen post"
-        href="/tags/evergreen"
-        ><i
-          ><small><b>E</b></small></i
-        ></a
-      >
-      {{ end }}
+      <span class="info">
+        <i>
+          <small>
+            <time>{{ .Date.Format "Jan 2 ’06" }}</time>
+            {{ if in .Params.tags "featured" }}
+            <span class="inline-padded">
+              <a
+                class="info no-decoration"
+                title="Featured post"
+                aria-label="Featured post"
+                href="/tags/featured"
+              >
+                <b>★</b>
+              </a>
+            </span>
+            {{ end }} {{ if in .Params.tags "evergreen" }}
+            <span class="inline-padded small-caps">
+              <a
+                class="info no-decoration"
+                title="Evergreen post"
+                aria-label="Evergreen"
+                href="/tags/evergreen"
+              >
+                <b>Evergreen</b>
+              </a> </span
+            >{{ end }}
+          </small>
+        </i>
+      </span>
+      <br />
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
     {{ end }}
