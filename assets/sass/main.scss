@@ -197,6 +197,7 @@ p {
     "Avenir Next", "Avenir", "Segoe UI", "Helvetica", "Cantarell", "Ubuntu",
     "Roboto", "Noto", "Arial", sans-serif;
   font-stretch: expanded;
+  font-weight: bolder;
   a {
     text-decoration-color: #b96aff;
   }
@@ -242,6 +243,7 @@ p {
 }
 
 #site-footer {
+  font-weight: inherit;
   padding-left: 40px;
   padding-top: 20px;
 }
