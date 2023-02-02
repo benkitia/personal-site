@@ -1,9 +1,6 @@
 [build.environment]
     TZ = "America/Chicago"
 [[headers]]
-  for = "/font/*"
+  for = "/static/font/*"
   [headers.values]
-    cache-control = '''
-    max-age=31556952,
-    public
-    immutable'''
+    cache-control = "max-age=31536000, public, immutable"

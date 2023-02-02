@@ -30,6 +30,13 @@
     type="font/woff2"
     crossorigin
   />
+  <link
+    rel="preload"
+    href="/font/charter_bold_italic.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
   {{ if and (eq .Type "blog") (not (eq .Title "Blog")) }}
   <link
     rel="preload"
@@ -52,13 +59,6 @@
     type="font/woff2"
     crossorigin
   />
-  <link
-    rel="preload"
-    href="/font/charter_bold_italic.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
   {{ else }}
   <link
     rel="prefetch"
@@ -77,13 +77,6 @@
   <link
     rel="prefetch"
     href="/font/charter_bold.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="prefetch"
-    href="/font/charter_bold_italic.woff2"
     as="font"
     type="font/woff2"
     crossorigin
