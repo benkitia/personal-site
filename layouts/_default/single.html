@@ -36,15 +36,17 @@
   <footer class="info" id="taxonomy">
     {{ with .Params.categories }}
     <p>
-      Posted in: {{ range $key, $value := . }} {{- if $key }}, {{ end }}
-      <a href='{{ "/categories/" | relLangURL }}{{ $value | urlize }}'
-        >{{ . }}</a
-      >
+      <b>Posted in:</b> {{ range $key, $value := . }} {{- if $key }}, {{ end }}
+      <a href='{{ "/categories/" | relLangURL }}{{ $value | urlize }}'>
+        {{ . }}
+      </a>
       {{- end }}
     </p>
     {{ end }}
     {{ with .Params.tags }}
-    <p>Tagged with: {{ range $key, $value := . }}{{- if $key }}, {{ end }}<a href='{{ "/tags/" | relLangURL }}{{ $value | urlize }}'>{{ . }}</a>{{- end }}</p>
+    <p>
+      <b>Tagged with:</b> {{ range $key, $value := . }}{{- if $key }}, {{ end }}<a href='{{ "/tags/" | relLangURL }}{{ $value | urlize }}'>{{ . }}</a>{{- end }}
+    </p>
     {{ end }}
   </footer>
 </main>
