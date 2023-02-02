@@ -196,10 +196,6 @@ p {
   }
 }
 
-#post-class-indicator {
-  text-decoration: none;
-}
-
 #post-list {
   list-style-type: none;
   padding: 0;
@@ -234,13 +230,10 @@ p {
 #wordmark-wrapper {
   letter-spacing: 0.2em;
 
-  a {
-    text-decoration: none;
-
-    &:hover {
-      background-color: inherit;
-    }
+  a:hover {
+    background-color: inherit;
   }
+
   h1 {
     font-family: "Forum", serif;
   }
@@ -249,4 +242,8 @@ p {
 .hidden {
   display: none !important;
   visibility: hidden !important;
+}
+
+.no-decoration {
+  text-decoration: none !important;
 }

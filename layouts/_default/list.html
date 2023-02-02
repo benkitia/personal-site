@@ -26,9 +26,9 @@
       ><br />
       {{ if in .Params.tags "featured" }}
       <a
-        id="post-class-indicator"
-        class="info"
+        class="info no-decoration"
         title="Featured post"
+        aria-label="Featured post"
         href="/tags/featured"
         ><i
           ><small><b>★</b></small></i
@@ -36,9 +36,9 @@
       >
       {{ end }} {{ if in .Params.tags "evergreen" }}
       <a
-        id="post-class-indicator"
-        class="info"
+        class="info no-decoration"
         title="Evergreen post"
+        aria-label="Evergreen post"
         href="/tags/evergreen"
         ><i
           ><small><b>E</b></small></i
