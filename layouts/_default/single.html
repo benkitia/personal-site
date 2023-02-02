@@ -44,11 +44,7 @@
     </p>
     {{ end }}
     {{ with .Params.tags }}
-    <p>
-      Tags: {{ range $key, $value := . }} {{- if $key }}, {{ end }}
-      <a href='{{ "/tags/" | relLangURL }}{{ $value | urlize }}'>{{ . }}</a>
-      {{- end }}
-    </p>
+    <p>Tagged with: {{ range $key, $value := . }}{{- if $key }}, {{ end }}<a href='{{ "/tags/" | relLangURL }}{{ $value | urlize }}'>{{ . }}</a>{{- end }}</p>
     {{ end }}
   </footer>
 </main>
