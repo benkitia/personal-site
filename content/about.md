@@ -31,7 +31,7 @@ I call this website my life's work because it (the design + markup & styling) is
 
 - Most body text (like this) is set in **[Mona Sans](https://github.com/github/mona-sans) by [GitHub](https://github.com/mona-sans)**
 - Headers and other more prominent text is set in **[Hubot Sans](https://github.com/github/hubot-sans) by [GitHub](https://github.com/mona-sans)**
-- Blog post content is set in **[(Bitstream) Charter](https://fonts.google.com/specimen/Bitstream+Charter) by Matthew Carter**
+- Blog post content is set in **[Charter](https://practicaltypography.com/charter.html) by Matthew Carter**
 - The wordmark is set in **[Forum](https://fonts.google.com/specimen/Forum) by Denis Masharov**
 - Code blocks use **my [Neo-System Font Stack](https://opensource.bensonkitia.com/neo-system-font-stack/)**'s [mono variant](https://opensource.bensonkitia.com/neo-system-font-stack/#mono) — unless you have the beautiful [Berkeley Mono](https://berkeleygraphics.com/typefaces/berkeley-mono/) installed.
 - **[Neo-System Font Stack](https://opensource.bensonkitia.com/neo-system-font-stack/)**'s [sans-serif](https://opensource.bensonkitia.com/neo-system-font-stack/#sans-serif) and [serif](https://opensource.bensonkitia.com/neo-system-font-stack/#serif) variants are used as fallbacks.
