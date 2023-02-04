@@ -18,6 +18,8 @@ I call this website my life's work because it (the design + markup & styling) is
 
 ### Toolbox
 
+#### For this website & blog
+
 - [Hugo](https://gohugo.io/)
 - [Markdown](https://daringfireball.net/projects/markdown/)/[MultiMarkdown](https://fletcherpenney.net/multimarkdown/)
 - [Drafts](https://getdrafts.com)
@@ -26,6 +28,14 @@ I call this website my life's work because it (the design + markup & styling) is
 - [Tower](https://www.git-tower.com/mac)
 - [GitHub](https://github.com/)
 - [Netlify](https://netlify.com/)
+
+#### In general
+
+- [My daily-driven Mac's dock](https://www.dockhunt.com/users/bensonkitia)
+- [Posts tagged with "home screens"](https://bensonkitia.com/tags/home-screens/)
+- [Posts tagged with "workflows"](https://bensonkitia.com/tags/workflows/)
+- [Posts tagged with "apps"](https://bensonkitia.com/tags/apps/)
+- [Posts in the "Productivity" category](https://bensonkitia.com/categories/productivity/)
 
 ### Typography
 
