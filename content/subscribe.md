@@ -4,7 +4,7 @@ title: "Subscribe"
 
 ## Project updates
 
->[Click here to subscribe to an email feed of ***infrequent, high-quality updates about cool projects*** I poured my heart into](<https://helianth.co/subscribe?ref=bensonkitia.com/subscribe>)
+>[Click here to subscribe to an email feed of ***infrequent, high-quality updates about cool projects*** I poured my heart into](<https://helianth.co/subscribe?utm_source=bensonkitia.com/subscribe>)
 
 ## Blog posts
 
