@@ -1,2 +1,15 @@
-/writings/*  /blog/:splat
+/writings/* /blog/:splat
 /colophon /about
+/blog/2022-the-year-of-building/ /blog/2022/01/2022-the-year-of-building/
+/blog/why-im-optimistic-about-wordles-acquisition/ /blog/2021/01/why-im-optimistic-about-wordles-acquisition/ 
+/blog/ios-app-design-inspirations/ /blog/2022/02/ios-app-design-inspirations/
+/blog/my-iphone-home-screen-feb-22/ /blog/2022/04/my-iphone-home-screen-feb-22/
+/blog/the-state-of-music-streaming-services-in-2022/ /blog/2022/03/the-state-of-music-streaming-services-in-2022/
+/blog/three-things-that-have-made-me-considerably-happier/ /blog/2022/04/07/three-things-that-have-made-me-considerably-happier/
+/blogß/the-crucial-piece-missing-from-a-task-list-why/ /blog/2022/06/the-crucial-piece-missing-from-a-task-list-why/
+/blog/on-spreading-positivity/ /blog/2022/07/on-spreading-positivity/
+/blog/trade-in-trade-offs/ blog/2022/10/trade-in-trade-offs/
+/blog/products-i-endorse/ /blog/2022/12/products-i-endorse/
+/blog/the-grain-is-in-a-leaky-silo-thats-on-fire/ /blog/2022/12/the-grain-is-in-a-leaky-silo-thats-on-fire/
+/blog/on-screen-protectors/ /blog/2022/12/on-screen-protectors/
+/blog/the-best-pizza-ive-ever-had/ /blog/2022/02/the-best-pizza-ive-ever-had/
