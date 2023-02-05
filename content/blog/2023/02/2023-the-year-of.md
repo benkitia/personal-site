@@ -15,7 +15,7 @@ I planned to start writing this post on New Year's Day and have it posted by Jan
 
 Me, January 3rd, 2022:
 
-> [Inspired by the [Cortex Podcast's tradition of yearly themes](https://www.relay.fm/cortex/123), going into 2022 I decided to set a yearly theme for myself for the first time. Reflecting upon 2021, I've spent the year, largely indoors, thinking; of ideas for projects I want to build, aspects of my life that I want to change. My life could use some action. Not like, getting into gunfights action, some things just need to be done.  
+> [Inspired by the Cortex Podcast's tradition of yearly themes, going into 2022 I decided to set a yearly theme for myself for the first time. Reflecting upon 2021, I've spent the year, largely indoors, thinking; of ideas for projects I want to build, aspects of my life that I want to change. My life could use some action. Not like, getting into gunfights action, some things just need to be done.  
 This year, there are several categories in which I want to apply the theme of “building”: projects, habits & routines, relationships & connections, and wealth. For each of these categories, I’ll talk about how I plan to approach related aspects of my life differently than 2021, and some goals I’m setting to keep me on track with my yearly theme.](https://bensonkitia.com/blog/2022/01/2022-the-year-of-building/)
 
 I did not embody the theme of "building" as well as I could have, and while I don't have strong feelings toward that fact, I do have a few thoughts:
