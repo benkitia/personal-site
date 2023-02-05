@@ -3,7 +3,10 @@ title: "The best pizza I've ever had"
 categories:
     - food
 tags:
+    - coke
+    - pepsi
     - pizza
+    - pop
     - the beetle bar and grill
 date: 2023-02-04T23:03:07-06:00
 draft: false
@@ -13,4 +16,4 @@ I had the best pizza I've ever had in my life today at [The Beetle Bar and Grill
 
 Anyway, here's the pizza, "The Roni" at The Beetle Bar and Grill:
 
-![The Beetle Bar and Grill's "The Roni" pizza](/images/blog/pizza.jpg 'The Beetle Bar and Grill's "The Roni" pizza')](/images/blog/the-best-pizza-ive-ever-had/the-pizza.jpg)
+![The Beetle Bar and Grill's "The Roni" pizza](/images/blog/pizza.jpg "The Beetle Bar and Grill's "The Roni" pizza")](/images/blog/the-best-pizza-ive-ever-had/the-pizza.jpg)
