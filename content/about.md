@@ -20,6 +20,8 @@ I call this website my life's work because it (the design + markup & styling) is
 
 #### For this website & blog
 
+I use:
+
 - [Hugo](https://gohugo.io/)
 - [Markdown](https://daringfireball.net/projects/markdown/)/[MultiMarkdown](https://fletcherpenney.net/multimarkdown/)
 - [Drafts](https://getdrafts.com)
@@ -30,6 +32,8 @@ I call this website my life's work because it (the design + markup & styling) is
 - [Netlify](https://netlify.com/)
 
 #### In general
+
+Find more info:
 
 - [My daily-driven Mac's dock](https://www.dockhunt.com/users/bensonkitia)
 - [Posts tagged with "home screens"](https://bensonkitia.com/tags/home-screens/)
