@@ -1,20 +1,13 @@
 <div id="thanks">
   <h2>Thanks for reading!</h2>
-  {{ if .Params.former }}
   <p>
-    <a
-      href="https://twitter.com/search?q=%22{{ .Params.former }}%22%20(from%3Abensonkitiacom)&f=live"
-      >Discuss or share on Twitter</a
+    Share thoughts:
+    <a href="mailto:hello@bvk.email?subject=Your%20blog%20post%20{{ .Title }}"
+      >email</a
     >
+    / <a href="https://twitter.com/bensonkitia">Twitter</a> /
+    <a href="https://mastodon.social/@kitia">Mastodon</a>
   </p>
-  {{ else }}
-  <p>
-    <a
-      href="https://twitter.com/search?q=%22{{ .Title }}%22%20(from%3Abensonkitiacom)&f=live"
-      >Discuss or share on Twitter</a
-    >
-  </p>
-  {{ end }}
   <p id="sharesheet-link">
     <a onclick="shareSheet('{{ .Permalink }}')">Share post link</a>
   </p>
