@@ -29,6 +29,7 @@ Here is an evergreen list of products that I endorse, in alphabetical order:
 - [Raivo OTP](https://raivo-otp.com) - The best one-time password app
 - [Sports Alerts](https://apps.apple.com/us/app/sports-alerts/id432450349) - The best sports scores app
 - [Sticker Mule](https://stickermule.com) - The best place to buy custom stickers
+- [The Roni](/blog/the-best-pizza-ive-ever-had) at [The Beetle Bar and Grill](https://www.thebeetlechicago.com/) - The best pizza
 - [Visual Studio Code](https://code.visualstudio.com) - The industry-standard text editor for good reason
 - [Yeti Rambler 20 oz Tumbler](https://www.yeti.com/drinkware/tumblers/21070060028.html) - The best tumbler
 - [uBlock Origin](https://ublockorigin.com/) - The best ad blocker for Chromium and Firefox
