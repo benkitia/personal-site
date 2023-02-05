@@ -24,7 +24,7 @@ If you think about iPhones solely as a luxury this opinion is very agreeable. We
 
 Without a modern smartphone, it would've taken me a third longer to find somewhere to get a good breakfast and navigate from Urban Kayaks on the Riverwalk to Eggy's in Streeterville just earlier today. And with the location's unusual defiance of Chicago's typically trivial-to-navigate gird system that I love so dearly, without GPS I likely would have given up and chosen a different diner whose address I can reach intuitively.
 
-![Walking route from Urban Kayaks to Eggy's](/images/writings/trade-in-trade-offs/1.PNG "A screenshot of a 14 minute walking route on Apple Maps from Urban Kayaks to Eggy's in downtown Chicago")
+![Walking route from Urban Kayaks to Eggy's](/images/blog/eggys-apple-maps-sc.jpeg "A screenshot of a 14 minute walking route on Apple Maps from Urban Kayaks to Eggy's in downtown Chicago")
 
 Surely an iPhone from 3, 4, or 5 years ago could've gotten me there. Could it, though? From simply point A to point B in ideal conditions- yeah, for sure. What if I told you I had been using GPS navigation for an hour among GPS signal-weakening skyscrapers and took a ton of pictures and videos on the river? As someone who's used an iPhone 6s as both a daily driver near its prevalence and then as a trap/burner phone for [Lollapalooza](https://www.chicagotribune.com/opinion/editorials/ct-editorial-lollapalooza-phone-thefts-20220802-h5kb3kszqnewxh2p67zkl3fkmm-story.html) this summer, almost 6 years after its release, no, I would have needed a portable charger to reach Eggy's. Even an iPhone 11 or 12 mini may have been a toss-up.
 

@@ -15,7 +15,7 @@ draft: false
 
 I've always been intrigued as to what others' iPhone home screen setups look like and put (too) much thought into my own. To look back on and share with anyone who may be interested, I thought I'd leave a screenshot of my home screen here along with a walk through of the what what and why of everything you see.
 
-![My iPhone 13 Mini home screen setup as of February 2022](/images/writings/my-iphone-home-screen-feb-22/1.jpeg "My iPhone 13 Mini home screen setup as of February 2022")
+![My iPhone 13 Mini home screen setup as of February 2022](/images/blog/homescreen-202102-1.jpeg "My iPhone 13 Mini home screen setup as of February 2022")
 
 ## Weather Widget
 
@@ -55,7 +55,7 @@ Not nearly the best solution for most nerds, but I'm not a big calendar guy and 
 
 ### Notes
 
-I use Apple Notes for everything personal, from taking notes in class to [ranking Kanye albums](/images/writings/my-iphone-home-screen-feb-22/2.jpeg). It's quite good. Maybe I'll write about that soon.
+I use Apple Notes for everything personal, from taking notes in class to [ranking Kanye albums](/images/blog/homescreen-202102-2.jpeg). It's quite good. Maybe I'll write about that soon.
 
 ### Reminders
 
@@ -87,7 +87,7 @@ My second biggest time suck. I am mad about this one.
 
 A folder of apps that I use an average of 1.0 times a day.
 
-![Home screen folder labeled "Daily"](/images/writings/my-iphone-home-screen-feb-22/3.jpeg  "My Daily folder")
+![Home screen folder labeled "Daily"](/images/blog/homescreen-202102-3.jpeg  "My Daily folder")
 
 #### [Co -- Star](https://apps.apple.com/us/app/co-star-personalized-astrology/id1264782561)
 
@@ -141,7 +141,7 @@ My podcast client of choice.
 
 ## Wallpaper
 
-[Direct link to wallpaper](/images/writings/my-iphone-home-screen-feb-22/4.jpeg)
+[Direct link to wallpaper](/images/blog/homescreen-202102-4.jpeg)
 
 [^1]: The complaint isn't anything major or important or deal-breaking. Just a slightly irritating bug; the app forgets what I'm doing at the train station I transfer at during my commute to/from school, so I have to manually enter the activity for that location each time. App is still 5/5.
 

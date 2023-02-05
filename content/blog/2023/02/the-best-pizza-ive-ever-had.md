@@ -16,4 +16,4 @@ I had the best pizza I've ever had in my life today at [The Beetle Bar and Grill
 
 Anyway, here's the pizza, "The Roni" at The Beetle Bar and Grill:
 
-![A pan-crust personal pepperoni pizza](/images/blog/the-best-pizza-ive-ever-had/pizza.JPG "The Beetle Bar and Grill's The Roni")
+![The Beetle Bar and Grill's "The Roni" pizza](/images/blog/the-roni.jpeg "A pan-crust personal pepperoni pizza")

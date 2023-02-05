@@ -98,9 +98,6 @@ a {
 }
 
 article {
-  img {
-    max-width: 240px;
-  }
   p,
   ul,
   ol {
@@ -154,6 +151,10 @@ h6 {
     "Roboto", "Noto", "Arial", sans-serif;
   font-stretch: extra-expanded;
   font-weight: bolder;
+}
+
+img {
+  max-width: 100%;
 }
 
 li {
