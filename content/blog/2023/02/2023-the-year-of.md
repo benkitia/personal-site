@@ -33,7 +33,7 @@ Allow me to remind you of this great illustration by [Tim Urban](https://waitbut
 
 ![Tim Urban's illustration of life paths](/images/blog/tim-urban-life-paths.jpeg "An illustration showing many life paths represented by lines, with a green dot in the middle and potential paths deviating slowly to the left and right")
 
-A yearly theme is directional; "I want this aspect of my life to move in this direction". The beauty of yearly themes is that the aspect and direction part can be as broad or as narrow as you want. In terms of the illustration, if the beginning of the year is that green dot in the middle, a yearly theme should guide you *toward* a *region of paths*; "Within the red square's range, I want to be within the red square's domain".
+A yearly theme is directional; "I want this aspect of my life to move in this direction". The beauty of yearly themes is that the aspect and direction part can be as broad or as narrow as you want. In terms of the illustration, if the beginning of the year is that green dot in the middle, a yearly theme should guide you *toward* a *region of paths*; "When I reach the red square's domain, I want to be within the red square's range".
 
 ![Tim Urban's illustration of life paths with a highlighted region](/images/blog/region-of-paths.jpeg "An illustration showing many life paths represented by lines, with a green dot in the middle and potential paths deviating slowly to the left and right. Towards the top right of the illustration, a red square highlights a region of 5 paths at a particular point.")
 
