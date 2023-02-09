@@ -4,7 +4,7 @@ title: "About"
 
 ## About the writer
 
-I'm, foremost, a junior (3rd year) at my public high school in South Loop, Chicago where I'm founding, leading, and teaching my school's first [Hack Club](https://hackclub.com). Outside of school, I enjoy building things. Right now, I'm building the foundation for a [big idea](https://realize.lol) I think you'll want to [hear about](/subscribe/#project-updates) in the future. In addition to some commission web dev work, I'm also constantly writing for and iterating upon this website and sporadically working on smaller [side projects](/projects).
+I'm, foremost, a junior (3rd year) at my public high school in South Loop, Chicago where I'm founding, leading, and teaching my school's first [Hack Club](https://hackclub.com). Outside of school, I enjoy building things. Right now, I'm building the foundation for some ideas I think you'll want to [hear about](/subscribe/#project-updates) in the future. In addition to some commission web dev work, I'm also constantly writing for and iterating upon this website and sporadically working on smaller [side projects](/projects).
 
 ### Why and what I write
 
@@ -48,13 +48,13 @@ Find more info:
 - Blog post content and the “BK” monogram is set in **[Charter](https://practicaltypography.com/charter.html) by Matthew Carter**
 - Code blocks use **my [Neo-System Font Stack](https://opensource.bensonkitia.com/neo-system-font-stack/)**'s [mono variant](https://opensource.bensonkitia.com/neo-system-font-stack/#monospace) — unless you have the beautiful [Berkeley Mono](https://berkeleygraphics.com/typefaces/berkeley-mono/) or [JetBrains Mono](https://www.jetbrains.com/lp/mono/) installed. N-SFS' [sans-serif](https://opensource.bensonkitia.com/neo-system-font-stack/#sans-serif) and [serif](https://opensource.bensonkitia.com/neo-system-font-stack/#serif) variants are used as fallbacks where applicable.
 
-### Licensing And attribution
+### Licensing and attribution
 
 #### Blog posts
 
-I'd love to be quoted or referenced, but please don't copy or republish my work without my permission.
+All [blog posts](https://bensonkitia.com/blog) published to bensonkitia.com are Copyrighted © 2022-present me, Benson Kitia. All Rights Reserved.
 
-[All blog posts](https://bensonkitia.com/blog) published to bensonkitia.com are Copyrighted © 2022-present me, Benson Kitia. All Rights Reserved.
+I’d generally love for my content to be referenced, quoted, or otherwise used under [fair use](https://en.wikipedia.org/wiki/Fair_use) (and with respect), but please don’t copy or republish my work without my permission.
 
 #### Source code
 
