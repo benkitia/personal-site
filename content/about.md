@@ -46,7 +46,7 @@ Find more info:
 - Most body text (like this) is set in **[Mona Sans](https://github.com/github/mona-sans) by [GitHub](https://github.com/mona-sans)**
 - More prominent elements, like headers, are set in **[Hubot Sans](https://github.com/github/hubot-sans) by [GitHub](https://github.com/mona-sans)**
 - Blog post content and the “BK” monogram is set in **[Charter](https://practicaltypography.com/charter.html) by Matthew Carter**
-- Code blocks use **my [Neo-System Font Stack](https://opensource.bensonkitia.com/neo-system-font-stack/)**'s [mono variant](https://opensource.bensonkitia.com/neo-system-font-stack/#monospace) — unless you have the beautiful [Berkeley Mono](https://berkeleygraphics.com/typefaces/berkeley-mono/) or [JetBrains Mono](https://www.jetbrains.com/lp/mono/) installed. N-SFS' [sans-serif](https://opensource.bensonkitia.com/neo-system-font-stack/#sans-serif) and [serif](https://opensource.bensonkitia.com/neo-system-font-stack/#serif) variants are used as fallbacks where applicable.
+- Code blocks use **my [Neo-System Font Stack](https://bensonkitia.com/neo-system-font-stack/)**'s [mono variant](https://bensonkitia.com/neo-system-font-stack/#monospace) — unless you have [JetBrains Mono](https://www.jetbrains.com/lp/mono/) installed. N-SFS' [sans-serif](https://bensonkitia.com/neo-system-font-stack/#sans-serif) and [serif](https://neo-system-font-stack/#serif) variants are used as fallbacks where applicable.
 
 ### Licensing and attribution
 
