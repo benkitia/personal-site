@@ -28,4 +28,4 @@ Here is an evergreen list of products that I unsolicitedly endorse, in alphabeti
 - [Visual Studio Code](https://code.visualstudio.com) - The industry-standard text editor for good reason
 - [Yeti Rambler 20 oz Tumbler](https://www.yeti.com/drinkware/tumblers/21070060028.html) - The best tumbler
 - [uBlock Origin](https://ublockorigin.com/) - The best ad blocker for Chromium and Firefox
-- [Wipr](https://wipr.io/) - The best ad blocker (for Safari)
+- [Wipr](https://giorgiocalderolla.com/wipr.html) - The best ad blocker (for Safari)
