@@ -66,9 +66,9 @@ body {
   background-color: var(--background);
   color: white;
   color: var(--font);
-  font-family: "Mona Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-    "Avenir Next", "Avenir", "Segoe UI", "Helvetica", "Cantarell", "Ubuntu",
-    "Roboto", "Noto", "Arial", sans-serif;
+  font-family: "Mona Sans", -apple-system, BlinkMacSystemFont, avenir next,
+    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+    arial, sans-serif;
   margin: auto;
   max-width: 480px;
   padding: 20px;
@@ -101,10 +101,9 @@ article {
   p,
   ul,
   ol {
-    font-family: "Charter", "Georgia", -apple-system-ui-serif, ui-serif,
-      "Iowan Old Style", "Apple Garamond", "Georgia", "Baskerville",
-      "Times New Roman", "Droid Serif", "Times", "Source Serif Pro", serif,
-      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Charter", Iowan Old Style, Apple Garamond, Baskerville,
+      Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
+      Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     font-size: 1.075em;
   }
 }
@@ -122,8 +121,8 @@ blockquote {
 }
 
 code {
-  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, "Menlo",
-    "Consolas", "Monaco", "Liberation Mono", "Lucida Console", monospace;
+  font-family: "JetBrains Mono", Menlo, Consolas, Monaco, Liberation Mono,
+    Lucida Console, monospace;
 }
 
 footer {
@@ -144,10 +143,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Hubot Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-    "Avenir Next", "Avenir", "Segoe UI", "Helvetica", "Cantarell", "Ubuntu",
-    "Roboto", "Noto", "Arial", sans-serif;
-  font-stretch: extra-expanded;
+  font-family: "Hubot Sans", -apple-system, BlinkMacSystemFont, avenir next,
+    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+    arial, sans-serif;
   font-weight: bolder;
 }
 
@@ -161,10 +159,9 @@ li {
 
 nav {
   li {
-    font-family: "Hubot Sans", -apple-system, BlinkMacSystemFont,
-      "Helvetica Neue", "Avenir Next", "Avenir", "Segoe UI", "Helvetica",
-      "Cantarell", "Ubuntu", "Roboto", "Noto", "Arial", sans-serif;
-    font-stretch: ultra-expanded;
+    font-family: "Hubot Sans", -apple-system, BlinkMacSystemFont, avenir next,
+      avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto,
+      noto, arial, sans-serif;
     font-weight: 500;
     line-height: 1.75;
   }
@@ -193,9 +190,9 @@ p {
 }
 
 .prominent {
-  font-family: "Hubot Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-    "Avenir Next", "Avenir", "Segoe UI", "Helvetica", "Cantarell", "Ubuntu",
-    "Roboto", "Noto", "Arial", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
   font-stretch: expanded;
   font-weight: bolder;
   a {
