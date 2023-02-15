@@ -25,6 +25,8 @@ outputs:
   home:
     - HTML
     - RSS
+permalinks:
+  publ: /:title/
 params:
   description: Benson Kitia is a builder; designer & developer in Chicago.
   wordmark: BK
