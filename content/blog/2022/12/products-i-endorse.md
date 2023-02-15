@@ -17,7 +17,7 @@ Here is an evergreen list of products that I unsolicitedly endorse, in alphabeti
 - [Adidas UltraBoost 19 'Panda'](https://www.goat.com/sneakers/ultraboost-19-panda-b37707) - The best beater shoe, and very comfortable
 - [Apollo](https://apolloapp.io/) - The best Reddit client (not that I'm a big Reddit guy)
 - [Cleanshot X](https://cleanshot.com/) - An exceedingly life-changing utility
-- [Day One](https://dayoneapp.com/) - A dependable journaling software
+- [Day One](https://dayoneapp.com/) - A well-done, exceedingly [dependable](https://dayoneapp.com/blog/the-next-chapter-of-day-one-at-automattic/) journaling software
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/) - The best typeface for code
 - [Mimestream](https://mimestream.com) - The best email client (besides [Inbox by Gmail](https://en.wikipedia.org/wiki/Inbox_by_Gmail)
 - [Namecheap](https://namecheap.com) - An exceedingly dependable and inexpensive domain registrar
