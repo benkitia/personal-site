@@ -20,7 +20,7 @@ Here is an evergreen list of products that I unsolicitedly endorse, in alphabeti
 - [Day One](https://dayoneapp.com/) - A well-done, exceedingly [dependable](https://dayoneapp.com/blog/the-next-chapter-of-day-one-at-automattic/) journaling software
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/) - The best typeface for code
 - [Mimestream](https://mimestream.com) - The best email client (besides [Inbox by Gmail](https://en.wikipedia.org/wiki/Inbox_by_Gmail)
-- [Namecheap](https://namecheap.com) - An exceedingly dependable and inexpensive domain registrar
+- [Namecheap](https://namecheap.com)) - An exceedingly dependable and inexpensive domain registrar
 - [Raivo OTP](https://raivo-otp.com) - The best one-time password app
 - [Sports Alerts](https://apps.apple.com/us/app/sports-alerts/id432450349) - The best sports scores app
 - [Sticker Mule](https://stickermule.com) - ***ZERO***-complaints stickers
