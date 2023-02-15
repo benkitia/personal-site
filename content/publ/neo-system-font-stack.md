@@ -10,21 +10,15 @@ A better, opinionated system font stack by [Benson Kitia](https://bensonkitia.co
 
 ### Sans-serif
 
-```CSS
-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Avenir Next', 'Avenir', 'Segoe UI', 'Helvetica', 'Cantarell', 'Ubuntu', 'Roboto', 'Noto', 'Arial', sans-serif;
-```
+`font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Avenir Next', 'Avenir', 'Segoe UI', 'Helvetica', 'Cantarell', 'Ubuntu', 'Roboto', 'Noto', 'Arial', sans-serif;`
 
 ### Serif
 
-```CSS
-font-family: -apple-system-ui-serif, ui-serif, 'Iowan Old Style', 'Apple Garamond', 'Georgia', 'Baskerville', 'Times New Roman', 'Droid Serif', 'Times', 'Source Serif Pro', serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-```
+`font-family: -apple-system-ui-serif, ui-serif, 'Iowan Old Style', 'Apple Garamond', 'Georgia', 'Baskerville', 'Times New Roman', 'Droid Serif', 'Times', 'Source Serif Pro', serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';`
 
 ### Monospace
 
-```CSS
-font-family: ui-monospace, SFMono-Regular, ui-monospace, 'Menlo', 'Consolas', 'Monaco', 'Liberation Mono', 'Lucida Console', monospace;
-```
+`font-family: ui-monospace, SFMono-Regular, ui-monospace, 'Menlo', 'Consolas', 'Monaco', 'Liberation Mono', 'Lucida Console', monospace;`
 
 ## FAQ
 
