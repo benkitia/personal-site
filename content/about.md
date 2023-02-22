@@ -69,4 +69,6 @@ This blog is dedicated to MF DOOM.
 
 ### Status
 
+#### Last built
+
 {{< last-built >}}
