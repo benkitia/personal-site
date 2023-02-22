@@ -1,0 +1,5 @@
+/static/font/*
+  cache-control: max-age=31536000, public, immutable
+
+/static/images/blog/*
+  cache-control: max-age=31536000, public, immutable
