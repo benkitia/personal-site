@@ -67,4 +67,4 @@ All dates and times on this website are in (America/)Chicago time, which is Cent
 
 This blog is dedicated to MF DOOM.
 
-{{< status >}}
+{{< hardcoded-injection >}}status{{< /hardcoded-injection >}}
