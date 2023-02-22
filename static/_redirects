@@ -1,4 +1,3 @@
-/writings/* /blog/:splat
 /colophon /about
 /blog/2022-the-year-of-building/ /blog/2022/01/2022-the-year-of-building/
 /blog/why-im-optimistic-about-wordles-acquisition/ /blog/2021/01/why-im-optimistic-about-wordles-acquisition/ 
@@ -13,3 +12,4 @@
 /blog/the-grain-is-in-a-leaky-silo-thats-on-fire/ /blog/2022/12/the-grain-is-in-a-leaky-silo-thats-on-fire/
 /blog/on-screen-protectors/ /blog/2022/12/on-screen-protectors/
 /blog/the-best-pizza-ive-ever-had/ /blog/2023/02/the-best-pizza-ive-ever-had/
+/writings/* /blog/:splat
