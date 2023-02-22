@@ -67,8 +67,4 @@ All dates and times on this website are in Chicago time, which is Central Standa
 
 This blog is dedicated to MF DOOM.
 
-### Status
-
-#### Last built
-
-{{< last-built >}}
+{{< status >}}
