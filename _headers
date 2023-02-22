@@ -3,3 +3,6 @@
 
 /static/images/blog/*
   cache-control: max-age=31536000, public, immutable
+
+/*
+  Access-Control-Allow-Origin: https://cloudflareinsights.com
