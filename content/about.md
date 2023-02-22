@@ -42,10 +42,10 @@ Find more info:
 
 ### Typography
 
-- Most body text (like this) is set in **[Mona Sans](https://github.com/github/mona-sans) by [GitHub](https://github.com/mona-sans)**
-- More prominent elements, like headers, are set in {{< cff ff="Hubot Sans" >}}<strong><a href="https://github.com/github/hubot-sans">Hubot Sans</a> by <a href="https://github.com/mona-sans">GitHub</a></strong>{{< /cff >}}
-- Blog post content and the {{< cff ff="Charter" >}}<i>BK</i>{{< /cff >}} monogram is set in {{< cff ff="Charter" >}}<strong><a href="https://practicaltypography.com/charter.html">Charter</a> by Matthew Carter</strong>{{< /cff >}}
-- Code blocks are set in {{< cff ff="Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace" >}}<strong><a href="https://systemfontstack.com/">sytemfontstack</a></strong>'s mono variant{{< /cff >}} {{< cff ff="JetBrains Mono" >}}(if you don't have <strong><a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a></strong> installed).{{< /cff >}} {{< cff ff="-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif" >}}systemfontstack's sans-serif{{< /cff >}} {{< cff ff="Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol" >}}and serif variants{{< /cff >}} are used as fallbacks where applicable.
+- Most body text (like this) is set in [Mona Sans](https://github.com/github/mona-sans) by [GitHub](https://github.com/mona-sans)
+- More prominent elements, like headers, are set in {{< cff ff="Hubot Sans" >}}[Hubot Sans](https://github.com/github/hubot-sans) by [GitHub](https://github.com/mona-sans){{< /cff >}}
+- Blog post content and the {{< cff ff="Charter" >}}*BK*{{< /cff >}} monogram is set in {{< cff ff="Charter" >}}[Charter](https://practicaltypography.com/charter.html) by Matthew Carter{{< /cff >}}
+- Code blocks are set in {{< cff ff="Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace" >}}[sytemfontstack](https://systemfontstack.com/)'s mono variant{{< /cff >}} {{< cff ff="JetBrains Mono" >}}(if you don't have [JetBrains Mono](https://www.jetbrains.com/lp/mono/) installed).{{< /cff >}} {{< cff ff="-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif" >}}systemfontstack's sans-serif{{< /cff >}} {{< cff ff="Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol" >}}and serif variants{{< /cff >}} are used as fallbacks where applicable.
 
 ### Licensing and attribution
 
