@@ -2,9 +2,15 @@
 title: "Subscribe"
 ---
 
-## Project updates
+## High-quality newsletter
 
->[Click here to subscribe to an email feed of ***infrequent, high-quality updates about cool projects of mine***](<https://helianth.co/subscribe?utm_source=bensonkitia.com/subscribe>)
+Subscribe to my email newsletter with **infrequent, high-quality updates** about:
+
+- Cool **things I'm working on**
+- **Interesting content** I've found
+- **My thoughts** on timely topics related to tech, trends, and culture
+
+{{< hardcoded-injection >}}subscribe-form{{< /hardcoded-injection >}}
 
 ## Blog posts
 
