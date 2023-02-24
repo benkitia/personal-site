@@ -6,5 +6,5 @@ title: "Digital Newsletter subscription confirmed"
 
 You'll start receiving new issues in your email address soon.
 
-To make sure that issues are delivered to your inbox, add `newsletter@bensonkitia.com` to VIPs on
+To make sure that issues are delivered to your inbox, add `newsletter@bensonkitia.com` to VIPs in
 Apple Mail or to your contacts or safe senders list.

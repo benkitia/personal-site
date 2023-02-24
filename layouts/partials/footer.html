@@ -1,5 +1,5 @@
 <footer id="site-footer">
-  {{ if not (eq .Section "subscribe") }}
+  {{ if and (not (eq .Title "Subscribe")) (not (eq .Title "Digital Newsletter subscription confirmed")) }}
   <p class="info prominent">
     <a href="/subscribe">Subscribe</a>
   </p>
