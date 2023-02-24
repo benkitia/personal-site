@@ -1,12 +1,4 @@
-{{ if eq .Inner "status" }}
-<div class="info">
-    <h3>Status</h3>
-    <h4>Last built</h4>
-    <p>
-    <code>{{ now.Format "02 January 2006 15:04:05" }}</code>
-    </p>
-  </p>
-{{ else if eq .Inner "inline-cta" }}
+{{ if eq .Inner "inline-cta" }}
 <span class="prominent"><a href="/subscribe">Subscribe</a></span>
 {{ else if eq .Inner "subscribe-form" }}
 <script
