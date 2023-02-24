@@ -33,7 +33,17 @@
     if (navigator.share) {
       navigator.share({ url: permaLink }).catch(console.error);
     } else {
-      hideShareLink();
-    }
+      // copy post link to user clipboard and show confirmation when copied
+      const input = document.createElement("input");
+      input.value = permaLink;
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand("copy");
+      document.body.removeChild(input);
+      const shareSheetLink = document.getElementById("sharesheet-link");
+      shareSheetLink.innerHTML = "Copied!";
+      setTimeout(() => {
+        shareSheetLink.innerHTML = '<a onclick="shareSheet()">Share post link</a>';
+      }, 2000);
   }
 </script>
