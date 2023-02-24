@@ -1,7 +1,9 @@
 <footer id="site-footer">
+  {{ if not (eq .Section "subscribe") }}
   <p class="info prominent">
     <a href="/subscribe">Subscribe</a>
   </p>
+  {{ end }}
   <small>
     <p class="info">
       <i>&copy; 2022-{{ now.Year }} {{ .Site.Copyright }}</i>
