@@ -4,7 +4,7 @@ title: "Subscribe"
 
 ## High-quality newsletter
 
-Subscribe to my email newsletter with **infrequent, high-quality updates** about:
+Subscribe to my Digital Newsletter with **infrequent, high-quality updates** about:
 
 - Cool **things I'm working on**
 - **Interesting content** I've found
