@@ -200,8 +200,10 @@ li {
 nav {
   li {
     @extend .ff-prominent;
+    color: #767676;
+    color: var(--secondary);
     font-stretch: ultra-expanded;
-    font-weight: 500;
+    font-weight: lighter;
     line-height: 1.75;
   }
 
