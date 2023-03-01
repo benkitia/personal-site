@@ -1,8 +1,8 @@
 /static/font/*
-  cache-control: max-age=31536000, public, immutable
+  cache-control: max-age=3888000, public, immutable
 
-/static/images/blog/*
-  cache-control: max-age=31536000, public, immutable
+/static/images/*
+  cache-control: max-age=3888000, public, immutable
 
 /*
   Access-Control-Allow-Origin: https://static.cloudflareinsights.com
