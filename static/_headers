@@ -6,3 +6,6 @@
 
 /*
   Access-Control-Allow-Origin: https://static.cloudflareinsights.com
+
+https://bensonkitia.ck.page/4b374c9c19/index.js
+  cache-control: max_age=604800, public, immutable
