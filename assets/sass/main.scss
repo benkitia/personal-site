@@ -223,6 +223,15 @@ p {
   line-height: 1.65;
 }
 
+// ConvertKit subscription form proprietary class names
+.formkit-alert,
+.seva-custom-content {
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, avenir next,
+    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+    arial, sans-serif;
+  @extend .info;
+}
+
 .info {
   color: #767676;
   color: var(--secondary);
