@@ -1,5 +1,5 @@
 @font-face {
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans";
   font-style: normal;
   font-weight: normal;
   font-stretch: normal;
@@ -7,7 +7,7 @@
   src: url("/font/IBMPlexSans-Regular.woff2") format("woff2");
 }
 @font-face {
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans";
   font-style: italic;
   font-weight: normal;
   font-stretch: normal;
@@ -15,7 +15,7 @@
   src: url("/font/IBMPlexSans-Italic.woff2") format("woff2");
 }
 @font-face {
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans";
   font-style: normal;
   font-weight: bold;
   font-stretch: normal;
@@ -23,7 +23,7 @@
   src: url("/font/IBMPlexSans-Bold.woff2") format("woff2");
 }
 @font-face {
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans";
   font-style: italic;
   font-weight: bold;
   font-stretch: normal;
@@ -32,7 +32,7 @@
 }
 
 @font-face {
-  font-family: Charter;
+  font-family: "Charter";
   font-style: normal;
   font-weight: normal;
   font-stretch: normal;
@@ -40,7 +40,7 @@
   src: url("/font/charter_regular.woff2") format("woff2");
 }
 @font-face {
-  font-family: Charter;
+  font-family: "Charter";
   font-style: italic;
   font-weight: normal;
   font-stretch: normal;
@@ -48,7 +48,7 @@
   src: url("/font/charter_italic.woff2") format("woff2");
 }
 @font-face {
-  font-family: Charter;
+  font-family: "Charter";
   font-style: normal;
   font-weight: bold;
   font-stretch: normal;
@@ -56,7 +56,7 @@
   src: url("/font/charter_bold.woff2") format("woff2");
 }
 @font-face {
-  font-family: Charter;
+  font-family: "Charter";
   font-style: italic;
   font-weight: bold;
   font-stretch: normal;
@@ -92,13 +92,11 @@
 }
 
 body {
+  @extend .ff-default;
   background-color: #444444;
   background-color: var(--background);
   color: white;
   color: var(--font);
-  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
-    arial, sans-serif;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 40px;
@@ -153,9 +151,7 @@ blockquote {
 
 form {
   * {
-    font-family: -apple-system, "Hubot Sans", BlinkMacSystemFont, avenir next,
-      avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto,
-      noto, arial, sans-serif;
+    @extend .ff-prominent;
     font-stretch: ultra-expanded;
   }
 }
@@ -183,9 +179,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: -apple-system, "Hubot Sans", BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
-    arial, sans-serif;
+  @extend .ff-prominent;
   font-weight: bolder;
   font-stretch: expanded;
 }
@@ -205,9 +199,7 @@ li {
 
 nav {
   li {
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
-      segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
-      arial, sans-serif;
+    @extend .ff-prominent;
     font-stretch: ultra-expanded;
     font-weight: 500;
     line-height: 1.75;
@@ -223,16 +215,26 @@ p {
   line-height: 1.65;
 }
 
-// ConvertKit subscription form proprietary class names
-.formkit-alert,
-.seva-custom-content {
+.ff-default {
   font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, avenir next,
     avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
+}
+
+.ff-prominent {
+  font-family: -apple-system, "Hubot Sans", BlinkMacSystemFont, avenir next,
+    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+    arial, sans-serif;
+}
+
+// ConvertKit subscription form proprietary class names
+.formkit-alert,
+.seva-custom-content {
   @extend .info;
 }
 
 .info {
+  @extend .ff-default;
   color: #767676;
   color: var(--secondary);
   font-style: italic;
@@ -243,9 +245,7 @@ p {
 }
 
 .prominent {
-  font-family: -apple-system, "Hubot Sans", BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
-    arial, sans-serif;
+  @extend .ff-prominent;
   font-stretch: expanded;
   font-weight: bolder;
   a {
