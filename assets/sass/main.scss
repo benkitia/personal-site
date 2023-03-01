@@ -89,9 +89,9 @@ a {
   text-decoration: underline;
   text-decoration-color: #767676;
   text-decoration-color: var(--secondary);
+  text-decoration-thickness: 0.02em;
   text-underline-offset: 0.35em;
   text-underline-position: below;
-  text-decoration-thickness: 0.025em;
 
   &:hover {
     background-color: rgba(185, 106, 255, 0.5);
