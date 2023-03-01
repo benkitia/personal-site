@@ -125,7 +125,7 @@
   />
   {{ end }}
   <!-- Inline styles -->
-  {{ $scss := resources.Get "sass/main.scss" | resources.ToCSS (dict
+  {{ $scss := resources.Get "styles/main.scss" | resources.ToCSS (dict
   "outputStyle" "compressed") | fingerprint }}
   <style>
     {{ $scss.Content | safeCSS }}
