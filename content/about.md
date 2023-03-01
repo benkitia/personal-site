@@ -42,8 +42,8 @@ Find more info:
 
 ### Typography
 
-- Most body text (like this) is set in [Mona Sans](https://github.com/github/mona-sans) by [GitHub](https://github.com/mona-sans)
-- More prominent elements, like headers, are set in {{< cff ff="Hubot Sans" >}}[Hubot Sans](https://github.com/github/hubot-sans) by [GitHub](https://github.com/mona-sans){{< /cff >}}
+- Most body text (like this) is set in [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) by [IBM](https://www.ibm.com/plex/)
+- More prominent elements, like headers, are set in {{< cff ff="-apple-system" >}}[SF Pro](https://developer.apple.com/fonts/) by Apple{{< /cff >}} on supported devices, otherwise {{< cff ff="Hubot Sans" >}}[Hubot Sans](https://github.com/github/hubot-sans) by [GitHub](https://github.com/mona-sans){{< /cff >}}
 - Blog post content and the {{< cff ff="Charter" >}}*BK*{{< /cff >}} monogram is set in {{< cff ff="Charter" >}}[Charter](https://practicaltypography.com/charter.html) by Matthew Carter{{< /cff >}}
 - Code blocks are set in {{< cff ff="Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace" >}}[sytemfontstack](https://systemfontstack.com/)'s mono variant{{< /cff >}} {{< cff ff="JetBrains Mono" >}}(if you don't have [JetBrains Mono](https://www.jetbrains.com/lp/mono/) installed).{{< /cff >}} {{< cff ff="-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif" >}}systemfontstack's sans-serif{{< /cff >}} {{< cff ff="Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol" >}}and serif variants{{< /cff >}} are used as fallbacks where applicable.
 
