@@ -51,6 +51,8 @@
   --background: #121212;
   --font: white;
   --secondary: #b1b1b1;
+  --underline: #b1b1b1;
+  --underline: rgba(177, 177, 177, 0.7);
 }
 
 @media (prefers-color-scheme: light) {
@@ -58,6 +60,8 @@
     --background: white;
     --font: #444444;
     --secondary: #767676;
+    --underline: #767676;
+    --underline: rgba(118, 118, 118, 0.7);
   }
 }
 
@@ -88,7 +92,7 @@ a {
   color: inherit;
   text-decoration: underline;
   text-decoration-color: #767676;
-  text-decoration-color: var(--secondary);
+  text-decoration-color: var(--underline);
   text-decoration-thickness: 0.02em;
   text-underline-offset: 0.35em;
   text-underline-position: below;
