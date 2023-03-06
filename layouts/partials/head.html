@@ -123,7 +123,12 @@
   <style>
     {{ $scss.Content | safeCSS }}
   </style>
-  <!--  -->
+  <!-- Analytics -->
+  <script
+    src="https://beamanalytics.b-cdn.net/beam.min.js"
+    data-token="eb9c6ea9-e19d-47af-9c47-c226a627141f"
+    async
+  ></script>
   <!-- SEO, etc. Metadata -->
   {{ with .Site.Params.icon }}
   <link rel="apple-touch-icon" href="{{ . }}" />
