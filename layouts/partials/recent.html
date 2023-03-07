@@ -1,5 +1,5 @@
 <div>
-  <h2>Recent Posts</h2>
+  <h2>Recent blog posts</h2>
   <ul id="post-list">
     {{ range first 5 (where .Site.RegularPages "Type" "in"
     .Site.Params.mainSections) }}
@@ -38,6 +38,6 @@
   </ul>
   <p id="recent-info">
     <span class="info">Above are the 5 most recent posts.</span>
-    <span><a href="/blog">View all posts</a></span>
+    <span><a href="/blog">All blog posts</a></span>
   </p>
 </div>
