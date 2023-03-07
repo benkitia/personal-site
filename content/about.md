@@ -29,6 +29,9 @@ I use:
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Tower](https://www.git-tower.com/mac)
 - [GitHub](https://github.com/)
+- [Cloudflare](https://www.cloudflare.com/)
+- [Cloudflare Pages](https://pages.cloudflare.com/)
+- [Beam Analytics](https://beamanalytics.io/)
 
 #### In general
 
