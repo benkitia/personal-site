@@ -54,7 +54,11 @@ Find more info:
 
 #### Blog posts
 
+<<<<<<< HEAD
 All [blog posts](https://bensonkitia.com/blog) published to bensonkitia.com are Copyrighted © 2022-present me, Ben Kitia. All Rights Reserved.
+=======
+All [blog posts](https://bensonkitia.com/blog) and other content published to bensonkitia.com are Copyrighted © 2022–present [Helianth](https://helianth.co/) and Benson V. All Rights Reserved.
+>>>>>>> bd2e3c113d45149f1480e9e417588cccd7d1de7a
 
 I’d generally love for my content to be referenced, quoted, or otherwise used under [fair use](https://en.wikipedia.org/wiki/Fair_use) (and with respect), but please don’t copy or republish my work without my permission.
 

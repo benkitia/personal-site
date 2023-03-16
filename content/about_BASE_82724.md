@@ -29,9 +29,6 @@ I use:
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Tower](https://www.git-tower.com/mac)
 - [GitHub](https://github.com/)
-- [Cloudflare](https://www.cloudflare.com/)
-- [Cloudflare Pages](https://pages.cloudflare.com/)
-- [Beam Analytics](https://beamanalytics.io/)
 
 #### In general
 
@@ -54,7 +51,7 @@ Find more info:
 
 #### Blog posts
 
-All [blog posts](https://bensonkitia.com/blog) published to bensonkitia.com are Copyrighted © 2022-present me, Ben Kitia. All Rights Reserved.
+All [blog posts](https://bensonkitia.com/blog) published to bensonkitia.com are Copyrighted © 2022-present me, Benson Kitia. All Rights Reserved.
 
 I’d generally love for my content to be referenced, quoted, or otherwise used under [fair use](https://en.wikipedia.org/wiki/Fair_use) (and with respect), but please don’t copy or republish my work without my permission.
 
