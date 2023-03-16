@@ -1,12 +1,12 @@
 baseURL: "https://bensonkitia.com"
-copyright: Benson Kitia
+copyright: Ben Kitia
 languageCode: en-us
 timeZone: America/Chicago
-title: Benson Kitia
+title: Ben Kitia
 author:
-  name: Benson Kitia
+  name: Ben Kitia
   email: hello@bvk.email
-  twitter: "bensonkitia"
+  twitter: "benkitia"
 menu:
   main:
     - name: About
@@ -28,9 +28,9 @@ outputs:
 permalinks:
   publ: /:title/
 params:
-  description: Benson Kitia is a builder; designer & developer in Chicago.
+  description: Ben Kitia is a builder; designer & developer in Chicago.
   wordmark: BK
-  title: Benson Kitia
+  title: Ben Kitia
   twitter: "@bensonkitiacom"
   icon: https://bensonkitia.com/images/icon.png
   goatCounter: analytics.bensonkitia.com
