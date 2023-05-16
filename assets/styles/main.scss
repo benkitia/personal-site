@@ -168,8 +168,9 @@ p {
 
 .prominent {
   @extend .ff-prominent;
+  color: inherit !important;
   font-stretch: expanded;
-  font-weight: bolder;
+  font-weight: bolder !important;
 
   a {
     text-decoration-color: #7c3aed;
