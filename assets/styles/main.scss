@@ -1,6 +1,7 @@
 :root {
   --background: #121212;
   --font: white;
+  --primary: #7c3aed;
   --secondary: #b1b1b1;
   --underline: #b1b1b1;
   --underline: rgba(177, 177, 177, 0.7);
@@ -63,7 +64,8 @@ article {
 }
 
 blockquote {
-  border-left: 0.125em solid #b96aff;
+  border-left: 0.125em solid #7c3aed;
+  border-left: 0.125em solid var(--primary);
   margin: 20px;
   padding: 5px 0px 5px 20px;
 
@@ -94,7 +96,7 @@ footer {
 }
 
 h1 {
-  color: #b96aff;
+  color: #7c3aed;
 }
 
 h1,
@@ -169,7 +171,7 @@ p {
   font-weight: bolder;
 
   a {
-    text-decoration-color: #b96aff;
+    text-decoration-color: #7c3aed;
   }
 }
 
@@ -239,7 +241,7 @@ p {
 }
 
 #thanks h2 {
-  color: #b96aff;
+  color: #7c3aed;
   font-stretch: semi-condensed;
 }
 
