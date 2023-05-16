@@ -1,7 +1,10 @@
 {{ define "main" }}
 <main>
   {{ with .Content }}
-  <div id="landing-main">{{ . }}</div>
+  <div class="center-images" id="landing-main">
+    <img src="images/ni/ben.webp" alt="Ben Kitia" />
+    {{ . }}
+  </div>
   {{ end }} {{ partial "recent.html" . }}
 </main>
 {{ end }}

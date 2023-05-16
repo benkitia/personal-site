@@ -187,6 +187,7 @@ p {
 }
 
 #landing-main {
+  display: grid;
   padding-bottom: 15px;
   padding-top: 5px;
 
@@ -196,6 +197,7 @@ p {
     margin: auto;
     max-height: 144px;
     max-width: 144px;
+    place-content: center;
   }
 }
 
