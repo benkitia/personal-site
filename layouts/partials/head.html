@@ -70,7 +70,9 @@
   <meta name="twitter:url" content="{{ . }}" />
   {{ end }}
   <!-- Analytics -->
+  {{ hugo.Environment }} {{ if hugo.IsProduction }}
   <script defer src="/_vercel/insights/script.js"></script>
+  {{ end }}
   <!-- Her highness -->
   <script>
     console.log("aHR0cHM6Ly90b3Atc2VjcmV0LmJ2ay5lbWFpbC9saWtlLw==");
