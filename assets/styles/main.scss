@@ -189,6 +189,14 @@ p {
 #landing-main {
   padding-bottom: 15px;
   padding-top: 5px;
+
+  img {
+    border: 1.5px solid #743ee4;
+    border-radius: 9999px;
+    margin: auto;
+    max-height: 144px;
+    max-width: 144px;
+  }
 }
 
 #links-wrapper {
