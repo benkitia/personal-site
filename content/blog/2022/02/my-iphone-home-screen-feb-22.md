@@ -123,7 +123,7 @@ I do the Mini crossword just about every day and the big kid crossword on the oc
 
 I do the Wordle every day.
 
-#### [Yerdle](https://yerdle.bensonkitia.com/)
+#### [Yerdle](https://yerdle.kitia.net/)
 
 I do the Yerdle[^2] every day.
 
@@ -145,4 +145,4 @@ My podcast client of choice.
 
 [^1]: The complaint isn't anything major or important or deal-breaking. Just a slightly irritating bug; the app forgets what I'm doing at the train station I transfer at during my commute to/from school, so I have to manually enter the activity for that location each time. App is still 5/5.
 
-[^2]: [Yerdle](https://yerdle.bensonkitia.com) is a Ye-themed daily word puzzle. Think Kanye West Wordle.
+[^2]: [Yerdle](https://yerdle.kitia.net) is a Ye-themed daily word puzzle. Think Kanye West Wordle.

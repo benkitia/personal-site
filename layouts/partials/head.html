@@ -15,120 +15,12 @@
   {{ with .OutputFormats.Get "RSS" -}} {{ printf `
   <link rel="%s" type="%s" href="%s" title="%s" />
   ` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }} {{- end }}
-  <!-- Preload/prefetch fonts -->
-  <link
-    rel="preload"
-    href="/font/charter_bold_italic.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preload"
-    href="/font/Hubot-Sans.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preload"
-    href="/font/IBMPlexSans-Regular.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preload"
-    href="/font/IBMPlexSans-Bold.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preload"
-    href="/font/IBMPlexSans-Italic.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="prefetch"
-    href="/font/charter_regular.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="prefetch"
-    href="/font/IBMPlexSans-BoldItalic.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  {{ if and (eq .Type "blog") (not (eq .Title "Blog")) }}
-  <link
-    rel="preload"
-    href="/font/charter_regular.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preload"
-    href="/font/charter_italic.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preload"
-    href="/font/charter_bold.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  {{ else }}
-  <link
-    rel="prefetch"
-    href="/font/charter_regular.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="prefetch"
-    href="/font/charter_italic.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="prefetch"
-    href="/font/charter_bold.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="prefetch"
-    href="/font/charter_bold_italic.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  {{ end }}
   <!-- Inline styles -->
   {{ $scss := resources.Get "styles/main.scss" | resources.ToCSS (dict
   "outputStyle" "compressed") | fingerprint }}
   <style>
     {{ $scss.Content | safeCSS }}
   </style>
-  <!-- Analytics -->
-  <script
-    src="https://beamanalytics.b-cdn.net/beam.min.js"
-    data-token="eb9c6ea9-e19d-47af-9c47-c226a627141f"
-    async
-  ></script>
   <!-- SEO, etc. Metadata -->
   {{ with .Site.Params.icon }}
   <link rel="apple-touch-icon" href="{{ . }}" />

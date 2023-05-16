@@ -2,22 +2,21 @@
   <h2>Thanks for reading!</h2>
   <p>
     Share thoughts:
-    <a href="mailto:hello@bvk.email?subject=Your%20blog%20post%20{{ .Title }}"
+    <a href="mailto:ben@kitia.net?subject=Your%20blog%20post%20{{ .Title }}"
       >email</a
     >
-    / <a href="https://twitter.com/bensonkitia">Twitter</a> /
-    <a href="https://mastodon.social/@kitia">Mastodon</a>
+    / <a href="https://twitter.com/bensonkitia">Twitter</a>
   </p>
   <p id="sharesheet-link">
     <a onclick="shareSheet('{{ .Permalink }}')">Share post link</a>
   </p>
   <p>
-    <a href="/subscribe/#blog-posts"
+    <a href="/subscribe/"
       ><span class="prominent">Subscribe</span> to future posts</a
     >
   </p>
 </div>
-<script defer>
+<script async defer>
   function hideShareLink() {
     try {
       const shareSheetLink = document.getElementById("sharesheet-link");
@@ -33,7 +32,6 @@
     if (navigator.share) {
       navigator.share({ url: permaLink }).catch(console.error);
     } else {
-      // copy post link to user clipboard and show confirmation when copied
       const input = document.createElement("input");
       input.value = permaLink;
       document.body.appendChild(input);
@@ -43,7 +41,9 @@
       const shareSheetLink = document.getElementById("sharesheet-link");
       shareSheetLink.innerHTML = "Copied!";
       setTimeout(() => {
-        shareSheetLink.innerHTML = '<a onclick="shareSheet()">Share post link</a>';
+        shareSheetLink.innerHTML =
+          '<a onclick="shareSheet()">Share post link</a>';
       }, 2000);
+    }
   }
 </script>

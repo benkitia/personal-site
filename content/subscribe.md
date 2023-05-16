@@ -14,7 +14,7 @@ Subscribe to my newsletter for **infrequent, high-quality updates** about:
 
 ## Blog
 
-To subscribe to an RSS feed of all new blog posts, use this link: <https://bensonkitia.com/index.xml>.
+To subscribe to an RSS feed of all new blog posts, use this link: <https://kitia.net/index.xml>.
 
 ### By category or tag
 
@@ -22,6 +22,6 @@ To subscribe to an RSS feed of new posts in/with specific [categories](/categori
 
 Alternatively, you can manually add the feed to your RSS client with the following syntax:
 
-By category e.g. "Example Category": `https://bensonkitia.com/categories/example-category/index.xml`
+By category e.g. "Example Category": `https://kitia.net/categories/example-category/index.xml`
 
-By tag e.g. "example tag": `https://bensonkitia.com/tags/example-tag/index.xml`
+By tag e.g. "example tag": `https://kitia.net/tags/example-tag/index.xml`

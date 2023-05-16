@@ -1,11 +1,11 @@
-baseURL: "https://bensonkitia.com"
+baseURL: "https://kitia.net"
 copyright: Ben Kitia
 languageCode: en-us
 timeZone: America/Chicago
 title: Ben Kitia
 author:
   name: Ben Kitia
-  email: hello@bvk.email
+  email: ben@kitia.net
   twitter: "benkitia"
 menu:
   main:
@@ -14,9 +14,6 @@ menu:
       weight: 1
     - name: Blog
       url: /blog
-      weight: 1
-    - name: Projects
-      url: /projects
       weight: 1
     - name: Subscribe
       url: /subscribe
@@ -28,10 +25,9 @@ outputs:
 permalinks:
   publ: /:title/
 params:
-  description: Ben Kitia is a builder; designer & developer in Chicago.
+  description: Ben Kitia is Chicago-based software builder who's the founder and Emcee (CEO) of Pubnent.
   wordmark: BK
   title: Ben Kitia
-  twitter: "@bensonkitiacom"
-  icon: https://bensonkitia.com/images/icon.png
-  goatCounter: analytics.bensonkitia.com
+  twitter: "@benkitia"
+  icon: https://kitia.net/images/icon.png
   mastodon: mastodon.social/@kitia

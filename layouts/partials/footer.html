@@ -1,5 +1,6 @@
 <footer id="site-footer">
-  {{ if and (not (eq .Title "Subscribe")) (not (eq .Title "Digital Newsletter subscription confirmed")) }}
+  {{ if and (not (eq .Title "Subscribe")) (not (eq .Title "Digital Newsletter
+  subscription confirmed")) }}
   <p class="info prominent">
     <a href="/subscribe">Subscribe</a>
   </p>
@@ -7,6 +8,9 @@
   <small>
     <p class="info">
       <i>&copy; 2022–{{ now.Year }} {{ .Site.Copyright }}</i>
+    </p>
+    <p>
+      <a href="/email/privacy-inquiry">Privacy</a>
     </p>
   </small>
 </footer>

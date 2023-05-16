@@ -47,7 +47,7 @@ I want to be one of those people who wakes up at like 5 am and does a hard worko
 
 ### Professional Connections
 
-I would like to connect with people in spaces related to iOS development as I learn to build an iOS app. If mentoring an enthusiastic young developer is in line with your goals for this year or if you have any words at all for someone entering the iOS space, please [reach out](https://bensonkitia.com/about#contact).
+I would like to connect with people in spaces related to iOS development as I learn to build an iOS app. If mentoring an enthusiastic young developer is in line with your goals for this year or if you have any words at all for someone entering the iOS space, please [reach out](https://kitia.net/about#contact).
 
 ### Friendships and Personal Relationships
 
@@ -57,7 +57,7 @@ My social aptness tends to decline when I only regularly speak to the same 10-is
 
 ### Income
 
-If the aforementioned projects aren't released and/or bringing in a little bit of income by this summer, I'll be looking for a summer job lifeguarding, food service, or interning somewhere cool to have some extra money to invest and save. By the way, if you know of any cool (preferably paid) (summer) tech-related opportunities for high school-age people, remote or in the Chicagoland area, please [let me know](https://bensonkitia.com/about#contact).
+If the aforementioned projects aren't released and/or bringing in a little bit of income by this summer, I'll be looking for a summer job lifeguarding, food service, or interning somewhere cool to have some extra money to invest and save. By the way, if you know of any cool (preferably paid) (summer) tech-related opportunities for high school-age people, remote or in the Chicagoland area, please [let me know](https://kitia.net/about#contact).
 
 ### Investments
 
