@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    { 
+      "source": "/",
+      "destination": "https://kitia.net", 
+      "permanent": true
+    },
+    { 
+      "source": "/*",
+      "destination": "https://kitia.net/404", 
+      "permanent": true
+    }
+  ]
+}
