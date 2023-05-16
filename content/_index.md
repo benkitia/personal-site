@@ -8,4 +8,7 @@ I'm a junior at my public high school in South Loop. I love writing (prose and c
 
 {{< hardcoded-injection >}}inline-cta{{< /hardcoded-injection >}} to follow along!
 
-I'd probably love to connect on [Twitter](https://twitter.com/benkitia) or [GitHub](https://github.com/benkitia), or get in touch via [email](https://url.kitia.net/email) or [Twitter DM](https://twitter.com/messages/compose?recipient_id=1188270454303277056).
+## connect
+
+**Socials:** [Twitter](https://twitter.com/benkitia), [GitHub](https://github.com/benkitia), [LastFM](https://last.fm/benkitia)
+**Contact:** [Email](https://url.kitia.net/email), [Twitter DM](https://twitter.com/messages/compose?recipient_id=1188270454303277056)
