@@ -43,7 +43,7 @@
   {{ end }}
   <meta
     property="og:description"
-    content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end -}}"
+    content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"
   />
   {{ with .Site.Params.icon }}
   <meta property="og:image" content="{{ . }}" />
