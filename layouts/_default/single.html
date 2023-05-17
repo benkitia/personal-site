@@ -18,7 +18,7 @@
         {{ end }}</h1>
       {{ if eq .Section "blog" }}
       {{ with .Site.Author.name }}
-      <address class="info">by <a rel="author" href="/about/#about-the-writer" class="post-header">{{ . }}</a></address>
+      <address class="info">by <a rel="author" href="/" class="inline-wordmark post-header">{{ . }}</a></address>
       {{ end }}
       <br>
       <time pubdate datetime="{{ .Date.Format "2006-01-02 15:04" }}" class="info">{{ .Date.Format "January 2, 2006" }}
