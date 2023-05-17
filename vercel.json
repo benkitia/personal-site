@@ -1,26 +1,5 @@
 {
   "cleanUrls": true,
-  "framework": "null",
-  "headers": [
-    {
-      "source": "/images/*",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "max-age=3888000, public, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/_vercel/insights/*",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "max-age=604800, public, immutable"
-        }
-      ]
-    }
-  ],
   "redirects": [
     {
       "source": "/email",
