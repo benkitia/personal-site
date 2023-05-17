@@ -40,7 +40,7 @@ body {
   word-wrap: break-word;
 }
 
-* #site-wrapper {
+#site-wrapper * {
   background-color: #444444;
   background-color: var(--background);
   height: 100% !important;
