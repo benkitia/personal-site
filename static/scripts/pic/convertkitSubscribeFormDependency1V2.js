@@ -203,7 +203,7 @@
           (e = document.createElement("script")).setAttribute(
             "src",
             (function (t) {
-              return "https://www.kitia.net/scripts/pic/convertkitSubscribeFormDependency1V1.js";
+              return "https://www.kitia.net/scripts/pic/convertkitSubscribeFormDependency1V2.js";
             })(r)
           ),
           e.setAttribute("async", !0),
