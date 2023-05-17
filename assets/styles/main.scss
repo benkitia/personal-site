@@ -1,3 +1,5 @@
+// constants
+
 :root {
   --background: #121212;
   --font: white;
@@ -16,6 +18,8 @@
     --underline: rgba(118, 118, 118, 0.7);
   }
 }
+
+// elements
 
 body {
   @extend .ff-default;
@@ -141,6 +145,8 @@ p {
   line-height: 1.65;
 }
 
+// classes
+
 .ff-default {
   font-family: system-ui, sans-serif;
 }
@@ -149,7 +155,7 @@ p {
   font-family: system-ui, sans-serif;
 }
 
-// ConvertKit subscription form proprietary class names
+// ? ConvertKit subscription form proprietary class names
 .formkit-alert,
 .seva-custom-content {
   @extend .info;
@@ -189,6 +195,8 @@ p {
 #dated-li {
   padding-bottom: 15px;
 }
+
+// ids
 
 #landing-main {
   display: grid;
@@ -259,6 +267,8 @@ p {
     font-style: italic;
   }
 }
+
+// supreme classes
 
 .hidden {
   display: none !important;
