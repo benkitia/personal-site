@@ -3,7 +3,7 @@
   "framework": "null",
   "headers": [
     {
-      "source": "/static/images/*",
+      "source": "/images/*",
       "headers": [
         {
           "key": "Cache-Control",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "source": "/_vercel/insights/script.js",
+      "source": "/_vercel/insights/*",
       "headers": [
         {
           "key": "Cache-Control",
