@@ -1,4 +1,26 @@
 {
+  "cleanUrls": true,
+  "framework": "null",
+  "headers": [
+    {
+      "source": "/static/images/*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=3888000, public, immutable"
+        }
+      ]
+    },
+    {
+      "source": "https://bensonkitia.ck.page/4b374c9c19/index.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max_age=604800, public, immutable"
+        }
+      ]
+    }
+  ],
   "redirects": [
     {
       "source": "/email",
@@ -15,5 +37,6 @@
       "destination": "/blog/:path*",
       "permanent": false
     }
-  ]
+  ],
+  "trailingSlash": false
 }
