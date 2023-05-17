@@ -14,7 +14,7 @@ Subscribe to my newsletter for **infrequent, high-quality updates** about:
 
 ## Blog
 
-To subscribe to an RSS feed of all new blog posts, use this link: <https://kitia.net/index.xml>.
+To subscribe to an RSS feed of all new blog posts, use this link: <https://www.kitia.net/index.xml>.
 
 ### By category or tag
 

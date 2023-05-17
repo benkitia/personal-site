@@ -3,6 +3,7 @@ copyright: Ben Kitia
 languageCode: en-us
 timeZone: America/Chicago
 title: Ben Kitia
+description: Ben Kitia is a Chicago-based software builder who's the founder and Emcee (CEO) of Pubnent.
 author:
   name: Ben Kitia
   email: ben@kitia.net
@@ -25,9 +26,8 @@ outputs:
 permalinks:
   publ: /:title/
 params:
-  description: Ben Kitia is a Chicago-based software builder who's the founder and Emcee (CEO) of Pubnent.
   wordmark: BK
   title: Ben Kitia
   twitter: "@benkitia"
-  icon: https://kitia.net/images/icon.png
+  icon: https://www.kitia.net/images/icon.png
   mastodon: mastodon.social/@kitia
