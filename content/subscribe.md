@@ -22,6 +22,6 @@ To subscribe to an RSS feed of new posts in/with specific [categories](/categori
 
 Alternatively, you can manually add the feed to your RSS client with the following syntax:
 
-By category e.g. "Example Category": `https://kitia.net/categories/example-category/index.xml`
+By category e.g. "Example Category": `https://www.kitia.net/categories/example-category/index.xml`
 
-By tag e.g. "example tag": `https://kitia.net/tags/example-tag/index.xml`
+By tag e.g. "example tag": `https://www.kitia.net/tags/example-tag/index.xml`
