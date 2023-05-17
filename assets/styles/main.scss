@@ -21,7 +21,6 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --accessibilitized-text-brightness: 125%;
     --image-brightness: 75%;
   }
 }
@@ -30,8 +29,6 @@
 
 body {
   @extend .ff-default;
-  background-color: #444444;
-  background-color: var(--background);
   color: white;
   color: var(--font);
   margin: auto;
@@ -41,6 +38,11 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   word-wrap: break-word;
+}
+
+#wordmark-wrapper {
+  background-color: #444444;
+  background-color: var(--background);
 }
 
 html {
@@ -69,13 +71,14 @@ article {
   p,
   ul,
   ol {
-    font-family: "Iowan Old Style", "Palatino Linotype",, "Palatino", "URW Palladio L", P052, serif;
+    font-family: "Iowan Old Style", "Palatino Linotype", "Palatino",
+      "URW Palladio L", P052, serif;
     font-size: 1.075em;
   }
 }
 
 blockquote {
-  border-left: 0.125em solid #7c3aed;
+  border-left: 0.125em solid #743ee4;
   margin: 20px;
   padding: 5px 0px 5px 20px;
 
@@ -106,7 +109,7 @@ footer {
 }
 
 h1 {
-  color: #7c3aed;
+  color: #743ee4;
 }
 
 h1,
@@ -273,7 +276,7 @@ p {
 }
 
 #thanks h2 {
-  color: #7c3aed;
+  color: #743ee4;
 }
 
 #wordmark-wrapper {

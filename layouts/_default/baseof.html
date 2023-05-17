@@ -2,8 +2,10 @@
 <html dir="ltr" lang="{{ .Site.LanguageCode | default " en-us" }}">
 {{ partial "head" . }}
 <body>
+<div id="site-wrapper">
 {{ partial "header" . }}
 {{ block "main" . }}{{ end }}
 {{ partial "footer" . }}
+</div>
 </body>
 </html>
