@@ -1,12 +1,30 @@
 {
   "cleanUrls": true,
-  "headers": [
+  "headers": [ 
+  {
+  "source": "/blog/*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=900, public, immutable"
+        }
+      ]
+    },
     {
       "source": "/images/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=3888000, immutable"
+        }
+      ]
+    },
+    {
+  "source": "index.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=900, public, immutable"
         }
       ]
     },
