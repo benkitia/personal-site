@@ -5,7 +5,11 @@
     <a href="mailto:ben@kitia.net?subject=Your%20blog%20post%20{{ .Title }}"
       >email</a
     >
-    / <a href="https://twitter.com/bensonkitia">Twitter</a>
+    /
+    <a
+      href="https://twitter.com/intent/tweet?text=.@benkitia%20{{ .Permalink }}%20"
+      >Twitter</a
+    >
   </p>
   <p id="sharesheet-link">
     <a onclick="shareSheet('{{ .Permalink }}')">Share post link</a>

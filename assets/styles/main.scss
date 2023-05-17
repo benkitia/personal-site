@@ -1,7 +1,9 @@
+// constants
+
 :root {
   --background: #121212;
   --font: white;
-  --primary: #7c3aed;
+  --image-brightness: inherit;
   --secondary: #b1b1b1;
   --underline: #b1b1b1;
   --underline: rgba(177, 177, 177, 0.7);
@@ -13,9 +15,18 @@
     --font: #444444;
     --secondary: #767676;
     --underline: #767676;
-    --underline: rgba(118, 118, 118, 0.7);
+    --underline: rgba(118, 118, 118, 75%);
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accessibilitized-text-brightness: 125%;
+    --image-brightness: 75%;
+  }
+}
+
+// elements
 
 body {
   @extend .ff-default;
@@ -48,7 +59,7 @@ a {
   text-underline-position: below;
 
   &:hover {
-    background-color: rgba(185, 106, 255, 0.5);
+    background-color: rgba(124, 58, 237, 0.5);
     text-decoration-style: dotted;
     text-underline-offset: inherit;
   }
@@ -58,15 +69,13 @@ article {
   p,
   ul,
   ol {
-    font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052,
-      serif;
+    font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
     font-size: 1.075em;
   }
 }
 
 blockquote {
   border-left: 0.125em solid #7c3aed;
-  border-left: 0.125em solid var(--primary);
   margin: 20px;
   padding: 5px 0px 5px 20px;
 
@@ -112,6 +121,7 @@ h6 {
 }
 
 img {
+  filter: brightness(var(--image-brightness));
   max-width: 100%;
 }
 
@@ -127,7 +137,7 @@ li {
 nav {
   li {
     @extend .ff-prominent;
-    font-weight: lighter;
+    font-weight: light;
     line-height: 1.75;
   }
 
@@ -141,6 +151,8 @@ p {
   line-height: 1.65;
 }
 
+// classes
+
 .ff-default {
   font-family: system-ui, sans-serif;
 }
@@ -149,7 +161,7 @@ p {
   font-family: system-ui, sans-serif;
 }
 
-// ConvertKit subscription form proprietary class names
+// ? ConvertKit subscription form proprietary class names
 .formkit-alert,
 .seva-custom-content {
   @extend .info;
@@ -159,11 +171,22 @@ p {
   @extend .ff-default;
   color: #767676;
   color: var(--secondary);
+  font-stretch: semi-condensed;
   font-style: italic;
 }
 
 .inline-padded {
   padding-left: 5px;
+}
+
+.inline-wordmark {
+  filter: brightness(115%);
+  color: #7c3aed;
+  font-family: Charter, "Bitstream Charter", "Georgia", "Sitka Text", Cambria,
+    serif !important;
+  font-size: medium;
+  font-style: oblique !important;
+  padding-left: 0.25em;
 }
 
 .prominent {
@@ -173,7 +196,8 @@ p {
   font-weight: bolder !important;
 
   a {
-    text-decoration-color: #7c3aed;
+    text-decoration-color: rgb(124, 58, 237);
+    text-decoration-thickness: 0.03em;
   }
 }
 
@@ -190,13 +214,29 @@ p {
   padding-bottom: 15px;
 }
 
+// ids
+
 #landing-main {
   display: grid;
   padding-bottom: 15px;
   padding-top: 5px;
 
+  * {
+    font-style: normal;
+  }
+
+  em {
+    strong {
+      font-stretch: semi-condensed;
+    }
+
+    &:not(strong) {
+      font-stretch: expanded;
+    }
+  }
+
   img {
-    border: 1.5px solid #743ee4;
+    border: 0.125em solid #743ee4;
     border-radius: 9999px;
     margin: auto;
     max-height: 144px;
@@ -260,9 +300,11 @@ p {
   }
 }
 
+// supreme classes
+
 .hidden {
-  display: none !important;
-  visibility: hidden !important;
+  display: none;
+  visibility: hidden;
 }
 
 .no-decoration {
