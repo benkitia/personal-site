@@ -179,16 +179,6 @@ p {
   padding-left: 5px;
 }
 
-.inline-wordmark {
-  filter: brightness(115%);
-  color: #7c3aed;
-  font-family: Charter, "Bitstream Charter", "Georgia", "Sitka Text", Cambria,
-    serif !important;
-  font-size: medium;
-  font-style: oblique !important;
-  padding-left: 0.25em;
-}
-
 .prominent {
   @extend .ff-prominent;
   color: inherit !important;
