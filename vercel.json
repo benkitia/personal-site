@@ -2,7 +2,7 @@
   "cleanUrls": true,
   "headers": [ 
   {
-  "source": "/blog/*",
+      "source": "/blog/*",
       "headers": [
         {
           "key": "Cache-Control",
@@ -20,7 +20,7 @@
       ]
     },
     {
-  "source": "index.html",
+      "source": "index.html",
       "headers": [
         {
           "key": "Cache-Control",
