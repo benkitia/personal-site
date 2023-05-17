@@ -14,8 +14,8 @@
       "permanent": false
     },
     {
-      "source": "/writings/*",
-      "destination": "/blog/:splat",
+      "source": "/writings/:path*",
+      "destination": "/blog/:path*",
       "permanent": false
     },
     {
