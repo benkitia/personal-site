@@ -1,0 +1,25 @@
+{
+  "redirects": [
+    {
+      "pleaseRemember": "Be CAREFUL ADDING PERMANENT REDIRECTS — they are permanently cached!"
+    },
+    {
+      "source": "/email",
+      "destination": "mailto:ben@kitia.net",
+      "permanent": false
+    },
+    {
+      "source": "/privacy",
+      "destination": "mailto:ben@kitia.net?subject=Privacy%20inquiry",
+      "permanent": false
+    },
+    {
+      "source": "/writings/*",
+      "destination": "/blog/:splat",
+      "permanent": false
+    },
+    {
+      "pleaseRemember": "Be CAREFUL ADDING PERMANENT REDIRECTS — they are permanently cached!"
+    }
+  ]
+}
