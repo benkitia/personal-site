@@ -3,9 +3,12 @@
 {{ partial "head" . }}
 <body>
 <div id="site-wrapper">
+<div id="content-wrapper">
 {{ partial "header" . }}
-{{ block "main" . }}{{ end }}
+{{ block "main" . }}                                        
+{{ end }}
 {{ partial "footer" . }}
+</div>
 </div>
 </body>
 </html>
