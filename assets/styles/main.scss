@@ -58,7 +58,8 @@ a {
   text-underline-offset: 0.35em;
   text-underline-position: below;
 
-  &:hover {
+  &:hover,
+  &:active {
     background-color: rgba(124, 58, 237, 0.5);
     text-decoration-style: dotted;
     text-underline-offset: inherit;
