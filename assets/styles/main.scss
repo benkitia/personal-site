@@ -69,13 +69,14 @@ article {
   p,
   ul,
   ol {
-    font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+    font-family: "Iowan Old Style", "Palatino Linotype", "Palatino",
+      "URW Palladio L", P052, serif;
     font-size: 1.075em;
   }
 }
 
 blockquote {
-  border-left: 0.125em solid #7c3aed;
+  border-left: 0.125em solid #743ee4;
   margin: 20px;
   padding: 5px 0px 5px 20px;
 
@@ -106,7 +107,7 @@ footer {
 }
 
 h1 {
-  color: #7c3aed;
+  color: #743ee4;
 }
 
 h1,
@@ -273,7 +274,7 @@ p {
 }
 
 #thanks h2 {
-  color: #7c3aed;
+  color: #743ee4;
 }
 
 #wordmark-wrapper {
