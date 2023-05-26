@@ -90,7 +90,7 @@
     console.log("running");
     document.addEventListener("DOMContentLoaded", function () {
       const hasSubscribedKey = Object.keys(localStorage).some((k) =>
-        k.startsWith("cksubscribed-")
+        k.startsWith("ckid")
       );
 
       if (hasSubscribedKey) {
