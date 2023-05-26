@@ -86,20 +86,27 @@
   <a class="hidden" rel="me" href="https://{{ . }}"></a>
   {{ end }} {{ end }}
   <!-- hide subscribe CTAs if Local Storage indicates user is subscribed-->
-  <script async>
-    console.log("running");
-    document.addEventListener("DOMContentLoaded", function () {
-      const hasSubscribedKey = Object.keys(localStorage).some((k) =>
-        k.startsWith("ckid")
-      );
-
-      if (hasSubscribedKey) {
-        const element = document.getElementById("subscribe-cta");
-        if (element) {
-          element.style.display = "none";
-          console.log("done");
-        }
-      }
-    });
+  {{ if eq .Title "Subscribe" }}
+  <script type="text/javascript" async>
+    if (localStorage.getItem("ckid")) {
+      document.addEventListener("DOMContentLoaded", function () {
+        const subscriberThanks = document.getElementById("subscriber-thanks");
+        subscriberThanks.style.display = "inherit";
+        subscriberThanks.style.visibility = "visible";
+      });
+    }
   </script>
+  {{ else }}
+  <script type="text/javascript" async>
+    if (localStorage.getItem("ckid")) {
+      document.addEventListener("DOMContentLoaded", function () {
+        const subscribeCta = document.getElementById("subscribe-cta");
+        if (subscribeCta) {
+          subscribeCta.style.display = "none";
+          subscribeCta.style.visibility = "hidden";
+        }
+      });
+    }
+  </script>
+  {{ end }}
 </head>
