@@ -18,7 +18,7 @@ Here is an evergreen list of products that I unsolicitedly endorse, in alphabeti
 - [Apollo](https://apolloapp.io/) - The best Reddit client (not that I'm a big Reddit guy)
 - [Arc](https://arc.net)
 - [Cleanshot X](https://cleanshot.com/) - An exceedingly life-changing utility
-- [Day One](https://dayoneapp.com/) - A well-done, exceedingly [dependable](https://dayoneapp.com/blog/the-next-chapter-of-day-one-at-automattic/) journaling software
+- [Day One](https://dayoneapp.com/) - A well-done, [dependable](https://dayoneapp.com/blog/the-next-chapter-of-day-one-at-automattic/) journaling software
 - [Mimestream](https://mimestream.com) - The best Gmail client since [Inbox](<https://en.wikipedia.org/wiki/Inbox_by_Gmail>
 - [Namecheap](https://namecheap.com)) - An exceedingly dependable and inexpensive domain registrar
 - [Raivo OTP](https://raivo-otp.com) - The best one-time password app
