@@ -22,7 +22,7 @@ menu:
 outputs:
   RSS:
     mediaType: application/rss+xml
-    baseName: /feed
+    baseName: /feed.rss
     rel: alternate
     isPlainText: false
     isHTML: false
