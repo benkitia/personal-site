@@ -20,6 +20,13 @@ menu:
       url: /subscribe
       weight: 1
 outputs:
+  RSS:
+    mediaType: application/rss+xml
+    baseName: /feed
+    rel: alternate
+    isPlainText: false
+    isHTML: false
+    noUgly: true
   home:
     - HTML
     - RSS
