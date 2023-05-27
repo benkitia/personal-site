@@ -68,7 +68,9 @@ article {
   p,
   ul,
   ol {
-    font-family: Charter, "Bitstream Charter", "Iowan Old Style", "Palatino Linotype", "Palatino", "Sitka Text", Cambria, "URW Palladio L", P052, serif;
+    font-family: Charter, "Bitstream Charter", "Iowan Old Style",
+      "Palatino Linotype", "Palatino", "Sitka Text", Cambria, "URW Palladio L",
+      P052, serif;
     font-size: 1.075em;
   }
 }
@@ -170,7 +172,7 @@ p {
   @extend .ff-default;
   color: #767676;
   color: var(--secondary);
-  font-stretch: semi-condensed;
+  font-stretch: condensed;
   font-style: italic;
 }
 
@@ -283,7 +285,8 @@ p {
   }
 
   h1 {
-    font-family: Charter, "Bitstream Charter", "Georgia", "Sitka Text", Cambria, serif;
+    font-family: Charter, "Bitstream Charter", "Georgia", "Sitka Text", Cambria,
+      serif;
     font-style: italic;
   }
 }
