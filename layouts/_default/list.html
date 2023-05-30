@@ -2,7 +2,8 @@
 <main>
   {{ with .Title }}
   <h1>{{ . }}</h1>
-  {{ end }} {{ if eq .Title "Blog Posts" }}
+  {{ end }}
+{{ if eq .Title "Blog Posts" }}
   <nav>
     <ul aria-label="Post filters" class="info">
       <h3>Filter posts by:</h3>
