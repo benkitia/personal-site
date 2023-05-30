@@ -24,7 +24,8 @@
       </li>
     </ul>
   </nav>
-  {{ end }} {{ if not (eq .Title "Projects") }} {{ range .Data.Pages.GroupByDate
+{{ end }}
+{{ if not (eq .Title "Projects") }} {{ range .Data.Pages.GroupByDate
   "January 2006" }}
   <h2>{{ .Key }}</h2>
   <ul id="post-list">
