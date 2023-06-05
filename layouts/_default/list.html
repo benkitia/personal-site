@@ -63,7 +63,6 @@
     </li>
     {{ end }}
   </ul>
-  {{ end }}
   {{ end }} {{ else if eq .Title "Projects" }} {{ range .Data.Pages }}
   <ul id="post-list">
     <li>
@@ -77,8 +76,9 @@
       <br />
       <span class="info"
         >{{ with .Description }}<i><small>{{ . }}</small></i></span
-      >{{ end }}
+      >
     </li>
+    {{ end }}
     {{ end }}
   </ul>
   {{ end }} {{ if eq .Kind "term" }}
