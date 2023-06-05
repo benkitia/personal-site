@@ -3,7 +3,7 @@
   {{ with .Title }}
   <h1>{{ . }}</h1>
   {{ end }}
-{{ if eq .Title "Blog Posts" }}
+  {{ if eq .Title "Blog Posts" }}
   <nav>
     <ul aria-label="Post filters" class="info">
       <h3>Filter posts by:</h3>
@@ -25,9 +25,9 @@
       </li>
     </ul>
   </nav>
-{{ end }}
-{{ if not (eq .Title "Projects") }} {{ range .Data.Pages.GroupByDate
-  "January 2006" }}
+  {{ end }}
+  {{ if not (eq .Title "Projects") }}
+  {{ range .Data.Pages.GroupByDate" January 2006" }}
   <h2>{{ .Key }}</h2>
   <ul id="post-list">
     {{ range .Pages }}
@@ -47,7 +47,8 @@
                 <b>★</b>
               </a>
             </span>
-            {{ end }} {{ if in .Params.tags "evergreen" }}
+            {{ end }}
+            {{ if in .Params.tags "evergreen" }}
             <span class="inline-padded small-caps">
               <a
                 class="info no-decoration"
@@ -57,7 +58,8 @@
               >
                 <b>Evergreen</b>
               </a> </span
-            >{{ end }}
+            >
+            {{ end }}
           </small>
         </i>
       </span>
