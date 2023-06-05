@@ -1,8 +1,7 @@
 <div>
   <h2>recent writing</h2>
   <ul id="post-list">
-    {{ range first 5 (where .Site.RegularPages "Type" "in"
-    .Site.Params.mainSections) }}
+    {{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
     <li>
       <span class="info">
         <i>
