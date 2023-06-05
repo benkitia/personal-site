@@ -24,8 +24,7 @@
       </li>
     </ul>
   </nav>
-  {{ end }} {{ if not (eq .Title "Projects") }} {{ range .Data.Pages.GroupByDate
-  "January 2006" }}
+  {{ end }} {{ if not (eq .Title "Projects") }} {{ range .Data.Pages.GroupByDate "January 2006" }}
   <h2>{{ .Key }}</h2>
   <ul id="post-list">
     {{ range .Pages }}
@@ -86,6 +85,6 @@
     To subscribe to an RSS feed of new posts in {{ .RelPermalink }}, use this
     link: <a href="{{ .Permalink }}index.xml">{{ .Permalink }}index.xml</a>.
   </p>
-  {{ end }} {{ end }}
+  {{ end }}
 </main>
 {{ end }}
