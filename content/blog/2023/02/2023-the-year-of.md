@@ -16,24 +16,24 @@ I planned to start writing this post on New Year's Day and have it posted by Jan
 Me, January 3rd, 2022:
 
 > [Inspired by the Cortex Podcast's tradition of yearly themes, going into 2022 I decided to set a yearly theme for myself for the first time. Reflecting upon 2021, I've spent the year, largely indoors, thinking; of ideas for projects I want to build, aspects of my life that I want to change. My life could use some action. Not like, getting into gunfights action, some things just need to be done.  
-This year, there are several categories in which I want to apply the theme of “building”: projects, habits & routines, relationships & connections, and wealth. For each of these categories, I’ll talk about how I plan to approach related aspects of my life differently than 2021, and some goals I’m setting to keep me on track with my yearly theme.](https://kitia.net/blog/2022/01/2022-the-year-of-building/)
+> This year, there are several categories in which I want to apply the theme of “building”: projects, habits & routines, relationships & connections, and wealth. For each of these categories, I’ll talk about how I plan to approach related aspects of my life differently than 2021, and some goals I’m setting to keep me on track with my yearly theme.](https://kitia.net/blog/2022/01/2022-the-year-of-building/)
 
 I did not embody the theme of "building" as well as I could have, and while I don't have strong feelings toward that fact, I do have a few thoughts:
 
-* While I refuse to be mediocre, I also refuse to put unreasonable pressure upon myself and lose my teenage years in premature pursuit of success
-* I don't feel like the year slipped away from me at all because I quite literally feel like I'm getting younger every week and I have exponentially more positive, "core" memories and valuable experiences
-* I'm no longer slacking, particularly academically (where I'm playing a lot of catch-up at the moment)
-* My ambition (in general, career-wise) and clarity on where I want my life to take me seem to have a somewhat inverse relationship — which I think is not only a normal thing but a good one at this point in my life and not a point of stress for me.
+- While I refuse to be mediocre, I also refuse to put unreasonable pressure upon myself and lose my teenage years in premature pursuit of success
+- I don't feel like the year slipped away from me at all because I quite literally feel like I'm getting younger every week and I have exponentially more positive, "core" memories and valuable experiences
+- I'm no longer slacking, particularly academically (where I'm playing a lot of catch-up at the moment)
+- My ambition (in general, career-wise) and clarity on where I want my life to take me seem to have a somewhat inverse relationship — which I think is not only a normal thing but a good one at this point in my life and not a point of stress for me.
 
 ## The future
 
-I'm skipping on a yearly theme this year *gasps /s*.
+I'm skipping on a yearly theme this year _gasps /s_.
 
 Allow me to remind you of this great illustration by [Tim Urban](https://waitbutwhy.com/):
 
 ![Tim Urban's illustration of life paths](/images/blog/tim-urban-life-paths.jpeg "An illustration showing many life paths represented by lines, with a green dot in the middle and potential paths deviating slowly to the left and right")
 
-A yearly theme is directional; "I want this aspect of my life to move in this direction". The beauty of yearly themes is that the aspect and direction part can be as broad or as narrow as you want. In terms of the illustration, if the beginning of the year is that green dot in the middle, a yearly theme should guide you *toward* a *region of paths*; "When I reach the red square's domain, I want to be within the red square's range".
+A yearly theme is directional; "I want this aspect of my life to move in this direction". The beauty of yearly themes is that the aspect and direction part can be as broad or as narrow as you want. In terms of the illustration, if the beginning of the year is that green dot in the middle, a yearly theme should guide you _toward_ a _region of paths_; "When I reach the red square's domain, I want to be within the red square's range".
 
 ![Tim Urban's illustration of life paths with a highlighted region](/images/blog/region-of-paths.jpeg "An illustration showing many life paths represented by lines, with a green dot in the middle and potential paths deviating slowly to the left and right. Towards the top right of the illustration, a red square highlights a region of 5 paths at a particular point.")
 

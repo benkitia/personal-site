@@ -1,12 +1,12 @@
 ---
 title: "On spreading positivity"
 categories:
-    - life
+  - life
 tags:
-    - advice
-    - featured
-    - on x
-    - short
+  - advice
+  - featured
+  - on x
+  - short
 date: 2022-07-14T22:36:36-05:00
 draft: false
 ---
@@ -15,4 +15,4 @@ draft: false
 
 I like my mantra better; **if you're having a good day, take it out on everyone**.
 
-You likely have no problem making it known to the world when you're having a rough day or week, so why not use a *good* mood as an excuse to go above and beyond in your treatment of others. Compliment that stranger's shirt with a big smile, or drop a $5 bill in the tip jar on your morning coffee run. It'll make your day even better.
+You likely have no problem making it known to the world when you're having a rough day or week, so why not use a _good_ mood as an excuse to go above and beyond in your treatment of others. Compliment that stranger's shirt with a big smile, or drop a $5 bill in the tip jar on your morning coffee run. It'll make your day even better.

@@ -1,15 +1,15 @@
 ---
 title: "iOS app design inspirations"
 categories:
-    - dev & design
-    - tech
+  - dev & design
+  - tech
 tags:
-    - apple
-    - apps
-    - design
-    - ios
-    - ios development
-    - lists
+  - apple
+  - apps
+  - design
+  - ios
+  - ios development
+  - lists
 date: 2022-02-19T22:10:05-06:00
 draft: false
 ---

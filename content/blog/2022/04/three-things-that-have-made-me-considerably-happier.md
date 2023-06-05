@@ -1,11 +1,11 @@
 ---
 title: "Three things that have made me happier"
 categories:
-    - life
+  - life
 tags:
-    - advice
-    - goals
-    - stoicism
+  - advice
+  - goals
+  - stoicism
 date: 2022-04-07T23:59:04-05:00
 draft: false
 former: "Three things that have made me considerably happier"
@@ -23,7 +23,7 @@ Today I thought for a few minutes about some things for which I’m proud of mys
 
 - Deservedly forgiving myself for mistakes, taking an enormous weight off my shoulders
 - Doing some much-needed reevaluation about those I choose to spend my energy on, solidifying my most important relationships
-- Spending more time on positive activities, like exercising and learning, affording me a greater sense of purpose and accomplishment  
+- Spending more time on positive activities, like exercising and learning, affording me a greater sense of purpose and accomplishment
 - Learning about and incorporating into my life some Stoic practices and teachings, preventing my happiness from being influenced by external factors outside of my control and helping me remain at peace despite more “stressors” than ever
 - Going cold-turkey on junk food, making me feel physically shitty (no pun intended)far less often
 

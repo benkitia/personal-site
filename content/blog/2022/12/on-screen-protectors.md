@@ -1,13 +1,13 @@
 ---
 title: "On screen protectors"
 categories:
-    - tech
+  - tech
 tags:
-    - advice
-    - on x
-    - products
-    - screen protectors
-    - short
+  - advice
+  - on x
+  - products
+  - screen protectors
+  - short
 date: 2022-12-30T18:38:30-06:00
 draft: false
 ---

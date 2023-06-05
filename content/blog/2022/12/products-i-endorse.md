@@ -1,12 +1,12 @@
 ---
 title: "Products I endorse"
 tags:
-    - apps
-    - evergreen
-    - list
-    - products
-    - services
-    - short
+  - apps
+  - evergreen
+  - list
+  - products
+  - services
+  - short
 date: 2022-12-19T20:29:26-06:00
 draft: false
 ---

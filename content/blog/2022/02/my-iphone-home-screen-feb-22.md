@@ -1,14 +1,14 @@
 ---
 title: "My iPhone home screen (Feb ’22)"
 categories:
-    - life
-    - tech
+  - life
+  - tech
 tags:
-    - apple
-    - apps
-    - home screens
-    - ios
-    - workflows
+  - apple
+  - apps
+  - home screens
+  - ios
+  - workflows
 date: 2022-02-20T14:14:01-06:00
 draft: false
 ---
@@ -87,7 +87,7 @@ My second biggest time suck. I am mad about this one.
 
 A folder of apps that I use an average of 1.0 times a day.
 
-![Home screen folder labeled "Daily"](/images/blog/homescreen-202102-3.jpeg  "My Daily folder")
+![Home screen folder labeled "Daily"](/images/blog/homescreen-202102-3.jpeg "My Daily folder")
 
 #### [Co -- Star](https://apps.apple.com/us/app/co-star-personalized-astrology/id1264782561)
 
@@ -144,5 +144,4 @@ My podcast client of choice.
 [Direct link to wallpaper](/images/blog/homescreen-202102-4.jpeg)
 
 [^1]: The complaint isn't anything major or important or deal-breaking. Just a slightly irritating bug; the app forgets what I'm doing at the train station I transfer at during my commute to/from school, so I have to manually enter the activity for that location each time. App is still 5/5.
-
 [^2]: [Yerdle](https://yerdle.kitia.net) is a Ye-themed daily word puzzle. Think Kanye West Wordle.

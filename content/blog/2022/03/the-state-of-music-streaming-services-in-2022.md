@@ -1,31 +1,31 @@
 ---
 title: "The state of music streaming services in 2022"
 categories:
-    - dev & design
-    - tech
+  - dev & design
+  - tech
 tags:
-    - apple
-    - apple music
-    - apps
-    - design
-    - music
-    - music streaming services
-    - services
-    - spotify
-    - ux
+  - apple
+  - apple music
+  - apps
+  - design
+  - music
+  - music streaming services
+  - services
+  - spotify
+  - ux
 date: 2022-03-24T21:46:56-05:00
 draft: false
 ---
 
-*Nothing but peace love for the builders of criticized software, who are talented people that are good at their jobs.*
+_Nothing but peace love for the builders of criticized software, who are talented people that are good at their jobs._
 
 I've been a Spotify user for half a decade, give or take. For the better part of that time, I was a (cringely) die-hard Spotify user who would eagerly participate in Spotify vs. Apple Music debates with whoever dared to engage. More recently, Spotify has managed to keep me just happy enough with the service not to jump ship, but after shopping around for a few days, back and forth over the railing.
 
 I'll only be comparing Apple Music and Spotify because they're the only viable options for me. Yes, that's a slight hyperbole and no, I don't care to elaborate more than Amazon Music Unlimited, SoundCloud whatever the fuck, and YouTube Music are jokes and I primarily listen to music through AirPods Pro so Tidal's weird UI and inferable drawbacks because of its relative obscurity outweigh any marginal sound quality benefits over Bluetooth.
 
-*inhale* Aight. All anyone cares about is UX (user experience), right? That's a bit vague, so I'll get more specific. But not before I flippantly suggest that Apple and Spotify are colluding to make their (music streaming) services suck in uniquely different ways to get me to pay for both of them.
+_inhale_ Aight. All anyone cares about is UX (user experience), right? That's a bit vague, so I'll get more specific. But not before I flippantly suggest that Apple and Spotify are colluding to make their (music streaming) services suck in uniquely different ways to get me to pay for both of them.
 
-*Below you should assume I'm talking about mobile software exclusively if a detail I mention isn't correct about a desktop counterpart.*
+_Below you should assume I'm talking about mobile software exclusively if a detail I mention isn't correct about a desktop counterpart._
 
 ## Audio
 
@@ -71,8 +71,7 @@ Both AM and Spotify do a good job at search, I'm rarely unable to find what I'm 
 
 ## Social
 
-Both AM and Spotify's friends features are poorly integrated. On mobile at least, your friends are hidden behind arbitrary buttons.
-I want to know what my friends are listening to, dammit. Give me a friends tab so I can stalk them. Now, please! Spotify takes the edge here because profiles work far more seamlessly.
+Both AM and Spotify's friends features are poorly integrated. On mobile at least, your friends are hidden behind arbitrary buttons. I want to know what my friends are listening to, dammit. Give me a friends tab so I can stalk them. Now, please! Spotify takes the edge here because profiles work far more seamlessly.
 
 Then, Spotify dominates because of Group Session, Private listening, Discord and Spotify, and Blend, "a shared playlist that combines the music you and a friend listen to". I've used all of those features and they all work well, but none of them stuck with me or became important to the way I listen to music. I do not care to know if AM has implemented some SharePlay shit, because who's using that. It might be unfortunate the AM team is restricted in cool stuff they can release to system features, to a degree. Like, we'd never see AM come out with a unique way to listen with your friends without using a system-level feature, in that case, SharePlay, which in my opinion is not good for sharing music.
 
@@ -92,7 +91,7 @@ Anecdotally, Spotify is more likely to have the not weird version of a song, and
 
 ### Clean music
 
-The physical education department at my high school is seldom fond of profane music blasting in their facilities, so quick access to the clean version of songs is useful as the self-appointed aux person anywhere I go. I do wish there was an easy way to toggle a playlist clean or enter a mode that plays the clean version of selected songs.  
+The physical education department at my high school is seldom fond of profane music blasting in their facilities, so quick access to the clean version of songs is useful as the self-appointed aux person anywhere I go. I do wish there was an easy way to toggle a playlist clean or enter a mode that plays the clean version of selected songs.
 
 ### Focus
 

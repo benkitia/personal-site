@@ -1,14 +1,14 @@
 ---
 title: "Trade-in trade-offs"
 categories:
-    - tech
+  - tech
 tags:
-    - apple
-    - commentary
-    - culture
-    - environment
-    - iphone
-    - upgrades
+  - apple
+  - commentary
+  - culture
+  - environment
+  - iphone
+  - upgrades
 
 date: 2022-10-20T23:01:01-05:00
 draft: false
