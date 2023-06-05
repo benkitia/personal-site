@@ -1,7 +1,7 @@
 .DS_Store
-resources/
 .hugo_build.lock
-*.plist
-/public/*
-/.vscode
 .idea/
+*.plist
+public/
+resources/
+.vscode/
