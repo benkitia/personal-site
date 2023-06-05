@@ -4,6 +4,7 @@ categories:
   - life
 tags:
   - advice
+  - evergreen
   - featured
   - on x
   - short

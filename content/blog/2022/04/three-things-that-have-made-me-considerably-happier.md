@@ -4,6 +4,7 @@ categories:
   - life
 tags:
   - advice
+  - evergreen
   - goals
   - stoicism
 date: 2022-04-07T23:59:04-05:00
