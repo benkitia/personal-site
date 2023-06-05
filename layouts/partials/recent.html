@@ -31,12 +31,12 @@
         </i>
       </span>
       <br />
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <a id="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
     {{ end }}
   </ul>
   <p id="recent-info">
     <span class="info">Above are the 5 most recent posts.</span>
-    <span><a href="/blog">All blog posts</a></span>
+    <span class="prominent"><a href="/blog">All blog posts →</a></span>
   </p>
 </div>

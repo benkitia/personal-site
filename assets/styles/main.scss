@@ -253,6 +253,13 @@ p {
   }
 }
 
+#post-link {
+  @extend .ff-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-style: italic;
+}
+
 #post-list {
   list-style-type: none;
   padding: 0;
