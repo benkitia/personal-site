@@ -53,8 +53,8 @@ a {
   text-decoration: underline;
   text-decoration-color: #767676;
   text-decoration-color: var(--underline);
-  text-decoration-thickness: 0.02em;
-  text-underline-offset: 0.35em;
+  text-decoration-thickness: 0.02rem;
+  text-underline-offset: 0.35rem;
   text-underline-position: below;
 
   &:hover {
@@ -68,15 +68,13 @@ article {
   p,
   ul,
   ol {
-    font-family: Charter, "Bitstream Charter", "Iowan Old Style",
-      "Palatino Linotype", "Palatino", "Sitka Text", Cambria, "URW Palladio L",
-      P052, serif;
-    font-size: 1.075em;
+    @extend .ff-serif;
+    font-size: 1.075rem;
   }
 }
 
 blockquote {
-  border-left: 0.125em solid #7c3aed;
+  border-left: 0.125rem solid #7c3aed;
   margin: 20px;
   padding: 5px 0px 5px 20px;
 
@@ -94,8 +92,7 @@ form {
 }
 
 code {
-  font-family: "Berkeley Mono", ui-monospace, "Cascadia Code", "Source Code Pro",
-    Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  @extend .ff-mono;
 }
 
 footer {
@@ -154,8 +151,18 @@ p {
 
 // classes
 
+.ff-mono {
+  font-family: "Berkeley Mono", ui-monospace, "Cascadia Code", "Source Code Pro",
+    Menlo, Consolas, "DejaVu Sans Mono", monospace;
+}
+
 .ff-default {
   font-family: system-ui, sans-serif;
+}
+
+.ff-serif {
+  font-family: Charter, "Bitstream Charter", "Georgia", "Sitka Text", Cambria,
+    serif;
 }
 
 .ff-prominent {
@@ -188,7 +195,7 @@ p {
 
   a {
     text-decoration-color: rgb(124, 58, 237);
-    text-decoration-thickness: 0.03em;
+    text-decoration-thickness: 0.03rem;
   }
 }
 
@@ -227,7 +234,7 @@ p {
   }
 
   img {
-    border: 0.125em solid #743ee4;
+    border: 0.125rem solid #743ee4;
     border-radius: 9999px;
     margin: auto;
     max-height: 144px;
@@ -278,7 +285,7 @@ p {
 }
 
 #wordmark-wrapper {
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2rem;
 
   a:hover {
     background-color: inherit;
