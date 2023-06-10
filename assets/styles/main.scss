@@ -1,4 +1,4 @@
-// constants
+// # constants
 
 :root {
   --background: #121212;
@@ -25,7 +25,9 @@
   }
 }
 
-// elements
+// # elements
+
+// ## special elements
 
 body {
   @extend .ff-default;
@@ -47,6 +49,8 @@ html {
     user-select: none;
   }
 }
+
+// ## regular elements
 
 a {
   color: inherit;
@@ -86,7 +90,7 @@ blockquote {
 
 form {
   * {
-    @extend .ff-prominent;
+    @extend .ff-default;
     font-stretch: ultra-expanded;
   }
 }
@@ -113,7 +117,7 @@ h3,
 h4,
 h5,
 h6 {
-  @extend .ff-prominent;
+  @extend .ff-default;
   font-weight: bolder;
   font-stretch: expanded;
 }
@@ -134,7 +138,7 @@ li {
 
 nav {
   li {
-    @extend .ff-prominent;
+    @extend .ff-default;
     font-weight: light;
     line-height: 1.75;
   }
@@ -151,22 +155,23 @@ p {
 
 // classes
 
+// ## font families
+
 .ff-mono {
   font-family: "Berkeley Mono", ui-monospace, "Cascadia Code", "Source Code Pro",
-    Menlo, Consolas, "DejaVu Sans Mono", monospace;
+    Menlo, Consolas, "DejaVu Sans Mono", monospace, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .ff-default {
-  font-family: system-ui, sans-serif;
+  font-family: system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .ff-serif {
   font-family: Charter, "Bitstream Charter", "Georgia", "Sitka Text", Cambria,
-    serif;
-}
-
-.ff-prominent {
-  font-family: system-ui, sans-serif;
+    serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
 }
 
 // ? ConvertKit subscription form proprietary class names
@@ -174,6 +179,8 @@ p {
 .seva-custom-content {
   @extend .info;
 }
+
+// ## regular classes
 
 .info {
   @extend .ff-default;
@@ -212,7 +219,7 @@ p {
   padding-bottom: 15px;
 }
 
-// ids
+// # ids
 
 #landing-main {
   display: grid;
@@ -299,13 +306,12 @@ p {
   }
 
   h1 {
-    font-family: Charter, "Bitstream Charter", "Georgia", "Sitka Text", Cambria,
-      serif;
+    @extend .ff-serif;
     font-style: italic;
   }
 }
 
-// supreme classes
+// # supreme classes
 
 .hidden {
   display: none;
