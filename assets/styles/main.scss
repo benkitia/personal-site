@@ -223,16 +223,6 @@ p {
     font-style: normal;
   }
 
-  em {
-    strong {
-      font-stretch: semi-condensed;
-    }
-
-    &:not(strong) {
-      font-stretch: expanded;
-    }
-  }
-
   img {
     border: 0.125rem solid #743ee4;
     border-radius: 9999px;
@@ -240,6 +230,10 @@ p {
     max-height: 144px;
     max-width: 144px;
     place-content: center;
+  }
+  
+  strong {
+    font-stretch: expanded;
   }
 }
 
