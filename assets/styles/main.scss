@@ -198,7 +198,7 @@ p {
 }
 
 .prominent {
-  @extend .ff-prominent;
+  @extend .ff-prominent !optional;
   color: inherit !important;
   font-stretch: expanded;
   font-weight: bolder !important;
@@ -237,7 +237,7 @@ p {
     max-width: 144px;
     place-content: center;
   }
-  
+
   strong {
     font-stretch: expanded;
   }
