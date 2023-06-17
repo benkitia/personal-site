@@ -161,9 +161,10 @@ p {
 // ## font families
 
 .ff-mono {
-  font-family: "Berkeley Mono", ui-monospace, "Cascadia Code", "Source Code Pro",
-    Menlo, Consolas, "DejaVu Sans Mono", monospace, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Berkeley Mono", "JetBrains Mono", "ui-monospace",
+    "Cascadia Code", "Source Code Pro", "Menlo", "Consolas", "DejaVu Sans Mono",
+    "monospace", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
 }
 
 .ff-default {
@@ -172,8 +173,8 @@ p {
 }
 
 .ff-serif {
-  font-family: Charter, "Bitstream Charter", "Georgia", "Sitka Text", Cambria,
-    serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+  font-family: "Charter", "Bitstream Charter", "Georgia", "Sitka Text",
+    "Cambria", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
 }
 
