@@ -2,16 +2,6 @@
 title: "Subscribe"
 ---
 
-## Digital Newsletter
-
-Subscribe to my newsletter for **infrequent, high-quality updates** about:
-
-- Cool **things I'm working on**
-- **Interesting content** I've found
-- **My thoughts** on timely topics related to tech, trends, and culture
-
-{{< hardcoded-injection >}}subscribe-form{{< /hardcoded-injection >}}
-
 ## Blog
 
 To subscribe to an RSS feed of all new blog posts, use this link: <https://www.kitia.net/index.xml>.
