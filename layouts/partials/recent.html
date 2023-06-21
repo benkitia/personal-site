@@ -4,7 +4,6 @@
     {{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
     <li>
       <span class="info">
-        <i>
           <small>
             <time>{{ .Date.Format "Jan 2 ’06" }}</time>
             {{ if in .Params.tags "featured" }}
@@ -28,15 +27,15 @@
             </span>
             {{ end }}
           </small>
-        </i>
       </span>
       <br />
       <a id="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
     {{ end }}
+    <li>
+      <span class="info"><small>Above are the 5 most recent posts.</small></span>
+      <br />
+      <span class="prominent"><a href="/blog">All blog posts →</a></span>
+    </li>
   </ul>
-  <p id="recent-info">
-    <span class="info">Above are the 5 most recent posts.</span>
-    <span class="prominent"><a href="/blog">All blog posts →</a></span>
-  </p>
 </div>
