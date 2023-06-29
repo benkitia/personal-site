@@ -37,3 +37,7 @@ params:
   twitter: "@benkitia"
   icon: https://www.kitia.net/images/icon.png
   mastodon: mastodon.social/@kitia
+sitemap:
+  changefreq: always
+  filename: sitemap.xml
+  priority: 1
