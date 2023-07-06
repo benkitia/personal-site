@@ -6,7 +6,7 @@ tags:
   - goals
   - yearly themes
 date: 2023-02-05T15:00:40-06:00
-draft: false
+draft: true
 ---
 
 I planned to start writing this post on New Year's Day and have it posted by January 2nd, but I'm glad to be writing it now, on the 14th. I ended up spending the first few days of 2022 with my friend and her family in Michigan (New Buffalo area), which could not have been a more perfect reset. That delay showed me that abstaining from broad-stroke reflection and goal-setting until "settled" into the year helps me be more realistic with my annual ambitions, so I'll aim to post these mid-to-late January moving forward.

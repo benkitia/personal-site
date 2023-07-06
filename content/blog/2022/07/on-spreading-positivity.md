@@ -9,7 +9,7 @@ tags:
   - on x
   - short
 date: 2022-07-14T22:36:36-05:00
-draft: false
+draft: true
 ---
 
 "Spread positivity" is a common saying that's pretty agreeable. The world needs more of it. However, it's unreasonable to expect one to be exceedingly cheery and do-gooding every day, especially those who, due to circumstance, don't have much positivity to spread.

@@ -7,7 +7,7 @@ tags:
   - advice
   - task lists
 date: 2022-06-22T22:45:18-05:00
-draft: false
+draft: true
 former: "The crucial piece missing from a task list: why?"
 ---
 

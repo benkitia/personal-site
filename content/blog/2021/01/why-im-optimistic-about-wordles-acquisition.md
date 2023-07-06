@@ -8,7 +8,7 @@ tags:
   - social media
   - web
 date: 2022-01-31T20:42:40-06:00
-draft: false
+draft: true
 ---
 
 Josh Wardle, creator of Wordle:
