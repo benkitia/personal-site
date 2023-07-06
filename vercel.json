@@ -54,6 +54,11 @@
       "permanent": false
     },
     {
+      "source": "/handles",
+      "destination": "https://bento.me/kitia",
+      "permanent": false
+    },
+    {
       "source": "/privacy",
       "destination": "mailto:ben@kitia.net?subject=Privacy%20inquiry",
       "permanent": false
