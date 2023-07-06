@@ -198,6 +198,13 @@ p {
   padding-left: 5px;
 }
 
+.post-link {
+  @extend .ff-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-style: italic;
+}
+
 .prominent {
   @extend .ff-prominent !optional;
   color: inherit !important;
@@ -252,13 +259,6 @@ p {
   ul {
     list-style-type: none;
   }
-}
-
-#post-link {
-  @extend .ff-serif;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-  font-style: italic;
 }
 
 #post-list {
