@@ -10,11 +10,11 @@
     {{ end }}
     <header class="post-header">
       <h1>{{ .Title }}{{ if in .Params.tags "featured" }}
-        <a id="post-class-indicator" class="info" title="Featured post"
-          href="/tags/featured"><small><b>★</b></small></a>
+        <a class="info" title="Featured post"
+          href="/tags/featured"><b>★</b></a>
         {{ end }}{{ if in .Params.tags "evergreen" }}
-        <a id="post-class-indicator" class="info" title="Evergreen post"
-          href="/tags/evergreen"><small><b>E</b></small></a>
+        <a class="info" title="Evergreen post"
+          href="/tags/evergreen"><b>E</b></a>
         {{ end }}</h1>
       {{ if eq .Section "blog" }}
       {{ with .Site.Author.name }}

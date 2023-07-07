@@ -198,11 +198,16 @@ p {
   padding-left: 5px;
 }
 
+.post-class-indicator {
+  font-size: large;
+}
+
 .post-link {
   @extend .ff-serif;
   font-size: 1.125rem;
-  line-height: 1.5rem;
   font-style: italic;
+  line-height: 1.5rem;
+  padding-bottom: 15px;
 }
 
 .prominent {
