@@ -9,7 +9,11 @@
   <article>
     {{ end }}
     <header class="post-header">
-      <h1>{{ if eq .Title "about" }}Ben Kitia{{ else }}{{ .Title }}{{ if in .Params.tags "featured" }}
+      <h1>{{ if eq .Title "about" }}
+      Ben Kitia
+      {{ else }}
+      {{ .Title }}
+      {{ if in .Params.tags "featured" }}
         <a class="info" title="Featured post"
           href="/tags/featured"><b>★</b></a>
         {{ end }}{{ if in .Params.tags "evergreen" }}
