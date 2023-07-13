@@ -2,15 +2,9 @@
 <html dir="ltr" lang="{{ .Site.LanguageCode | default " en-us" }}">
 {{ partial "head" . }}
 <body>
-<div id="site-wrapper">
-<div id="content-wrapper">
-<div id="tertiary-wrapper">
 {{ partial "header" . }}
 {{ block "main" . }}                                        
 {{ end }}
 {{ partial "footer" . }}
-</div>
-</div>
-</div>
 </body>
 </html>
