@@ -258,6 +258,10 @@ p {
       @extend .info;
       font-stretch: ultra-expanded;
       font-style: inherit;
+
+      a {
+        text-decoration: none !important;
+      }
     }
   }
 }
