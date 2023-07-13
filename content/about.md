@@ -2,9 +2,7 @@
 title: "about"
 ---
 
-_[ben.org](https://nat.org)_
-
-welcome to my web site
+[I’m an investor, entrepreneur, developer.](https://nat.org)
 
 Some things about me:
 
