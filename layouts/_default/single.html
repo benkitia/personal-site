@@ -33,7 +33,7 @@
   </article>
   {{ partial "thanks" . }}
   {{ end }}
-  <footer class="info" id="taxonomy">
+  <div class="info" id="taxonomy">
     {{ with .Params.categories }}
     <p>
       <b>Posted in:</b> {{ range $key, $value := . }} {{- if $key }}, {{ end }}
@@ -48,6 +48,6 @@
       <b>Tagged with:</b> {{ range $key, $value := . }}{{- if $key }}, {{ end }}<a href='{{ "/tags/" | relLangURL }}{{ $value | urlize }}'>{{ . }}</a>{{- end }}
     </p>
     {{ end }}
-  </footer>
+  </div>
 </main>
 {{ end }}
