@@ -2,7 +2,7 @@
 title: "Subscribe"
 ---
 
-## Blog
+## RSS
 
 To subscribe to an RSS feed of all new blog posts, use this link: <https://www.kitia.net/index.xml>.
 
@@ -15,3 +15,7 @@ Alternatively, you can add the feed to your RSS client with the following syntax
 By category e.g. "Example Category": `https://www.kitia.net/categories/example-category/index.xml`
 
 By tag e.g. "example tag": `https://www.kitia.net/tags/example-tag/index.xml`
+
+## Twitter
+
+A link to new blog posts are automatically posted to [@kitiadotnet on Twitter](https://twitter.com/kitiadotnet).
