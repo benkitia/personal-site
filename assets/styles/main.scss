@@ -253,6 +253,12 @@ p {
 
   strong {
     font-stretch: expanded;
+
+    em {
+      @extend .info;
+      font-stretch: ultra-expanded;
+      font-style: inherit;
+    }
   }
 }
 
