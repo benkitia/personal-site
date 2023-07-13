@@ -1,14 +1,14 @@
-{{ if eq .Section "blog" }}
 <footer id="site-footer">
   <!-- {{ if and (not (eq .Title "Subscribe")) (not (eq .Title "Digital Newsletter subscription confirmed")) (not (eq .Title "404 Page not found")) }}
   <p class="prominent">
     <a href="/subscribe">Subscribe</a>
   </p>
   {{ end }} -->
+{{ if eq .Section "blog" }}
   <small>
     <p class="info">
       <i>&copy; 2021–{{ now.Year }} {{ .Site.Copyright }}</i>
     </p>
-  </small> 
-</footer>
+  </small>
 {{ end }}
+</footer>
