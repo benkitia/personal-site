@@ -257,6 +257,7 @@ p {
     em {
       @extend .info;
       font-stretch: ultra-expanded;
+      letter-spacing: 0.1em;
       font-style: inherit;
 
       a {
