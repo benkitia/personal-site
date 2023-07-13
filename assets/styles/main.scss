@@ -37,7 +37,6 @@ body {
   color: var(--font);
   margin: auto;
   margin-top: 10px;
-  margin-bottom: 80px;
   max-width: 480px;
   padding-left: 20px;
   padding-right: 20px;
@@ -51,6 +50,10 @@ html {
   #wordmark {
     user-select: none;
   }
+}
+
+main {
+  padding-bottom: 40px;
 }
 
 // ## regular elements
@@ -297,7 +300,8 @@ p {
     font-weight: inherit;
   }
 
-  margin: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #taxonomy {
