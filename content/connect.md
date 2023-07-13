@@ -1,5 +1,5 @@
 ---
-title: "handles"
+title: "connect"
 ---
 
 ## [personal website & blog](https://www.kitia.net)
