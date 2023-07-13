@@ -2,7 +2,7 @@
   <h2>Latest writing</h2>
   <ul id="post-list">
     {{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-    <li>
+    <li class="post-link">
       <span class="info">
           <small>
             <time>{{ .Date.Format "Jan 2 ’06" }}</time>
@@ -29,7 +29,7 @@
           </small>
       </span>
       <br />
-      <a class="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
     {{ end }}
     <li>
