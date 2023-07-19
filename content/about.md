@@ -10,7 +10,8 @@ Some things about me:
 - Growing up in Chicago since 2006
 - Enamored with software since [2007](https://en.wikipedia.org/wiki/IPhone)
 - Building software (companies)
-  - Currently focused on advancing digital content interfaces. I’m starting with [marketing tools for storytelling startups](https://twitter.com/tellsuite)
+    - Founder/emcee of [Helianth](https://helianth.co)
+      - Currently focused on advancing digital content interfaces, starting with building [marketing tools for storytelling startups](https://talesuite.com)
   - Having fun hacking on anything I can get my cursor into. Cooking up a lil iOS utility at the moment
 
 Some things I believe:
