@@ -31,7 +31,7 @@ outputs:
 permalinks:
   publ: /:title/
 params:
-  description: Ben Kitia is a Chicago-based software builder who's the founder and Emcee (CEO) of Pubnent.
+  description: Ben Kitia is a Chicago-based software builder who's the founder and emcee (CEO) of Pubnent.
   wordmark: BK
   title: Ben Kitia
   twitter: "@benkitia"
