@@ -19,4 +19,4 @@ Some things I believe:
 - Romanticizing life is necessary
 - Empathize infinitely, sympathize sparingly
 - A bell curve’s left has more to teach when observed than its center when heeded or its right when idolized
-- Honesty is (only) owed to yourself
+- Honesty is (only) owed to yourself (except when under oath or other requirement of truth by law, policy, or agreement)
