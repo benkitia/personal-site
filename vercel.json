@@ -49,11 +49,6 @@
   ],
   "redirects": [
     {
-      "source": "/email",
-      "destination": "mailto:ben@kitia.net",
-      "permanent": false
-    },
-    {
       "source": "/privacy",
       "destination": "mailto:ben@kitia.net?subject=Privacy%20inquiry",
       "permanent": false
