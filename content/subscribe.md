@@ -2,4 +2,4 @@
 title: "Subscribe"
 ---
 
-{{< hardcoded-injection >}}subscribe-form{{< /hardcoded-injection    >}}
+{{< hardcoded-injection >}}subscribe-form{{< /hardcoded-injection >}}

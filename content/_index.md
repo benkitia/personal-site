@@ -8,3 +8,7 @@ I love writing prose and code to [Realize](/Realize.pdf) ideas in radical alignm
 
 **Connect:** _[Twitter](https://twitter.com/benkitia)_ • _[GitHub](https://github.com/benkitia)_ **_[•••](/connect)_**  
 **Contact:** _[Email](https://www.kitia.net/email)_ • _[Twitter DM](https://twitter.com/messages/compose?recipient_id=1188270454303277056)_ **_[•••](/contact)_**
+
+## updates
+
+{{< hardcoded-injection >}}subscribe-form{{< /hardcoded-injection >}}
