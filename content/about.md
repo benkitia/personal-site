@@ -11,12 +11,12 @@ Some things about me:
 - Enamored with software since [2007](https://en.wikipedia.org/wiki/IPhone)
 - Building software (companies)
   - Founder/emcee of [Helianth](https://helianth.co)
-  - Currently focused on advancing digital content interfaces, starting with building [marketing tools for story-telling startups](https://talesuite.com)
   - Having fun hacking on anything I can get my cursor into. Cooking up a lil iOS utility at the moment
 
 Some things I believe:
 
+- Incentives, incentives, incentives, incentives, incentives
 - Romanticizing life is necessary
 - Empathize infinitely, sympathize sparingly
-- A bell curve’s left has more to teach when observed than its center when heeded or its right when idolized
-- Honesty is (only) owed to yourself (except when under oath or otherwise compelled by law, policy, or agreement)
+- Honesty is (only) owed to yourself
+- Conconut oil
