@@ -74,9 +74,6 @@
   {{ end }} {{ with .Site.Params.baseURL }}
   <meta name="twitter:url" content="{{ . }}" />
   {{ end }}
-  <!-- Analytics -->
-  {{ if eq hugo.Environment "production" }}
-  <script src="/_vercel/insights/script.js" async></script>
-  {{ end }}
+  <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="eb9c6ea9-e19d-47af-9c47-c226a627141f" async></script>
   <!-- Her highness -->
 </head>
