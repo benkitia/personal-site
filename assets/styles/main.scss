@@ -211,7 +211,7 @@ p {
   }
 
   input {
-    background-color: #121212 !important;
+    background-color: var(--background) !important;
     border: #f0bd44;
     color: white !important;
   }
