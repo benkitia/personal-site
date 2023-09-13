@@ -16,7 +16,5 @@ Some things about me:
 Some things I believe:
 
 - We, as early humans, have a duty to ethically [accelerate toward](https://beff.substack.com/p/notes-on-eacc-principles-and-tenets) abundance, which is the only economic solution
-- Incentives are the key 🔑 to any human-related issue
+- Incentives are always the 🔑 to any human-related issue
 - Infinite empathy → conservative sympathy
-- Honesty is (only) owed to yourself
-- Romanticizing life is necessary
