@@ -8,7 +8,3 @@ I love writing prose and code to Realize ideas in radical alignment with my valu
 
 **Connect:** _[Twitter](https://twitter.com/benkitia)_ • _[GitHub](https://github.com/benkitia)_ **_[•••](/connect)_**  
 **Contact:** _[email](https://www.kitia.net/email)_ • _[Twitter DM](https://twitter.com/messages/compose?recipient_id=1188270454303277056)_ **_[•••](/contact)_**
-
-## Digital Newsletter
-
-{{< hardcoded-injection >}}subscribe-form{{< /hardcoded-injection >}}
