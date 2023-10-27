@@ -197,6 +197,30 @@ p {
   padding-left: 5px;
 }
 
+.newsletter-form-container {
+  margin-top: 1.5rem;
+
+  * {
+    font-size: large;
+    font-stretch: expanded;
+  }
+
+  button {
+    font-stretch: ultra-expanded;
+    font-weight: 700 !important;
+  }
+
+  input {
+    background-color: var(--background) !important;
+    border: #f0bd44;
+    color: white !important;
+  }
+
+  p {
+    color: white !important;
+  }
+}
+
 .post-class-indicator {
   font-size: large;
 }
@@ -219,6 +243,10 @@ p {
     text-decoration-color: rgb(124, 58, 237);
     text-decoration-thickness: 0.03rem;
   }
+}
+
+.single-header a {
+  text-decoration: none;
 }
 
 .small {

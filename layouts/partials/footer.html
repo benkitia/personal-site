@@ -1,16 +1,9 @@
 <div id="site-footer">
-<footer>
-  <!-- {{ if and (not (eq .Title "Subscribe")) (not (eq .Title "Digital Newsletter subscription confirmed")) (not (eq .Title "404 Page not found")) }}
-  <p class="prominent">
-    <a href="/subscribe">Subscribe</a>
-  </p>
-  {{ end }} -->
-{{ if eq .Section "blog" }}
-  <small>
+  <footer>
     <p class="info">
-      <i>&copy; 2021–{{ now.Year }} {{ .Site.Copyright }}</i>
+      <small>
+        <!-- <i>&copy; 2021–{{ now.Year }} {{ .Site.Copyright }}</i> -->
+      </small>
     </p>
-  </small>
-{{ end }}
-</footer>
+  </footer>
 </div>
