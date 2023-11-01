@@ -4,3 +4,4 @@ www.kitia.net/ id=:queryParams www.kitia.net:queryParams 301
 /:1/:2/:3/ id=:queryParams /:1/:2/:3:queryParams 301
 /:1/:2/:3/:4/ id=:queryParams /:1/:2/:3/:4:queryParams 301
 /:1/:2/:3/:4/:5/ id=:queryParams /:1/:2/:3/:4/:5:queryParams 301
+kitia.net/* id=:queryParams www.kitia.net/:splat:queryParams
