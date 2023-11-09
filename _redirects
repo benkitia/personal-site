@@ -1,6 +1,5 @@
-www.kitia.net/ id=:queryParams www.kitia.net:queryParams 301
-/:1/ id=:queryParams /:1:queryParams 301
-/:1/:2/ id=:queryParams /:1/:2:queryParams 301
-/:1/:2/:3/ id=:queryParams /:1/:2/:3:queryParams 301
-/:1/:2/:3/:4/ id=:queryParams /:1/:2/:3/:4:queryParams 301
-/:1/:2/:3/:4/:5/ id=:queryParams /:1/:2/:3/:4/:5:queryParams 301
+/*/*\/*\/*\/*\/*\/*\/ /$1/$2/$3/$4/$5 301
+/*/*\/*\/*\/*\/*\/ /$1/$2/$3/$4 301
+/*/*\/*\/*\/*\/ /$1/$2/$3 301
+/*/*\/*\/*\/ /$1/$2 301
+/*\/*\/ /$1 301
