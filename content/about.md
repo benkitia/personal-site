@@ -2,7 +2,7 @@
 title: "about"
 ---
 
-[I’m a philosopher, entrepreneur, developer.](https://nat.org)
+I’m a philosopher, [entrepreneur, developer.](https://nat.org)
 
 Some things about me:
 

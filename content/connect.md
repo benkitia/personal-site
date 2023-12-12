@@ -2,7 +2,7 @@
 title: "connect"
 ---
 
-## [personal website](https://www.kitia.net)
+## (←) [personal website](https://www.kitia.net)
 
 ## [Twitter](https://twitter.com/benkitia)
 
