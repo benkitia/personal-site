@@ -225,6 +225,10 @@ p {
   font-size: large;
 }
 
+.post-header a {
+  text-decoration: none;
+}
+
 .post-link {
   @extend .ff-serif;
   font-size: 1.125rem;

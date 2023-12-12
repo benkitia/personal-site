@@ -1,8 +1,48 @@
 {{ define "main" }}
 <main>
-  <header class="single-header">
-      <h1>{{ if eq .Title "about" }}Ben Kitia{{ else }}{{ .Title }}{{ end }}
+  {{ if eq .Section "blog" }}
+  <article>
+    {{ end }}
+    <header class="post-header">
+      <h1>{{ if eq .Title "about" }}Ben Kitia{{ else }}{{ .Title }}{{ end }}{{ if in .Params.tags "featured" }}
+        <a class="info" title="Featured post"
+          href="/tags/featured"><b>★</b></a>
+        {{ end }}{{ if in .Params.tags "evergreen" }}
+        <a class="info" title="Evergreen post"
+          href="/tags/evergreen"><b>E</b></a>
+        {{ end }}</h1>
+      {{ if eq .Section "blog" }}
+      {{ with .Site.Author.name }}
+      <address class="info">by <a rel="author" href="/" class="post-header">{{ . }}</a></address>
+      {{ end }}
+      <br>
+      <time pubdate datetime="{{ .Date.Format "2006-01-02 15:04" }}" class="info">{{ .Date.Format "January 2, 2006" }}
+        <small>
+          at {{ .Date.Format "3:04 PM" }}
+        </small>
+      </time>
+    {{ end }}
   </header>
-  {{ .Content }}
+    {{ .Content }}
+  {{ if eq .Section "blog" }}
+  </article>
+  {{ partial "thanks" . }}
+  {{ end }}
+  <div class="info" id="taxonomy">
+    {{ with .Params.categories }}
+    <p>
+      <b>Posted in:</b> {{ range $key, $value := . }} {{- if $key }}, {{ end }}
+      <a href='{{ "/categories/" | relLangURL }}{{ $value | urlize }}'>
+        {{ . }}
+      </a>
+      {{- end }}
+    </p>
+    {{ end }}
+    {{ with .Params.tags }}
+    <p>
+      <b>Tagged with:</b> {{ range $key, $value := . }}{{- if $key }}, {{ end }}<a href='{{ "/tags/" | relLangURL }}{{ $value | urlize }}'>{{ . }}</a>{{- end }}
+    </p>
+    {{ end }}
+  </div>
 </main>
 {{ end }}
