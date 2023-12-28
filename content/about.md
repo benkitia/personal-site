@@ -1,5 +1,6 @@
 ---
 title: "about"
+url: "/about.html"
 ---
 
 I’m a philosopher, [entrepreneur, developer.](https://nat.org)

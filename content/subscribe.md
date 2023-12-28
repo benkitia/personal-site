@@ -1,5 +1,6 @@
 ---
 title: "subscribe"
+url: "/subscribe.html"
 ---
 
 ## Digital Newsletter
