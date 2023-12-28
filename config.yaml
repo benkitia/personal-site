@@ -4,6 +4,8 @@ languageCode: en-us
 timeZone: America/Chicago
 title: Ben Kitia
 description: Ben Kitia is a Chicago-based software builder who's the founder and Emcee (CEO) of Helianth and TaleSuite.
+uglyURLs: true
+
 menu:
   main:
     - name: About
@@ -15,6 +17,7 @@ menu:
     - name: Subscribe
       url: /subscribe
       weight: 1
+
 outputs:
   home:
     - HTML
@@ -24,8 +27,10 @@ outputs:
     baseName: "feed"
     isPlainText: true
     notAlternative: true
+
 permalinks:
   publ: /:title/
+
 params:
   author:
     name: Ben Kitia
@@ -36,6 +41,7 @@ params:
   twitter: "@benkitia"
   icon: https://www.kitia.net/images/icon.png
   mastodon: mastodon.social/@kitia
+
 sitemap:
   changefreq: always
   filename: sitemap.xml
