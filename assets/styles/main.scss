@@ -37,6 +37,7 @@ body {
   @extend .ff-default;
   background-color: #444444;
   background-color: var(--background);
+  box-sizing: border-box;
   color: white;
   color: var(--font);
   margin: auto;
