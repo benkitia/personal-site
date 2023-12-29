@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Berkeley Mono";
+  src: local("/fonts/BerkeleyMonoVariable-Regular.woff2");
+}
 // # constants
 
 :root {
@@ -176,48 +180,17 @@ p {
     "Noto Color Emoji";
 }
 
-// ? ConvertKit subscription form proprietary class names
-.formkit-alert,
-.seva-custom-content {
-  @extend .info;
-}
-
 // ## regular classes
 
 .info {
-  @extend .ff-default;
+  @extend .ff-mono;
   color: #767676;
   color: var(--secondary);
   font-stretch: condensed;
-  font-style: italic;
 }
 
 .inline-padded {
   padding-left: 5px;
-}
-
-.newsletter-form-container {
-  margin: 2rem;
-
-  * {
-    font-size: large;
-    font-stretch: expanded;
-  }
-
-  button {
-    font-stretch: ultra-expanded;
-    font-weight: 700 !important;
-  }
-
-  input {
-    background-color: var(--background) !important;
-    border: #f0bd44;
-    color: white !important;
-  }
-
-  p {
-    color: white !important;
-  }
 }
 
 .post-class-indicator {
@@ -233,11 +206,10 @@ p {
   font-size: 1.125rem;
   font-style: italic;
   line-height: 1.5rem;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .prominent {
-  @extend .ff-prominent !optional;
   color: inherit !important;
   font-stretch: expanded;
   font-weight: bolder !important;
@@ -271,6 +243,10 @@ p {
   display: grid;
   padding-bottom: 15px;
   padding-top: 5px;
+
+  blockquote {
+    @extend .prominent;
+  }
 
   img {
     border: 0.125rem solid #743ee4;

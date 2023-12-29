@@ -3,12 +3,6 @@ title: "subscribe"
 url: "/subscribe.html"
 ---
 
-## Digital Newsletter
-
-Updates about what I'm working on, interesting content I've found, and my thoughts on timely topics related to tech, business, and culture.
-
-{{< hardcoded-injection >}}subscribe-form{{< /hardcoded-injection >}}
-
 ## Blog posts
 
 ### RSS
@@ -27,4 +21,4 @@ By tag e.g. "example tag": `https://www.kitia.net/tags/example-tag/index.xml`
 
 ### Twitter
 
-A link to new blog posts will soon be automatically posted to [@kitiadotnet on Twitter](https://twitter.com/kitiadotnet).
+A link to new blog posts will soon be automatically posted to [my Twitter](https://twitter.com/benkitia).

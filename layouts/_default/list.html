@@ -30,7 +30,6 @@
     {{ range .Pages }}
     <li>
       <span class="info">
-        <i>
           <small>
             <time>{{ .Date.Format "Jan 2 ’06" }}</time>
             {{ if in .Params.tags "featured" }}
@@ -56,7 +55,6 @@
               </a> </span
             >{{ end }}
           </small>
-        </i>
       </span>
       <br />
       <a class="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
