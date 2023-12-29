@@ -143,9 +143,7 @@ li {
 
 nav {
   li {
-    @extend .ff-default;
-    font-weight: light;
-    line-height: 1.75;
+    line-height: 2;
   }
 
   ul {
