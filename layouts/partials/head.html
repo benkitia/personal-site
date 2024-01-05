@@ -1,5 +1,5 @@
 <head>
-  <!-- Crucial metadata -->
+  <!-- crucial metadata -->
   <meta charset="UTF-8" />
   <meta content="text/html; charset=UTF-8" name="Content-Type" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,18 +15,20 @@
   {{ else }}
   <link rel="canonical" href="https://www.kitia.net/{{ .Permalink }}" />
   {{ end }}
-  <!-- Favicon -->
+  <!-- favicon -->
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   <!-- RSS Feed -->
   {{ with .OutputFormats.Get "RSS" -}} {{ printf `
   <link rel="%s" type="%s" href="%s" title="%s" />
   ` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }} {{- end }}
-  <!-- Inline styles -->
+  <!-- inline styles -->
   {{ $scss := resources.Get "styles/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint | minify }}
   <style>
     {{ $scss.Content | safeCSS }}
   </style>
+	<!-- font prefetching -->
 	<link rel="preload" href="/fonts/BerkeleyMonoVariable-Regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="prefetch" href="/fonts/BerkeleyMonoVariable-Regular.woff2" as="font" type="font/woff2">
   <!-- SEO, etc. Metadata -->
   {{ with .Site.Params.icon }}
   <link rel="apple-touch-icon" href="{{ . }}" />
@@ -76,5 +78,5 @@
   <meta name="twitter:url" content="{{ . }}" />
   {{ end }}
   <!-- analytics -->
-  <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="eb9c6ea9-e19d-47af-9c47-c226a627141f" async></script>
+  <script src="/scripts/beam.min.js" data-token="eb9c6ea9-e19d-47af-9c47-c226a627141f" async></script>
 </head>
