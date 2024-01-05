@@ -26,6 +26,7 @@
   <style>
     {{ $scss.Content | safeCSS }}
   </style>
+	<link rel="preload" href="/fonts/BerkeleyMonoVariable-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <!-- SEO, etc. Metadata -->
   {{ with .Site.Params.icon }}
   <link rel="apple-touch-icon" href="{{ . }}" />
