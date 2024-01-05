@@ -1,7 +1,11 @@
+// # fonts
+
 @font-face {
   font-family: "Berkeley Mono";
   src: url("/fonts/BerkeleyMonoVariable-Regular.woff2");
+  font-display: swap;
 }
+
 // # constants
 
 :root {
@@ -47,14 +51,11 @@ body {
   padding-right: 20px;
   width: 100%;
   word-wrap: break-word;
-}
 
-html {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-
-  #wordmark {
-    user-select: none;
+  * {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-rendering: optimizeLegibility;
   }
 }
 
@@ -314,6 +315,10 @@ p {
 
 #thanks h2 {
   color: #7c3aed;
+}
+
+#wordmark * {
+  user-select: none;
 }
 
 #wordmark-wrapper {
