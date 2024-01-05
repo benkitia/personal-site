@@ -1,7 +1,14 @@
 <div id="site-footer">
   <footer>
-    <a href="https://archive.kitia.net/Apple/iLife/iWeb/Made%20on%20a%20Mac%20badges" style="float: right;">
-			<img src="images/MoaM.gif" alt="Made on a Mac">
-		</a>
+		<small>
+			<p class="info">
+				<i>&copy; 2021–{{ now.Year }} {{ .Site.Copyright }}</i>
+				{{ if .IsHome }}
+    			<a href="https://archive.kitia.net/Apple/iLife/iWeb/Made%20on%20a%20Mac%20badges" style="float: right;">
+						<img src="/images/MoaM.webp" alt="Made on a Mac">
+					</a>
+				{{ end }}
+			</p>
+		</small>
   </footer>
 </div>
