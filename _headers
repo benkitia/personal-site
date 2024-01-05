@@ -1,8 +1,11 @@
 /fonts/*
   Cache-Control: public, max-age=31536000, must-revalidate
+	Access-Control-Allow-Origin: https://www.kitia.net
 
 /images/ni/ben.webp
   Cache-Control: public, max-age=31536000, must-revalidate
+	Access-Control-Allow-Origin: https://www.kitia.net
 
 /scripts/*
   Cache-Control: public, max-age=31536000, must-revalidate
+	Access-Control-Allow-Origin: https://www.kitia.net
