@@ -29,7 +29,7 @@ outputs:
     notAlternative: true
 
 permalinks:
-  blog: /:section/:title
+  blog: /:section/:title/
   publ: /:title
 
 params:
