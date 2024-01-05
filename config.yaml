@@ -29,7 +29,8 @@ outputs:
     notAlternative: true
 
 permalinks:
-  publ: /:title/
+  blog: /:section/:title
+  publ: /:title
 
 params:
   author:
