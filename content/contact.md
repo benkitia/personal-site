@@ -1,6 +1,6 @@
 ---
 title: "contact"
-url: "/contact.html"
+url: "/contact"
 ---
 
 ## [email](/email)

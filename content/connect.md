@@ -1,6 +1,6 @@
 ---
 title: "connect"
-url: "/connect.html"
+url: "/connect"
 ---
 
 ## [← personal website](https://www.kitia.net)

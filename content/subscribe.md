@@ -1,6 +1,6 @@
 ---
 title: "subscribe"
-url: "/subscribe.html"
+url: "/subscribe"
 ---
 
 ## Blog posts
