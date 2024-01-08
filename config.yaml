@@ -29,13 +29,14 @@ outputs:
     notAlternative: true
 
 permalinks:
-  publ: /:title/
+  blog: /:section/:title/
+  publ: /:title
 
 params:
   author:
     name: Ben Kitia
     twitter: "benkitia"
-  description: Ben Kitia is a Chicago-based developer and tech entrepreneur who's the founder and  CEO of Helianth
+  description: Ben Kitia is an American businessman
   wordmark: BK
   title: Ben Kitia
   twitter: "@benkitia"

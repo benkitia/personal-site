@@ -227,7 +227,9 @@ p {
 }
 
 .small {
-  font-size: smaller;
+  * { 
+    font-size: x-small;
+  } 
 }
 
 .small-caps {
@@ -301,10 +303,6 @@ p {
 }
 
 #site-footer {
-  p {
-    font-weight: inherit;
-  }
-
   margin-bottom: 40px;
   margin-top: 40px;
 }

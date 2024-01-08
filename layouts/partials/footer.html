@@ -1,14 +1,12 @@
 <div id="site-footer">
   <footer>
-		<small>
-			<p class="info">
+			<p class="info small">
 				<i>&copy; 2021–‘{{ now.Format "06" }} {{ .Site.Copyright }}</i>
-				{{ if or .IsHome (eq .RelPermalink "/about.html") }}
+				{{ if .IsHome }}
     			<a href="https://archive.kitia.net/Apple/iLife/iWeb/Made%20on%20a%20Mac%20badges" style="float: right;">
 						<img src="/images/MoaM.webp" alt="Made on a Mac">
 					</a>
 				{{ end }}
 			</p>
-		</small>
   </footer>
 </div>
