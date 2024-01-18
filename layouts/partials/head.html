@@ -72,9 +72,14 @@
   <meta name="twitter:creator" content="{{ . }}" />
   {{ end }} {{ with .Site.Params.description }}
   <meta name="twitter:description" content="{{ . }}" />
-  {{ end }} {{ with .Site.Params.icon }}
-  <meta name="twitter:image" content="{{ . }}" />
-  {{ end }} {{ with .Site.Params.twitter }}
+  {{ end }}
+	{{ with .Params.cover }}
+	<meta property="twitter:image" content="{{ $baseURL }}{{ . }}" />
+	{{ else }}
+	{{ with .Site.Params.icon }}
+  <meta property="twitter:image" content="{{ . }}" />
+  {{ end }} {{ end }}
+	{{ with .Site.Params.twitter }}
   <meta name="twitter:site" content="{{ . }}" />
   {{ end }} {{ with .Title }}
   <meta name="twitter:title" content="{{ . }}" />
