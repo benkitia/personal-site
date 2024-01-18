@@ -17,7 +17,7 @@ draft: false
 
 I’ve started carrying a pocket notebook around for a more romantic, reliable ideation experience. It’s not for everything for everyone, but I like feeling my thoughts harder and having a physical representation of my thought process. Built-in indicators of an idea’s evolution are valuable. Literally, when the original form of a crossed-out idea is recovered rather than forever backspaced, and sentimentally as I flip through a patinated record of my progression. I found something powerful about an object that contains both my ideas and the their perspiration product.
 
-![A work environment with a MacBook Air displaying code on the screen, a coffee cup labeled "CONTENTS MAY BE HOT", and a "FIELD NOTES" memo book with a pen on a wooden table.](/images/blog/inkdown/Field_Notes.JPG "Markdown to HTML demo")
+[![A work environment with a MacBook Air displaying code on the screen, a coffee cup labeled "CONTENTS MAY BE HOT", and a "FIELD NOTES" memo book with a pen on a wooden table.](/images/blog/inkdown/Field_Notes.JPG "Markdown to HTML demo")](https://fieldnotesbrand.com/products/chicago)
 
 My back pocket won’t accommodate anything much bigger than Field Notes’ 3.5" × 5.5" (89mm × 140mm) original Memo Book, which is too small for readably writing nested thoughts with a traditional note-taking format. Headers were the most obviously problematic to format on an analog page, so using an increasing number of hashtags to differentiate them was a no-brainer. Shortly thereafter I jotted [`# video/blogpost ideas`](https://www.youtube.com/@benkitia) on a fresh page and `* handwriting in markdown` on the following line.
 
