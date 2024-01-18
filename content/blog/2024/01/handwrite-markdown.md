@@ -13,8 +13,6 @@ aliases:
 draft: false
 ---
 
-## EDC notebook
-
 I’ve started carrying a pocket notebook around for a more romantic, reliable ideation experience. It’s not for everything for everyone, but I like feeling my thoughts harder and having a physical representation of my thought process. Built-in indicators of an idea’s evolution are valuable. Literally, when the original form of a crossed-out idea is recovered rather than forever backspaced, and sentimentally as I flip through a patinated record of my progression. I found something powerful about an object that contains both my ideas and the their perspiration product.
 
 [![A work environment with a MacBook Air displaying code on the screen, a coffee cup labeled "CONTENTS MAY BE HOT", and a "FIELD NOTES" memo book with a pen on a wooden table.](/images/blog/inkdown/Field_Notes.JPG "Markdown to HTML demo")](https://fieldnotesbrand.com/products/chicago)
@@ -45,7 +43,7 @@ Branded “flavors” of markdown have emerged since 2004 to support more format
 
 ### Intuitive adaptation
 
-InkDown’s parser (the writer’s brain) and spec (these loose suggestions) are malleable as it gets, so your flavor is infinitely adaptable to the needs of any note or project. Here's my general application, which is readable to those familiar with common Markdown flavors but seeks to be compressible to save coveted space while maintaining readability.
+Inkdown's parser (the writer’s brain) and spec (these loose suggestions) are malleable as it gets, so your flavor is infinitely adaptable to the needs of any note or project. Here's my general application, which is readable to those familiar with common Markdown flavors but seeks to be compressible to save coveted space while maintaining readability.
 
 #### Titles
 
@@ -71,7 +69,7 @@ I find Markdown’s link syntax (`(link)[title]`) to be useful for referencing s
 
 #### Highlights
 
-Highlights demonstrate Inkdown at its best. I’ve adopted a common convention for highlighting text from various Markdown flavors, using equal signs `==like this==`. I prefer this to a highlighter because it enables differing levels of emphasis by adjusting the width (or even thickness) of the surrounding equal signs.
+I’ve adopted a common convention for highlighting text from various Markdown flavors, using equal signs `==like this==`. I prefer this to a highlighter because it enables differing levels of emphasis by adjusting the width (or even thickness) of the surrounding equal signs.
 
 ![Close-up photo of a handwritten note on grid paper demonstrating the use of varying widths of equal signs on either end of ideas for varying emphasis](/images/blog/inkdown/highlights.png)
 
