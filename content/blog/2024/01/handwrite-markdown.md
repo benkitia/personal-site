@@ -10,6 +10,7 @@ tags:
   - inkdown
 aliases:
   - /inkdown
+cover: "images/blog/inkdown/Field_Notes.JPG"
 draft: false
 ---
 
