@@ -43,7 +43,7 @@ Branded “flavors” of markdown have emerged since 2004 to support more format
 
 ### Intuitive adaptation
 
-Inkdown's parser (the writer’s brain) and spec (these loose suggestions) are malleable as it gets, so your flavor is infinitely adaptable to the needs of any note or project. Here's my general application, which is readable to those familiar with common Markdown flavors but seeks to be compressible to save coveted space while maintaining readability.
+Inkdown's parser (the writer’s brain) and spec (these loose suggestions) are as malleable as it gets, so your flavor is infinitely adaptable to the needs of any note or project. Here's my general application, which is readable to those familiar with common Markdown flavors but seeks to be compressible to save coveted space while maintaining readability.
 
 #### Titles
 
