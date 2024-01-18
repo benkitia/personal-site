@@ -1,8 +1,6 @@
 ---
 title: "Handwrite (markdown)"
 date: 2024-01-18T16:30:18-06:00
-aliases: ["inkdown"]
-draft: false
 categories:
   - tools
 tags:
@@ -10,6 +8,9 @@ tags:
   - writing
   - markdown
   - inkdown
+aliases:
+  - /inkdown
+draft: false
 ---
 
 ## EDC notebook
