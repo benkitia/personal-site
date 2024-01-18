@@ -37,21 +37,26 @@
   {{ end }} {{ with .Site.Params.copyright }}
   <meta name="copyright" content="{{ . }}" />
   {{ end }} {{ with .Site.Params.description }}
-  <meta name="description" content="{{ . }}" />
   {{ end }} {{ with .Site.Params.title }}
   <meta name="site_name" content="{{ . }}" />
   {{ end }} {{ with .Title }}
   <meta name="title" content="{{ . }}" />
   {{ end }}
   <!-- Open Graph MD -->
+	{{ $description := .Site.Params.description }}
   {{ if and (eq .Type "blog") (not (eq .Title "Blog")) }}
   <meta property="og:type" content="article" />
+	{{ $description = "A blog post by Ben Kitia" }}
   {{ else }}
   <meta property="og:type" content="website" />
+	{{ if .Description }}
+	{{ $description = .Description }}
+	{{ end }}
   {{ end }}
+	<meta name="description" content="{{ $description }}" />
   <meta
     property="og:description"
-    content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"
+    content="{{ $description }}"
   />
 	{{ $baseURL := .Site.BaseURL }}
 	{{ with .Params.cover }}
@@ -70,9 +75,8 @@
   <meta name="twitter:card" content="summary" />
   {{ with .Site.Author.twitter }}
   <meta name="twitter:creator" content="{{ . }}" />
-  {{ end }} {{ with .Site.Params.description }}
-  <meta name="twitter:description" content="{{ . }}" />
   {{ end }}
+  <meta name="twitter:description" content="{{ $description }}" />
 	{{ with .Params.cover }}
 	<meta property="twitter:image" content="{{ $baseURL }}{{ . }}" />
 	{{ else }}
