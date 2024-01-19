@@ -78,7 +78,7 @@
   {{ end }}
   <meta name="twitter:description" content="{{ $description }}" />
 	{{ with .Params.cover }}
-	<meta property="twitter:image" content="{{ $baseURL }}{{ . }}" />
+	<meta property="twitter:image" content="{{ $baseURL }}/{{ . }}" />
 	{{ else }}
 	{{ with .Site.Params.icon }}
   <meta property="twitter:image" content="{{ . }}" />
