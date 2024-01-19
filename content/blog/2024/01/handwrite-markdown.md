@@ -1,15 +1,13 @@
 ---
-title: "Handwrite (markdown)"
+title: "Inkdown"
 date: 2024-01-18T16:30:18-06:00
 categories:
   - tools
 tags:
-  - notebooks
-  - writing
   - markdown
-  - inkdown
-aliases:
-  - /inkdown
+  - notebooks
+  - notes
+  - writing
 cover: "images/blog/inkdown/Field_Notes.JPG"
 draft: false
 ---
