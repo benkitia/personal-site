@@ -54,17 +54,17 @@ Markdown titles work well spacially.
 
 #### Bullets
 
-After `#`s for titles, the top-level bullet is represented by `*`, the next level `+`, and the next `-`, regressing in size as lines appear to be removed from the star with each indent.
+After `#`s for titles, the top-level bullet is represented by `*`, the next level `+`, followed by `-`, regressing in size as lines appear to be removed from the parent symbol with each indent.
 
-This visual deconstruction can continue as additional levels of indentation are needed, using `•` and then `◦`
+This visual deconstruction can continue as additional levels of indentation are needed, using `•` and then `◦`.
 
 [![an animation of a star, then plus, then dash, then bullet point, then open bullet point on graph paper](/images/blog/inkdown/bullets_deconstruction.gif "bullet point deconstruction demo")](https://berkeleygraphics.com/typefaces/berkeley-mono/)
 
-These symbols are visually distinct enough to make nested notes intuitively readable without indenting.
+These symbols are visually distinct enough to make intuitively readable nested notes without leading whitespace.
 
 #### Links
 
-I find Markdown’s link syntax (`(link)[title]`) to be useful for referencing stuff I might need to find later, like a specific podcast episode.
+I find Markdown’s link syntax (`(link)[title]`) to be useful for remembering content I might need to reference later, like a specific podcast episode.
 
 ![Close-up photo of a handwritten note on grid paper with the text 'Implement Cal Newport’s organizational ideas)[Deep Questions Ep. 238).](#)](/images/blog/inkdown/links.png "Links demonstration")
 
