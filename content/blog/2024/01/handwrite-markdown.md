@@ -16,7 +16,7 @@ I’ve started carrying a pocket notebook around for a more romantic, reliable i
 
 [![A work environment with a MacBook Air displaying code on the screen, a coffee cup labeled "CONTENTS MAY BE HOT", and a "FIELD NOTES" memo book with a pen on a wooden table.](/images/blog/inkdown/Field_Notes.JPG)](https://fieldnotesbrand.com/products/chicago/?ref=kitia.net)
 
-My back pocket won’t accommodate anything much bigger than Field Notes’ 3.5" × 5.5" (89mm × 140mm) original Memo Book, which is too small for readably writing nested thoughts with a traditional note-taking format. Headers were the most obviously problematic to format on an analog page, so using an increasing number of hashtags to differentiate them was a no-brainer. Shortly thereafter I jotted "*\# [video](https://www.youtube.com/@benkitia) [blogpost](https://www.kitia.net/blog) ideas*" on a fresh page and \* "*handwriting in markdown*" on the following line.
+My back pocket won’t accommodate anything much bigger than Field Notes’ 3.5" × 5.5" (89mm × 140mm) original Memo Book, which is too small for readably writing nested thoughts with a traditional note-taking format. Headers were the most obviously problematic to format on an analog page, so using an increasing number of hashtags to differentiate them was a no-brainer. Shortly thereafter I jotted "*\# [video](https://www.youtube.com/@benkitia) [blogpost](https://www.kitia.net/blog) ideas*" on a fresh page and  *"\* handwriting in markdown*" on the following line.
 
 ## Markdown
 
