@@ -54,9 +54,7 @@ Markdown titles work well spacially.
 
 #### Bullets
 
-After `#`s for titles, the top-level bullet is represented by `*`, the next level `+`, followed by `-`, regressing in size as lines appear to be removed from the parent symbol with each indent.
-
-This visual deconstruction can continue as additional levels of indentation are needed, using `•` and then `◦`.
+After `#`s for titles, the top-level bullet is represented by `*`, the next level `+`, followed by `-`, regressing in size as lines appear to be removed from the parent symbol with each indent. This visual deconstruction can continue as additional levels of indentation are needed, using `•` and then `◦`.
 
 [![an animation of a star, then plus, then dash, then bullet point, then open bullet point on graph paper](/images/blog/inkdown/bullets_deconstruction.gif "bullet point deconstruction")](https://berkeleygraphics.com/typefaces/berkeley-mono/?ref=kitia.net)
 
