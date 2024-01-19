@@ -60,7 +60,7 @@
   />
 	{{ $baseURL := .Site.BaseURL }}
 	{{ with .Params.cover }}
-	<meta property="og:image" content="{{ $baseURL }}{{ . }}" />
+	<meta property="og:image" content="{{ $baseURL }}/{{ . }}" />
 	{{ else }}
 	{{ with .Site.Params.icon }}
   <meta property="og:image" content="{{ . }}" />
