@@ -34,7 +34,7 @@ Basically, Markdown lets us type out the stuff on the left to get the stuff on t
 
 > [Thus, “Markdown” is two things: (1) a plain text formatting syntax; and (2) a software tool, written in Perl, that converts the plain text formatting to HTML.](https://daringfireball.net/projects/markdown/)
 
-Until Field Notes includes a Perl interpreter with their notebooks, I’m discussing Markdown as its syntax, aptly “easy-to-read, easy-to-write plain text”.
+Until Field Notes includes a Perl interpreter in their notebooks, I’m discussing Markdown as its syntax, aptly “easy-to-read, easy-to-write plain text”.
 
 ## Inkdown
 
