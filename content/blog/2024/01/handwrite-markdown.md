@@ -4,6 +4,8 @@ date: 2024-01-18T16:30:18-06:00
 categories:
   - tools
 tags:
+  - evergreen
+  - featured
   - markdown
   - notebooks
   - notes
