@@ -16,7 +16,7 @@ draft: false
 
 I’ve started carrying a pocket notebook around for a more romantic, reliable ideation experience. It’s not for everything for everyone, but I like feeling my thoughts harder and having a physical representation of my thought process. Built-in indicators of an idea’s evolution are valuable. Literally, when the original form of a crossed-out idea is recovered rather than forever backspaced, and sentimentally as I flip through a patinated record of my progression. I found something powerful about an object that contains both my ideas and the their perspiration product.
 
-[![A work environment with a MacBook Air displaying code on the screen, a coffee cup labeled "CONTENTS MAY BE HOT", and a "FIELD NOTES" memo book with a pen on a wooden table.](/images/blog/inkdown/Field_Notes.JPG "Markdown to HTML demo")](https://fieldnotesbrand.com/products/chicago)
+[![A work environment with a MacBook Air displaying code on the screen, a coffee cup labeled "CONTENTS MAY BE HOT", and a "FIELD NOTES" memo book with a pen on a wooden table.](/images/blog/inkdown/Field_Notes.JPG)](https://fieldnotesbrand.com/products/chicago/?ref=kitia.net)
 
 My back pocket won’t accommodate anything much bigger than Field Notes’ 3.5" × 5.5" (89mm × 140mm) original Memo Book, which is too small for readably writing nested thoughts with a traditional note-taking format. Headers were the most obviously problematic to format on an analog page, so using an increasing number of hashtags to differentiate them was a no-brainer. Shortly thereafter I jotted [`# video/blogpost ideas`](https://www.youtube.com/@benkitia) on a fresh page and `* handwriting in markdown` on the following line.
 
@@ -50,7 +50,7 @@ Inkdown's parser (the writer’s brain) and spec (these loose suggestions) are a
 
 Markdown titles work well spacially.
 
-![Close-up photo of a handwritten note on grid paper: #Title 1, ##Title 2, and ###Title 3 on seperate lines](/images/blog/inkdown/titles.png)
+![Close-up photo of a handwritten note on grid paper: #Title 1, ##Title 2, and ###Title 3 on seperate lines](/images/blog/inkdown/titles.png "Titles")
 
 #### Bullets
 
@@ -58,7 +58,7 @@ After `#`s for titles, the top-level bullet is represented by `*`, the next leve
 
 This visual deconstruction can continue as additional levels of indentation are needed, using `•` and then `◦`.
 
-[![an animation of a star, then plus, then dash, then bullet point, then open bullet point on graph paper](/images/blog/inkdown/bullets_deconstruction.gif "bullet point deconstruction demo")](https://berkeleygraphics.com/typefaces/berkeley-mono/)
+[![an animation of a star, then plus, then dash, then bullet point, then open bullet point on graph paper](/images/blog/inkdown/bullets_deconstruction.gif "bullet point deconstruction")](https://berkeleygraphics.com/typefaces/berkeley-mono/?ref=kitia.net)
 
 These symbols are visually distinct enough to make intuitively readable nested notes without leading whitespace.
 
@@ -66,18 +66,18 @@ These symbols are visually distinct enough to make intuitively readable nested n
 
 I find Markdown’s link syntax (`(link)[title]`) to be useful for remembering content I might need to reference later, like a specific podcast episode.
 
-![Close-up photo of a handwritten note on grid paper with the text 'Implement Cal Newport’s organizational ideas)[Deep Questions Ep. 238).](#)](/images/blog/inkdown/links.png "Links demonstration")
+![Close-up photo of a handwritten note on grid paper with the text 'Implement Cal Newport’s organizational ideas)[Deep Questions Ep. 238).](#)](/images/blog/inkdown/links.png "Links")
 
-#### Highlights
+#### Highlighting
 
 I’ve adopted a common convention for highlighting text from various Markdown flavors, using equal signs `==like this==`. I prefer this to a highlighter because it enables differing levels of emphasis by adjusting the width (or even thickness) of the surrounding equal signs.
 
-![Close-up photo of a handwritten note on grid paper demonstrating the use of varying widths of equal signs on either end of ideas for varying emphasis](/images/blog/inkdown/highlights.png)
+![Close-up photo of a handwritten note on grid paper demonstrating the use of varying widths of equal signs on either end of ideas for varying emphasis](/images/blog/inkdown/highlights.png "Highlighting")
 
 This adaptability, now only permitted by handwriting, is a pure addition to Markdown’s functionality; Inkdown at its best.
 
 #### Footnotes
 
-![Handwritten note on grid paper stating "This has a footnote" with a footnote represented by superscript [1](#) and referenced at the bottom with “[1](:): Reinventing the wheel rn!”](/images/blog/inkdown/footnotes.png "Footnotes demonstration")
+![Handwritten note on grid paper stating "This has a footnote" with a footnote represented by superscript [1] and referenced at the bottom with “[1]: Reinventing the wheel rn!”](/images/blog/inkdown/footnotes.png "Footnotes")
 
 This groundbreaking innovation to footnotes makes them, in my opinion, slightly easier to find and reference.
