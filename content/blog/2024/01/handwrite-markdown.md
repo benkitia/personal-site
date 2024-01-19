@@ -22,7 +22,7 @@ My back pocket won’t accommodate anything much bigger than Field Notes’ 3.5"
 
 ## Markdown
 
-John Gruber’s casual introduction of the greatest, holiest abstraction of a markup language ever:
+[John Gruber](https://daringfireball.net)’s casual introduction of the greatest, holiest abstraction of a markup language ever:
 
 > [Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).](https://daringfireball.net/projects/markdown/)
 
