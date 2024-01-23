@@ -42,17 +42,15 @@ Branded “flavors” of markdown have emerged since 2004 to support more format
 
 ![A handwritten note on grid paper demonstrating Inkdown features, placed on a laptop keyboard, with sunlight casting shadows across the page.](/images/blog/inkdown/demo.JPG "Inkdown demo")
 
-### Intuitive adaptation
-
 Inkdown's parser (the writer’s brain) and spec (these loose suggestions) are as malleable as it gets, so your flavor is infinitely adaptable to the needs of any note or project. Here's my general application, which is readable to those familiar with common Markdown flavors but seeks to be compressible to save coveted space while maintaining readability.
 
-#### Titles
+### Titles
 
 Markdown titles work well spacially.
 
 ![Close-up photo of a handwritten note on grid paper: #Title 1, ##Title 2, and ###Title 3 on seperate lines](/images/blog/inkdown/titles.png "Titles")
 
-#### Bullets
+### Bullets
 
 After `#`s for titles, the top-level bullet is represented by `*`, the next level `+`, followed by `-`, regressing in size as lines appear to be removed from the parent symbol with each indent. This visual deconstruction can continue as additional levels of indentation are needed, using `•` and then `◦`.
 
@@ -60,13 +58,13 @@ After `#`s for titles, the top-level bullet is represented by `*`, the next leve
 
 These symbols are visually distinct enough to make intuitively readable nested notes without leading whitespace.
 
-#### Links
+### Links
 
 I find Markdown’s link syntax (`(link)[title]`) to be useful for remembering content I might need to reference later, like a specific podcast episode.
 
 ![Close-up photo of a handwritten note on grid paper with the text 'Implement Cal Newport’s organizational ideas)[Deep Questions Ep. 238).](#)](/images/blog/inkdown/links.png "Links")
 
-#### Highlighting
+### Highlighting
 
 I’ve adopted a common convention for highlighting text from various Markdown flavors, using equal signs `==like this==`. I prefer this to a highlighter because it enables differing levels of emphasis by adjusting the width (or even thickness) of the surrounding equal signs.
 
@@ -74,7 +72,7 @@ I’ve adopted a common convention for highlighting text from various Markdown f
 
 This adaptability, now only permitted by handwriting, is a pure addition to Markdown’s functionality; Inkdown at its best.
 
-#### Footnotes
+### Footnotes
 
 ![Handwritten note on grid paper stating "This has a footnote" with a footnote represented by superscript [1] and referenced at the bottom with “[1]: Reinventing the wheel rn!”](/images/blog/inkdown/footnotes.png "Footnotes")
 
