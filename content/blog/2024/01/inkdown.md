@@ -14,7 +14,7 @@ cover: "images/blog/inkdown/Field_Notes.JPG"
 draft: false
 ---
 
-I’ve started carrying a pocket notebook around for a more romantic, reliable ideation experience. It’s not for everything for everyone, but I like feeling my thoughts harder and having a physical representation of my thought process. Built-in indicators of an idea’s evolution are valuable. Literally, when the original form of a crossed-out idea is recovered rather than forever backspaced, and sentimentally as I flip through a patinated record of my progression. I found something powerful about an object that contains both my ideas and the their perspiration product.
+I’ve started carrying a pocket notebook around for a more romantic, reliable ideation experience. It’s not for everything for everyone, but I like feeling my thoughts harder and having a physical representation of my thought process. Built-in indicators of an idea’s evolution are valuable. Literally, when the original form of a crossed-out idea is recovered rather than forever backspaced, and sentimentally as I flip through a patinated record of my progression. I found something powerful about an object that contains both my ideas and their perspiration product.
 
 [![A work environment with a MacBook Air displaying code on the screen, a coffee cup labeled "CONTENTS MAY BE HOT", and a "FIELD NOTES" memo book with a pen on a wooden table.](/images/blog/inkdown/Field_Notes.JPG)](https://fieldnotesbrand.com/products/chicago/?ref=kitia.net)
 
